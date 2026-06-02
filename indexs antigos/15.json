@@ -1,0 +1,83 @@
+{
+  "id": 15,
+  "nome": "Revista CNJ",
+  "imagem": "imagem/revista_cnj.png",
+  "instituicao": "Conselho Nacional de Justiça (CNJ)",
+  "qualis": "Não especificado",
+  "issn": "2525-4502",
+  "foco": "Publicar artigos que promovam a disseminação do conhecimento jurídico e fomentem debates sobre temas de aprimoramento do sistema judiciário brasileiro, como direitos humanos, tecnologia no Judiciário e acesso à Justiça.",
+  "descricao": "Revista científica oficial do Conselho Nacional de Justiça, publicada em formato digital com acesso gratuito desde 2019. Tem periodicidade semestral e busca consolidar-se como referência em pesquisas relacionadas ao Poder Judiciário e políticas públicas na área de Justiça.",
+  "avaliacao": "Double Blind Peer Review (avaliação por pares às cegas)",
+  "avaliacao_preprint": "A revista não aceita a submissão de preprints que já se encontram armazenados em outras plataformas.",
+  "taxa": "Não cobra taxa para submissão de artigos (APC)",
+  "periodicidade": "Semestral",
+  "preprint": "Não permitido. A revista não aceita submissão de preprints.",
+  "licenca": "CC BY-NC-ND (Atribuição-NãoComercial-SemDerivações)",
+  "data_auditoria": "2026-03-27",
+  "url_fonte_instrucoes": "https://www.cnj.jus.br/ojs/revista-cnj/about/submissions",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://www.cnj.jus.br/ojs/revista-cnj/index",
+    "submissao": "https://www.cnj.jus.br/ojs/revista-cnj/about/submissions",
+    "diretrizes": "https://www.cnj.jus.br/ojs/revista-cnj/about/submissions"
+  },
+  "limites": {
+    "artigo_palavras": "15 a 25 páginas (aproximadamente 6.000 a 10.000 palavras)",
+    "resumo_maximo": "10 linhas (aproximadamente 150 palavras)",
+    "palavras_chave_quantidade": "Máximo 5",
+    "autores_maximo": 3,
+    "referencias_minimas_artigo": null,
+    "outros_limites": null
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": "Simples",
+    "margens": "Superior e inferior 2 cm; esquerda e direita 3 cm",
+    "alinhamento": "Justificado",
+    "citacoes_longas": "Citações com mais de 3 linhas em parágrafo próprio, recuo de 4 cm, fonte 11, sem aspas",
+    "tabelas_figuras": "(não especificado, seguir padrão ABNT)"
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigo",
+      "extensao": "15 a 25 páginas",
+      "detalhes": "Trabalhos inéditos no Brasil, com até 3 autores, sendo um deles no mínimo mestre.",
+      "titulacao_minima_autor": "Mestre (pelo menos um autor)",
+      "idiomas_aceitos": ["Português"],
+      "resumo_maximo_palavras": 150,
+      "palavras_chave_quantidade": "Máximo 5",
+      "estrutura_sugerida": [
+        "Introdução (com justificativa, objetivos e relevância)",
+        "Desenvolvimento (discussão/análise com amparo bibliográfico)",
+        "Considerações finais (resposta aos objetivos)",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Título em português e inglês",
+        "Resumo estruturado (objeto, objetivo, método, conclusão) em português e inglês",
+        "Palavras-chave e Keywords (máx. 5)",
+        "Formatação ABNT para citações (NBR 10520:2023) e referências (NBR 6023:2018)",
+        "Arquivo anonimizado para avaliação por pares"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/CNJ_Artigo.docx"
+    }
+  ],
+  "checklist": [
+    "Autor(a) é pós-graduado (mestrado, doutorado ou pós-doutorado) OU autoria compartilhada com um autor que possui titulação mínima de mestre.",
+    "O trabalho é inédito no Brasil e não está pendente de publicação em outros veículos.",
+    "O texto do artigo está integralmente em português.",
+    "Não há menção de autoria no corpo do artigo (anonimizado para double blind review).",
+    "O texto segue os padrões de estilo: Times New Roman, tamanho 12, espaçamento simples, margens específicas e alinhamento justificado.",
+    "O resumo segue a ABNT NBR 6028:2021 (estruturado) e possui no máximo 10 linhas.",
+    "O arquivo foi submetido à avaliação preliminar antiplágio.",
+    "O processador de texto utilizado é Microsoft Word ou o arquivo está em RTF/ODT."
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "(não especificado, recomenda-se informar a contribuição específica de cada autor no currículo ou em nota de rodapé)",
+    "disponibilidade_dados": "(não especificado)",
+    "financiamento": "(não especificado)",
+    "preprint": "Não é permitida a submissão de artigos que tenham sido previamente disponibilizados como preprint."
+  }
+}

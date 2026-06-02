@@ -1,0 +1,92 @@
+{
+  "id": 16,
+  "nome": "Revista Estudos de Sociologia (RES)",
+  "imagem": "imagem/estudos_sociologia.png",
+  "instituicao": "UNESP – Universidade Estadual Paulista, Faculdade de Ciências e Letras de Araraquara",
+  "qualis": "A3",
+  "issn": "e-ISSN: 1982-4718 | ISSN-L: 1414-0144",
+  "foco": "A Revista Estudos de Sociologia (RES) é um periódico científico dedicado à divulgação de pesquisas originais e inéditas, nacionais e internacionais, no campo da Sociologia e áreas correlatas (Política, Antropologia). Visa contribuir para o debate disciplinar e interdisciplinar das questões sociais clássicas e contemporâneas.",
+  "descricao": "Publicação vinculada ao Programa de Pós-Graduação em Sociologia da UNESP/Araraquara. Desde 2022, adota política de publicação bilíngue (português/inglês) para ampliar o impacto e a visibilidade da produção científica. Exige que todos os autores possuam titulação mínima de Mestre e limita o número de autores a 3 por trabalho.",
+  "avaliacao": "Duplo-cega (Double-blind peer review). Os artigos são avaliados por pareceristas ad hoc e pelo Conselho de Redação.",
+  "avaliacao_preprint": "Não especificado nas diretrizes oficiais. Recomenda-se consultar a secretaria da revista quanto à política de submissão de manuscritos previamente depositados em servidores de preprint.",
+  "taxa": "Não há cobrança de taxa de submissão ou de processamento de artigos (APC).",
+  "periodicidade": "Fluxo contínuo com chamadas temáticas (2 a 3 chamadas anuais).",
+  "preprint": "[INFORMAÇÃO NÃO ENCONTRADA NAS NORMAS OFICIAIS]",
+  "licenca": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "data_auditoria": "2026-03-27",
+  "url_fonte_instrucoes": "https://periodicos.fclar.unesp.br/estudos/about/submissions",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://periodicos.fclar.unesp.br/estudos",
+    "submissao": "https://periodicos.fclar.unesp.br/estudos/about/submissions",
+    "diretrizes": "https://periodicos.fclar.unesp.br/estudos/about/submissions"
+  },
+  "limites": {
+    "artigo_palavras": "Até 55.000 caracteres com espaços (aproximadamente 20-25 laudas / 9.000 palavras)",
+    "resenha_palavras": "Não especificado numericamente (sugerido até 4.000 caracteres ≈ 700 palavras)",
+    "resumo_maximo": "150 palavras",
+    "palavras_chave_quantidade": "3 a 5",
+    "autores_maximo": 3,
+    "referencias_minimas_artigo": null,
+    "outros_limites": null
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": "12 pt (corpo); 10 pt (notas de rodapé e citações longas)",
+    "espacamento_entrelinhas": 1.5,
+    "margens": "Superior: 3cm | Esquerda: 3cm | Inferior: 2cm | Direita: 2cm",
+    "alinhamento": "Justificado",
+    "citacoes_longas": "Citações com mais de 3 linhas: recuo de 4 cm da margem esquerda, fonte 10, sem aspas, espaçamento simples.",
+    "tabelas_figuras": "Devem ser inseridas no corpo do texto, numeradas sequencialmente, com título superior e fonte inferior."
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigo Original",
+      "extensao": "Até 55.000 caracteres com espaços",
+      "detalhes": "Trabalhos acadêmicos inéditos resultantes de pesquisas empíricas ou revisões teóricas consistentes nas áreas de Sociologia e Ciências Sociais.",
+      "titulacao_minima_autor": "Mestre (todos os autores)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 150,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título (em português)",
+        "Resumo (150 palavras) e Palavras-chave",
+        "Título (em inglês)",
+        "Abstract e Keywords",
+        "Título (em espanhol)",
+        "Resumen e Palabras clave",
+        "Introdução",
+        "Desenvolvimento (Metodologia, Resultados, Discussão)",
+        "Considerações Finais",
+        "Agradecimentos (opcional)",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Titulação mínima de Mestre para todos os autores",
+        "Máximo de 3 autores por trabalho",
+        "Documento sem identificação de autoria (anonimato)",
+        "Inclusão do ORCID de todos os autores nos metadados da submissão"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/RES_ARTIGO.docx"
+    }
+  ],
+  "checklist": [
+    "A contribuição é original e inédita, não estando em avaliação por outra revista.",
+    "O arquivo está em formato Microsoft Word (.doc).",
+    "O texto segue as normas de formatação: Times New Roman 12, espaço 1,5, margens específicas.",
+    "A identificação dos autores foi removida do arquivo para garantir a avaliação cega.",
+    "Todos os autores possuem titulação mínima de Mestre (comprovada via Lattes).",
+    "O número de autores não excede 3.",
+    "O resumo não ultrapassa 150 palavras.",
+    "As palavras-chave estão entre 3 e 5, separadas por ponto e vírgula.",
+    "Foram incluídos título, resumo e palavras-chave nos três idiomas: português, inglês e espanhol.",
+    "As referências bibliográficas seguem o sistema autor-data e estão listadas ao final."
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "[INFORMAÇÃO NÃO ENCONTRADA - SUGERE-SE O USO DO CRediT (Contributor Roles Taxonomy)]",
+    "disponibilidade_dados": "[INFORMAÇÃO NÃO ENCONTRADA]",
+    "financiamento": "Declarar agências de fomento no rodapé da primeira página ou em seção específica antes das referências.",
+    "etica": "Pesquisas envolvendo seres humanos devem indicar aprovação por Comitê de Ética em Pesquisa (CEP/CONEP), quando aplicável."
+  }
+}

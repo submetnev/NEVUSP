@@ -1,0 +1,164 @@
+{
+  "id": 5,
+  "nome": "Revista Brasileira de Sociologia (RBS)",
+  "imagem": "imagem/revista_brasileira_de_sociologia_rbs.png",
+  "instituicao": "Sociedade Brasileira de Sociologia (SBS)",
+  "qualis": null,
+  "issn": "2318-0544 (online) | 2317-8507 (impresso)",
+  "foco": "Ciências Sociais, preferencialmente Sociologia. Publica trabalhos que reflitam a produção acadêmica e científica acerca da realidade brasileira e mundial contemporâneas, tratando de questões acadêmicas e de natureza didática.",
+  "descricao": "Publicação da Sociedade Brasileira de Sociologia, com fluxo contínuo e volume único anual fechado em dezembro. Aceita artigos, dossiês (mediante editais), traduções e contribuições para as seções 'Sociologies in Dialogue' e 'Futuros Passados'.",
+  "avaliacao": "Avaliação duplo-cega por pares ad hoc.",
+  "avaliacao_preprint": "Aceita publicar manuscritos disponibilizados em servidores de preprints.",
+  "taxa": "Gratuita",
+  "periodicidade": "Fluxo contínuo, com volume único anual fechado em dezembro",
+  "preprint": "Sim",
+  "licenca": "Creative Commons Attribution (CC BY)",
+  "data_auditoria": "2026-03-30",
+  "url_fonte_instrucoes": "https://rbs.sbsociologia.com.br/rbs/about/submissions",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://rbs.sbsociologia.com.br/rbs",
+    "submissao": "https://rbs.sbsociologia.com.br/rbs/about/submissions",
+    "diretrizes": "https://rbs.sbsociologia.com.br/rbs/about/submissions"
+  },
+  "limites": {
+    "artigo_palavras": "5.000 a 8.000 palavras",
+    "nota_tecnica_palavras": null,
+    "comentario_critico_palavras": null,
+    "resumo_maximo": "250 palavras",
+    "titulo_maximo": "20 palavras",
+    "palavras_chave_quantidade": "Até 5",
+    "autores_maximo": 5,
+    "notas_rodape_palavras": null,
+    "notas_rodape_formato": "numeradas consecutivamente dentro do texto e colocadas ao pé da página",
+    "outros_limites": "Seção Futuros Passados: até 8.000 palavras"
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": 1.5,
+    "margens": "superior e esquerda de 3 cm; inferior e direita de 2 cm",
+    "alinhamento": null,
+    "citacoes_longas": "Citações com mais de quatro linhas: destacadas em parágrafo especial, fonte 11, sem itálico e com recuo de 4 cm a partir da margem esquerda",
+    "tabelas_figuras": "Em arquivo separado (como documento suplementar), com indicações claras de onde devem ser inseridas. Imagens com resolução mínima de 300 dpi.",
+    "citacoes_formato": "Sistema autor-data: (Sobrenome, ano) ou (Sobrenome, ano, página)",
+    "referencias_formato": "American Psychological Association (APA)",
+    "exemplos_referencias": "Livro: Moser, Anita. (1985). A nova submissão: mulheres da zona rural no processo de trabalho industrial. EDIPAZ.\nArtigo: Nogueira, Ronidalva. (1990). Michel Foucault numa breve visita às prisões de Pernambuco. Cadernos de Estudos Sociais, 6(2), 269-282."
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigos",
+      "extensao": "5.000 a 8.000 palavras",
+      "detalhes": "Textos originais e inéditos que apresentem resultados de pesquisa acadêmica na área de Sociologia e Ciências Sociais.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Espanhol", "Inglês"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "Até 5",
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Submeter arquivo anônimo (sem identificação de autoria)",
+        "Remover autorreferências do texto e da lista de referências (substituir por 'Autor')",
+        "Título de até 20 palavras",
+        "Resumo entre 150 e 250 palavras no idioma original e em inglês",
+        "Até cinco palavras-chave",
+        "Lista de referências conforme normas da APA",
+        "Recuo de primeira linha de 1,25 cm",
+        "Arquivo em formato .doc, .docx ou .rtf",
+        "Preencher formulário de diversidade e parentalidade"
+      ],
+      "referencias_minimas": null,
+      "template": null,
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo principal de manuscrito aceito para submissão"
+    },
+    {
+      "tipo": "Dossiês",
+      "extensao": "5.000 a 8.000 palavras",
+      "detalhes": "Artigos submetidos à seção Dossiê, selecionados mediante editais públicos.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Espanhol", "Inglês"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "Até 5",
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Obedecer aos prazos previstos no edital",
+        "Mesmos requisitos de formatação dos artigos"
+      ],
+      "referencias_minimas": null,
+      "template": null,
+      "submissao_aberta": true,
+      "justificativa_submissao": "Submissão mediante chamada pública"
+    },
+    {
+      "tipo": "Sociologies in Dialogue",
+      "extensao": "Até 8.000 palavras",
+      "detalhes": "Estudos que contenham análises empíricas e teóricas inovadoras pertinentes para o debate acadêmico internacional. Submissões apenas em inglês.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Inglês"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "Até 5",
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Mesmos requisitos de formatação dos artigos"
+      ],
+      "referencias_minimas": null,
+      "template": null,
+      "submissao_aberta": true,
+      "justificativa_submissao": "Seção específica para submissões em inglês"
+    },
+    {
+      "tipo": "Futuros Passados",
+      "extensao": "Até 8.000 palavras",
+      "detalhes": "Contribuições clássicas, contemporâneas e sobre temas emergentes que ensejem amplo entendimento da história, tendências e futuros da Sociologia. Pode incluir artigos, ensaios, conferências e entrevistas.",
+      "titulacao_minima_autor": null,
+      "idiomas_aceitos": ["Português", "Espanhol", "Inglês"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "Até 5",
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [],
+      "referencias_minimas": null,
+      "template": null,
+      "submissao_aberta": true,
+      "justificativa_submissao": "Seção temática da revista"
+    },
+    {
+      "tipo": "Traduções",
+      "extensao": null,
+      "detalhes": "Traduções de artigos relevantes para a área de Sociologia ainda inéditos em português.",
+      "titulacao_minima_autor": null,
+      "idiomas_aceitos": ["Português"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "Até 5",
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Autores/detentores do copyright devem ter autorizado a publicação da tradução"
+      ],
+      "referencias_minimas": null,
+      "template": null,
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo de manuscrito aceito para submissão"
+    }
+  ],
+  "checklist": [
+    "As informações de todos os autores foram preenchidas, incluindo registro ORCID.",
+    "A contribuição é original e inédita, e não está sendo avaliada por outra revista.",
+    "Pelo menos um autor possui título de Doutor (para Artigos, Dossiê e Sociologies in Dialogue).",
+    "Manuscrito tem no máximo cinco autores.",
+    "Arquivo em formato .doc, .docx ou .rtf (até 2MB).",
+    "Arquivo contém título (até 20 palavras) e resumo (150-250 palavras) no idioma original e em inglês.",
+    "Até cinco palavras-chave.",
+    "Lista de referências conforme normas da APA.",
+    "Todas as URLs estão ativas.",
+    "Texto em espaço 1,5, fonte 12, recuo de primeira linha de 1,25 cm, margens superior e esquerda de 3 cm e inferior e direita de 2 cm.",
+    "Figuras e tabelas em arquivo separado, com indicação de local de inserção.",
+    "Identificação de autoria removida do texto e das propriedades do arquivo.",
+    "Formulário de diversidade e parentalidade preenchido."
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "Em caso de artigos em coautoria, solicita-se que os autores especifiquem a participação de cada um na versão final, da pesquisa à redação.",
+    "disponibilidade_dados": "Os dados (que deverão estar sempre disponíveis para eventual consulta), análises e opiniões emitidas nos artigos são de responsabilidade dos autores.",
+    "declaracao_dados_opcoes": "Os dados deverão estar sempre disponíveis para eventual consulta.",
+    "financiamento": null,
+    "preprint": "A revista aceita publicar manuscritos disponibilizados em servidores de preprints."
+  }
+}

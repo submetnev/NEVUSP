@@ -1,0 +1,105 @@
+{
+  "versao": "2.0",
+  "data_atualizacao": "2026-06-02",
+  "guias": [
+    {
+      "id": "artigo",
+      "icone": "📄",
+      "titulo": "Estrutura de Artigo Científico (NBR 6022:2018)",
+      "descricao": "Esta seção detalha os elementos que compõem um artigo científico, de acordo com as boas práticas da escrita acadêmica e a NBR 6022.",
+      "elementos": [
+        {
+          "tipo": "Pré-textuais",
+          "itens": [
+            {
+              "nome": "Título",
+              "descricao": "Deve ser claro, conciso e representativo do conteúdo. É o primeiro elemento a ser lido e deve atrair o interesse do leitor. Para pesquisas sobre violência, termos como 'letalidade policial', 'encarceramento em massa', 'vitimização' podem ser incluídos sem sensacionalismo."
+            },
+            {
+              "nome": "Autoria e Filiação",
+              "descricao": "Listagem de todos os autores com seus nomes completos. A afiliação institucional deve ser indicada conforme as normas da revista (ex: através de nota de rodapé ou metadados da submissão)."
+            },
+            {
+              "nome": "Resumo e Abstract",
+              "descricao": "Apresenta uma visão geral do estudo: problema, objetivos, metodologia, principais resultados e conclusões. Deve ser autocontido. A versão em inglês (Abstract) deve ser posicionada imediatamente após o resumo em português."
+            },
+            {
+              "nome": "Palavras-chave e Keywords",
+              "descricao": "Termos que identificam o conteúdo do artigo. Geralmente 3 a 5 palavras ou expressões. A versão em inglês (Keywords) deve acompanhar o Abstract."
+            }
+          ]
+        },
+        {
+          "tipo": "Textuais",
+          "itens": [
+            {
+              "nome": "Introdução",
+              "descricao": "Apresenta o tema, contextualiza o estudo, define o problema de pesquisa e os objetivos. Justifica a relevância e originalidade do trabalho, descreve brevemente a metodologia e, opcionalmente, anuncia a estrutura do artigo."
+            },
+            {
+              "nome": "Desenvolvimento",
+              "descricao": "Parte central do artigo, onde são apresentados os argumentos, os dados coletados e sua análise. Pode ser subdividida em seções como: 'Revisão de Literatura', 'Metodologia', 'Resultados', 'Discussão'."
+            },
+            {
+              "nome": "Considerações Finais",
+              "descricao": "Síntese dos principais achados e contribuições do estudo. Retoma os objetivos iniciais, aponta limitações do trabalho e sugere agendas de pesquisa futuras."
+            }
+          ]
+        },
+        {
+          "tipo": "Pós-textuais",
+          "itens": [
+            {
+              "nome": "Referências",
+              "descricao": "Lista padronizada de todas as obras citadas no texto. Deve seguir a NBR 6023 da ABNT ou o estilo exigido pela revista."
+            },
+            {
+              "nome": "Apêndices e Anexos",
+              "descricao": "Materiais complementares elaborados pelo autor (apêndices) ou por terceiros (anexos), que auxiliam a compreensão do trabalho."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "resenha",
+      "icone": "📖",
+      "titulo": "Roteiro para uma Resenha Crítica",
+      "descricao": "A resenha crítica é um texto que resume e, principalmente, avalia uma obra (livro, filme, artigo, etc.). O foco está na análise e na argumentação do autor sobre seus pontos fortes e fracos.",
+      "etapas": [
+        {
+          "passo": "1. Identificação e Contextualização da Obra",
+          "descricao": "Inicie com a referência completa da obra (conforme NBR 6023). Apresente o autor e sua relevância no campo. Situe a obra no debate atual ou na trajetória do autor. Essas informações iniciais preparam o leitor para a análise crítica."
+        },
+        {
+          "passo": "2. Análise e Crítica (Foco Central)",
+          "descricao": "Vá além do resumo. Sintetize a tese central, os argumentos principais e os pontos altos da obra. Identifique suas limitações, lacunas ou inconsistências. Estabeleça um diálogo crítico com o autor. Para obras sobre violência, avalie a consistência conceitual, o tratamento ético dos dados empíricos e a relevância das recomendações para políticas públicas. Esta é a parte mais importante e deve demonstrar o seu posicionamento."
+        },
+        {
+          "passo": "3. Considerações Finais",
+          "descricao": "Avalie o impacto e a relevância da obra para a sua área de conhecimento. Recomende a leitura (ou não) para um público específico, justificando sua posição. Conclua com uma reflexão sobre a contribuição da obra para o debate em questão."
+        }
+      ]
+    },
+    {
+      "id": "ensaio",
+      "icone": "📝",
+      "titulo": "Estrutura de um Ensaio Teórico",
+      "descricao": "O ensaio teórico é um texto que explora uma ideia, conceito ou tese de forma argumentativa e reflexiva, sem a obrigatoriedade de seguir a estrutura IMRaD (Introdução, Métodos, Resultados e Discussão) de um artigo empírico.",
+      "etapas": [
+        {
+          "passo": "1. Tese e Argumentação Inicial",
+          "descricao": "Formule uma tese central clara e original, que será o fio condutor de todo o ensaio. Contextualize o tema e apresente os principais conceitos que serão discutidos. Para ensaios sobre violência e direitos humanos, explicite suas premissas éticas e políticas."
+        },
+        {
+          "passo": "2. Desenvolvimento da Reflexão",
+          "descricao": "Construa sua argumentação de forma lógica e progressiva. Dialogue criticamente com a literatura de referência para sustentar ou contrapor seus pontos. Utilize exemplos, se pertinente. Diferentemente de um artigo, o ensaio permite maior liberdade de exploração e estilo."
+        },
+        {
+          "passo": "3. Conclusão e Contribuição",
+          "descricao": "Reitere a tese defendida de forma sintética e com novas perspectivas, considerando a reflexão desenvolvida. Aponte as implicações e a contribuição conceitual ou metodológica do seu ensaio para o campo de conhecimento."
+        }
+      ]
+    }
+  ]
+}

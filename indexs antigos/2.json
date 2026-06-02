@@ -1,0 +1,160 @@
+{
+  "id": 2,
+  "nome": "DADOS – Revista de Ciências Sociais",
+  "imagem": "imagem/dados.png",
+  "instituicao": "IESP-UERJ",
+  "qualis": "A1",
+  "issn": "0011-5258",
+  "foco": "Ciências Sociais com ênfase em Sociologia, Ciência Política e Relações Internacionais. Publica pesquisas originais conectadas a debates amplos e referências bibliográficas consolidadas, abrangendo 16 áreas temáticas: democracia, desigualdades, ação coletiva, políticas públicas, relações internacionais, raça e gênero, violência, entre outras.",
+  "descricao": "Publicação trimestral do Instituto de Estudos Sociais e Políticos (IESP-UERJ). Aceita submissões em fluxo contínuo de artigos originais, notas técnicas e comentários críticos (réplicas). Exige rigor teórico-metodológico e contribuição clara à bibliografia especializada. Não publica ensaios livres, análises de conjuntura ou resenhas.",
+  "avaliacao": "Duplo-cega (para submissões regulares)",
+  "avaliacao_preprint": "Single-blind (apenas revisores conhecem a identidade dos autores, quando o manuscrito foi previamente depositado em servidor de preprint)",
+  "taxa": "Gratuita (sem taxas de submissão ou publicação)",
+  "periodicidade": "Trimestral (publicação) / Fluxo contínuo (submissões)",
+  "preprint": "Permitido e bem-vindo. Autores podem depositar seus manuscritos em servidores de preprint (ex.: SciELO Preprints, SocArXiv) antes ou durante a submissão. Nesse caso, a avaliação passa a ser single-blind e o arquivo submetido pode conter identificação dos autores.",
+  "licenca": "CC BY",
+  "data_auditoria": "2026-03-27",
+  "url_fonte_instrucoes": "https://dados.iesp.uerj.br/instrucoes/",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://www.scielo.br/j/dados",
+    "submissao": "https://mc04.manuscriptcentral.com/dados-scielo",
+    "diretrizes": "https://dados.iesp.uerj.br/instrucoes/"
+  },
+  "limites": {
+    "artigo_palavras": "4.000 a 14.000",
+    "nota_tecnica_palavras": "Até 6.000",
+    "comentario_critico_palavras": "Até 6.000",
+    "resumo_maximo": "250 palavras (recomendado)",
+    "palavras_chave_quantidade": "3 a 5",
+    "autores_maximo": 5,
+    "outros_limites": null
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": 1.5,
+    "margens": "2,5 cm (superior, inferior, esquerda, direita)",
+    "alinhamento": "justificado",
+    "citacoes_longas": "Recuo de 4 cm à esquerda, fonte 11 pt, espaçamento simples, sem aspas",
+    "tabelas_figuras": "Numeradas sequencialmente, com título na parte superior e fonte na parte inferior",
+    "citacoes_formato": "autor-data (estilo próprio da revista: sobrenome do autor, ano, página)",
+    "referencias_formato": "ABNT NBR 6023 adaptado: ordem alfabética, nomes completos dos autores, títulos em negrito"
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigo original",
+      "extensao": "4.000 a 14.000 palavras",
+      "detalhes": "Manuscritos inéditos com resultados de pesquisa acadêmica sistemática e clara contribuição teórica, empírica ou metodológica à bibliografia especializada. Não são aceitos ensaios livres, análises de conjuntura ou resenhas.",
+      "titulacao_minima_autor": "Mestre (pelo menos um dos autores)",
+      "idiomas_aceitos": ["Português", "Espanhol", "Inglês", "Francês"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título (português e inglês)",
+        "Resumo e abstract (150-250 palavras)",
+        "Palavras-chave e keywords (3 a 5)",
+        "Introdução",
+        "Referencial teórico",
+        "Metodologia",
+        "Resultados",
+        "Discussão",
+        "Considerações finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Contribuição clara à bibliografia especializada",
+        "Rigor teórico-metodológico",
+        "Diálogo com debates amplos da área",
+        "Mínimo de 20 referências bibliográficas"
+      ],
+      "referencias_minimas": 20,
+      "template": "templates/DADOS_Artigo_Original.html"
+    },
+    {
+      "tipo": "Nota técnica",
+      "extensao": "Até 6.000 palavras",
+      "detalhes": "Textos que visam disponibilizar à comunidade acadêmica códigos, pacotes e bases de dados inovadores, descrevendo e discutindo sua implementação. A reprodutibilidade total é obrigatória.",
+      "titulacao_minima_autor": "Mestre (pelo menos um dos autores)",
+      "idiomas_aceitos": ["Português", "Espanhol", "Inglês", "Francês"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título (português e inglês)",
+        "Resumo e abstract (150-250 palavras)",
+        "Palavras-chave e keywords (3 a 5)",
+        "Contexto e motivação",
+        "Descrição técnica e implementação",
+        "Reprodutibilidade e disponibilidade",
+        "Aplicações e resultados ilustrativos",
+        "Considerações e trabalhos futuros",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Reprodutibilidade total obrigatória",
+        "Código/base disponível em repositório público",
+        "Licença de uso claramente especificada",
+        "Mínimo de 10 referências bibliográficas",
+        "Instruções detalhadas para utilização"
+      ],
+      "referencias_minimas": 10,
+      "template": "templates/DADOS_Nota_Tecnica.html"
+    },
+    {
+      "tipo": "Comentário crítico (réplica)",
+      "extensao": "Até 6.000 palavras",
+      "detalhes": "Textos que formulam avaliações críticas de manuscritos publicados pela própria revista nos últimos cinco anos, com o objetivo de fazer avançar um debate acadêmico. A crítica deve ser estritamente acadêmica e ater-se ao conteúdo do texto original.",
+      "titulacao_minima_autor": "Mestre (pelo menos um dos autores)",
+      "idiomas_aceitos": ["Português", "Espanhol", "Inglês", "Francês"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título (português e inglês)",
+        "Resumo e abstract (opcionais, mas recomendados)",
+        "Palavras-chave e keywords (3 a 5)",
+        "Identificação do artigo comentado",
+        "Introdução",
+        "Síntese do argumento original",
+        "Análise crítica",
+        "Contribuições para o debate",
+        "Considerações finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Artigo comentado deve ter sido publicado na DADOS nos últimos 5 anos",
+        "Crítica estritamente acadêmica e fundamentada",
+        "Ater-se ao conteúdo do texto original",
+        "Contribuir para o avanço do debate",
+        "Mínimo de 5 referências bibliográficas (incluindo o artigo comentado)"
+      ],
+      "referencias_minimas": 5,
+      "template": "templates/DADOS_Comentario_Critico.html"
+    }
+  ],
+  "checklist": [
+    "Pelo menos um dos autores deve possuir título de mestre ou superior.",
+    "Máximo de 5 autores por submissão.",
+    "O mesmo autor não pode ter mais de um artigo simultaneamente em avaliação na revista.",
+    "O manuscrito deve enquadrar-se em uma das 16 áreas temáticas divulgadas no site da revista.",
+    "Carta de apresentação (cover letter) obrigatória, contendo: contribuição do estudo, aderência ao escopo, declaração de ineditismo, aprovação de todos os autores e ausência de conflitos de interesses.",
+    "Arquivo principal anônimo (para submissões regulares) – exceto em caso de submissão oriunda de preprint, onde a identificação é permitida.",
+    "Resumo e abstract (recomenda-se entre 150 e 250 palavras).",
+    "3 a 5 palavras-chave e keywords (em português e inglês).",
+    "ORCID obrigatório para todos os autores (inserido nos metadados da submissão, NÃO no arquivo principal).",
+    "Citações no formato autor-data (estilo próprio da revista).",
+    "Referências completas em ordem alfabética com nomes completos dos autores.",
+    "Declaração de conflito de interesses (na carta de apresentação ou em documento separado).",
+    "Número do protocolo CAAE (para pesquisas envolvendo seres humanos), informado na metodologia.",
+    "Conformidade com os princípios éticos do COPE e das boas práticas científicas (CNPq, FAPESP).",
+    "Formatação: Times New Roman 12, espaçamento 1,5, margens 2,5 cm.",
+    "Contagem de palavras dentro dos limites específicos do tipo de texto.",
+    "Para notas técnicas: código/base disponível em repositório público (informar URL).",
+    "Para comentários críticos: artigo comentado foi publicado na DADOS nos últimos 5 anos (informar referência completa)."
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "Recomenda-se especificar a contribuição de cada autor segundo a taxonomia CRediT (na carta de apresentação ou em documento separado).",
+    "disponibilidade_dados": "Recomenda-se informar a disponibilidade dos dados de pesquisa em repositórios confiáveis.",
+    "financiamento": "Informar agências de fomento e números de processo na carta de apresentação.",
+    "preprint": "Para submissões oriundas de preprint, incluir link na carta de apresentação e manter identificação dos autores no arquivo principal (avaliação single-blind)."
+  }
+}

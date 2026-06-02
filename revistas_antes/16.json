@@ -1,0 +1,188 @@
+{
+  "id": 16,
+  "nome": "O Público e o Privado",
+  "imagem": "imagem/o_publico_e_o_privado.png",
+  "instituicao": "Universidade Estadual do Ceará (UECE), Programa de Pós-Graduação em Sociologia (PPGS)",
+  "qualis": "A4",
+  "issn": null,
+  "foco": "Sociologia e ciências correlatas. Publicação de pesquisas que abordem a relação entre as esferas pública e privada na sociedade contemporânea.",
+  "descricao": "Revista vinculada ao Programa de Pós-Graduação em Sociologia da UECE. Publica artigos, ensaios, entrevistas, traduções, relatórios de pesquisa e resenhas. Opera com números temáticos e seção de fluxo contínuo.",
+  "avaliacao": "A revista utiliza sistema de avaliação duplo-cega por pares. Os artigos são submetidos à análise de especialistas ad hoc, sem identificação de autores e pareceristas. Números temáticos contam com organizadores que acompanham o processo de avaliação e revisão dos artigos.",
+  "avaliacao_preprint": null,
+  "taxa": "Gratuita",
+  "periodicidade": "Fluxo contínuo (com publicação de números temáticos)",
+  "preprint": null,
+  "licenca": "CC BY",
+  "data_auditoria": "2026-03-30",
+  "url_fonte_instrucoes": "https://revistas.uece.br/index.php/opublicoeoprivado/about/submissions",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://revistas.uece.br/index.php/opublicoeoprivado",
+    "submissao": "https://revistas.uece.br/index.php/opublicoeoprivado/about/submissions",
+    "diretrizes": "https://revistas.uece.br/index.php/opublicoeoprivado/about/submissions"
+  },
+  "limites": {
+    "artigo_palavras": "40.000 a 60.000 caracteres (com espaço)",
+    "nota_tecnica_palavras": null,
+    "comentario_critico_palavras": null,
+    "resumo_maximo": "1.200 caracteres (sem espaço)",
+    "titulo_maximo": null,
+    "palavras_chave_quantidade": "2 a 6",
+    "autores_maximo": null,
+    "notas_rodape_palavras": null,
+    "notas_rodape_formato": null,
+    "outros_limites": "Relatórios de pesquisa: 30.000 a 60.000 caracteres; Resenhas: 5.000 a 15.000 caracteres"
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": 1.5,
+    "margens": "2,5 cm",
+    "alinhamento": null,
+    "citacoes_longas": null,
+    "tabelas_figuras": "Integrados ao texto em formato eletrônico, devidamente legendados e numerados.",
+    "citacoes_formato": "ABNT NBR 10520",
+    "referencias_formato": "ABNT NBR 6023",
+    "exemplos_referencias": null
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigos Temáticos",
+      "extensao": "40.000 a 60.000 caracteres (com espaço)",
+      "detalhes": "Textos inéditos decorrentes de pesquisas acerca de tema previamente definido pela revista para a composição de números temáticos. Avaliados por pares.",
+      "titulacao_minima_autor": null,
+      "idiomas_aceitos": ["Português", "Espanhol", "Inglês", "Francês"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": "2 a 6",
+      "estrutura_sugerida": ["Introdução", "Metodologia", "Resultados", "Discussão", "Conclusões"],
+      "requisitos_especificos": [
+        "Textos em português, espanhol e francês devem apresentar títulos, resumos e palavras-chave na língua original e em inglês",
+        "Artigos em inglês devem conter títulos, resumos e palavras-chave na língua original e em português"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/o_publico_e_o_privado_artigos_tematicos.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Submissão para números temáticos da revista"
+    },
+    {
+      "tipo": "Artigos de Fluxo Contínuo",
+      "extensao": "40.000 a 60.000 caracteres (com espaço)",
+      "detalhes": "Textos inéditos na forma de artigos e comunicações de pesquisas com contribuições relevantes e inovadoras para a sociologia, com rigor teórico e metodológico.",
+      "titulacao_minima_autor": null,
+      "idiomas_aceitos": ["Português", "Espanhol", "Inglês", "Francês"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": "2 a 6",
+      "estrutura_sugerida": ["Introdução", "Metodologia", "Resultados", "Discussão", "Conclusões"],
+      "requisitos_especificos": [
+        "Textos em português, espanhol e francês devem apresentar títulos, resumos e palavras-chave na língua original e em inglês",
+        "Artigos em inglês devem conter títulos, resumos e palavras-chave na língua original e em português"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/o_publico_e_o_privado_artigos_de_fluxo_contnuo.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo principal de manuscrito aceito para submissão (fluxo contínuo)"
+    },
+    {
+      "tipo": "Temas Livres",
+      "extensao": null,
+      "detalhes": "Ensaios de extensão menor que artigos, abertos a outras áreas do conhecimento, desde que apresentem aspectos relevantes para a sociologia.",
+      "titulacao_minima_autor": null,
+      "idiomas_aceitos": ["Português", "Espanhol", "Inglês", "Francês"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": "2 a 6",
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Textos em português, espanhol e francês devem apresentar títulos, resumos e palavras-chave na língua original e em inglês"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/o_publico_e_o_privado_temas_livres.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Seção para ensaios e textos menores"
+    },
+    {
+      "tipo": "Entrevistas",
+      "extensao": null,
+      "detalhes": "Transcrição de entrevistas com acadêmicos/intelectuais ou figuras públicas cujo trabalho represente perspectivas relevantes para debates sociológicos acerca do público e do privado.",
+      "titulacao_minima_autor": null,
+      "idiomas_aceitos": ["Português", "Espanhol", "Inglês", "Francês"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": "2 a 6",
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Incentiva-se que referenciem a obra do(s) entrevistado(s) e outras com as quais dialoga"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/o_publico_e_o_privado_entrevistas.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo de manuscrito aceito para submissão"
+    },
+    {
+      "tipo": "Relatórios de Pesquisa",
+      "extensao": "30.000 a 60.000 caracteres com espaços",
+      "detalhes": "Textos que apresentem resultados recentes de pesquisas na área da sociologia e ciências correlatas.",
+      "titulacao_minima_autor": null,
+      "idiomas_aceitos": ["Português", "Espanhol", "Inglês", "Francês"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": "2 a 6",
+      "estrutura_sugerida": ["Introdução", "Metodologia", "Resultados", "Discussão", "Conclusões"],
+      "requisitos_especificos": [
+        "Textos em português, espanhol e francês devem apresentar títulos, resumos e palavras-chave na língua original e em inglês"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/o_publico_e_o_privado_relatrios_de_pesquisa.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo de manuscrito aceito para submissão"
+    },
+    {
+      "tipo": "Traduções",
+      "extensao": null,
+      "detalhes": "Textos previamente publicados em língua estrangeira, com autorização expressa de publicação em português, relacionados a debates sociológicos.",
+      "titulacao_minima_autor": null,
+      "idiomas_aceitos": ["Português"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": "2 a 6",
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Autorização expressa dos detentores dos direitos autorais"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/o_publico_e_o_privado_traduces.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo de manuscrito aceito para submissão"
+    },
+    {
+      "tipo": "Resenhas",
+      "extensao": "5.000 a 15.000 caracteres com espaço",
+      "detalhes": "Textos concisos apresentando publicações recentes na área da sociologia (livros publicados nos últimos 2 anos).",
+      "titulacao_minima_autor": null,
+      "idiomas_aceitos": ["Português", "Espanhol", "Inglês", "Francês"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": "2 a 6",
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Livros publicados nos últimos 2 anos"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/o_publico_e_o_privado_resenhas.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo de manuscrito aceito para submissão"
+    }
+  ],
+  "checklist": [
+    "A contribuição é original e inédita, e não está sendo avaliada para publicação por outra revista.",
+    "O arquivo da submissão está em formato Microsoft Word, OpenOffice ou RTF.",
+    "A identificação dos autores não aparece no original que será avaliado.",
+    "URLs para as referências foram informadas quando possível.",
+    "O texto está em espaço simples, usa fonte de 12-pontos, emprega itálico em vez de sublinhado (exceto em URLs).",
+    "As figuras e tabelas estão inseridas no texto, não no final do documento como anexos.",
+    "O texto segue os padrões de estilo e requisitos bibliográficos descritos em Diretrizes para Autores.",
+    "Questões éticas relativas a pesquisas com seres humanos devem ser acompanhadas da informação de autorização do Comitê de Ética (Resolução 196/96 do CNS e Declaração de Helsinque)."
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "Conceitos e opiniões expressos nos diversos artigos, assim como exatidão, fonte das citações e revisão ortográfica, são de exclusiva responsabilidade do(s) autor(es).",
+    "disponibilidade_dados": null,
+    "declaracao_dados_opcoes": null,
+    "financiamento": null,
+    "preprint": null
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": 11,
+  "nome": "Brazilian Journal of Latin American Studies",
+  "imagem": "imagem/brazilian_journal_of_latin_american_studies.png",
+  "instituicao": "Programa de Pós-Graduação em Integração da América Latina (PROLAM) da Universidade de São Paulo (USP)",
+  "qualis": "Não especificado",
+  "issn": "1676-6288",
+  "foco": "Difundir estudos sobre a América Latina nos diversos campos das humanidades, das artes e das ciências sociais, com ênfase na integração regional analisada sob as dimensões social, econômica, cultural e de relações internacionais.",
+  "descricao": "A Brazilian Journal of Latin American Studies (BJLAS), anteriormente intitulada Cadernos PROLAM/USP, é uma revista interdisciplinar criada em 2002 pelo Programa de Pós-graduação Integração da América Latina (PROLAM) da Universidade de São Paulo. Publica produções científicas de nível de pós-graduação nas áreas de humanidades, artes e ciências sociais. Periodicidade semestral, fluxo contínuo, avaliação duplo-cega, acesso aberto.",
+  "avaliacao": "Duplo-cega",
+  "avaliacao_preprint": "Não especificado",
+  "taxa": "Gratuita (sem APC)",
+  "periodicidade": "Semestral",
+  "preprint": "Não especificado",
+  "licenca": "Não especificado",
+  "data_auditoria": "2026-03-27",
+  "url_fonte_instrucoes": "https://revistas.usp.br/prolam/about/submissions",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://revistas.usp.br/prolam/pt_BR",
+    "submissao": "https://revistas.usp.br/prolam/about/submissions",
+    "diretrizes": "https://revistas.usp.br/prolam/about/submissions"
+  },
+  "limites": {
+    "artigo_palavras": "Não especificado (recomenda-se até 10.000 palavras)",
+    "resenha_palavras": "Não especificado (recomenda-se até 3.000 palavras)",
+    "resumo_maximo": "250 palavras (recomendado)",
+    "palavras_chave_quantidade": "3 a 5",
+    "autores_maximo": 5,
+    "referencias_minimas_artigo": 15,
+    "referencias_minimas_resenha": 5,
+    "outros_limites": null
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": 1.5,
+    "margens": "2,5 cm",
+    "alinhamento": "justificado",
+    "citacoes_longas": "Recuo de 4 cm, fonte 11 pt",
+    "tabelas_figuras": "Numeradas, título e fonte"
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigo original",
+      "extensao": "Não especificado (recomenda-se até 10.000 palavras)",
+      "detalhes": "Trabalhos científicos originais que abordem a América Latina sob perspectivas interdisciplinares nas áreas de humanidades, artes e ciências sociais, com ênfase na integração regional.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título (português e inglês)",
+        "Resumo e abstract (150-250 palavras)",
+        "Palavras-chave e keywords (3 a 5)",
+        "Introdução",
+        "Referencial teórico",
+        "Metodologia",
+        "Resultados e discussão",
+        "Considerações finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Abordagem interdisciplinar",
+        "Foco na América Latina",
+        "Mínimo de 15 referências"
+      ],
+      "referencias_minimas": 15,
+      "template": "templates/BJLAS_Artigo_Original.docx"
+    },
+    {
+      "tipo": "Dossiê temático",
+      "extensao": "Não especificado",
+      "detalhes": "Conjunto de artigos organizados em torno de um tema específico relacionado aos estudos latino-americanos, coordenado por editores convidados.",
+      "titulacao_minima_autor": "Doutor (organizadores)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título do dossiê",
+        "Apresentação",
+        "Artigos individuais"
+      ],
+      "requisitos_especificos": [
+        "Proposta avaliada pela comissão"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/BJLAS_Dossie.docx"
+    },
+    {
+      "tipo": "Resenha",
+      "extensao": "Não especificado (recomenda-se até 3.000 palavras)",
+      "detalhes": "Análise crítica de obras recentes publicadas sobre temas relacionados à América Latina, contribuindo para a divulgação e debate da produção acadêmica na área.",
+      "titulacao_minima_autor": "Mestre (mínimo)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [
+        "Título",
+        "Identificação da obra",
+        "Síntese",
+        "Análise crítica",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Obra recente (últimos 3 anos)",
+        "Mínimo de 5 referências"
+      ],
+      "referencias_minimas": 5,
+      "template": "templates/BJLAS_Resenha.docx"
+    }
+  ],
+  "checklist": [
+    "Texto inédito e não submetido a outro periódico",
+    "Arquivo anônimo (sem identificação dos autores)",
+    "Resumo e abstract fornecidos",
+    "ORCID obrigatório para todos os autores",
+    "Declaração de financiamento e conflito de interesses",
+    "Referências formatadas conforme normas da revista"
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "Recomenda-se CRediT.",
+    "financiamento": "Declarar apoio."
+  }
+}

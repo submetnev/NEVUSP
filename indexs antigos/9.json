@@ -1,0 +1,177 @@
+{
+  "id": 1,
+  "nome": "Estudos Avançados",
+  "imagem": "imagem/estudos_avancados.png",
+  "instituicao": "Universidade de São Paulo (USP), através do Instituto de Estudos Avançados (IEA)",
+  "qualis": "A1",
+  "issn": "1806-9592",
+  "foco": "Publicação transdisciplinar que busca lançar pontes entre as Ciências da Natureza e as Ciências Humanas, com o compromisso de pensar o Brasil, conhecendo a fundo o seu presente para ajudar a construir o seu futuro, promovendo um desenvolvimento não só econômico, mas social, cultural e ambientalmente sustentável.",
+  "descricao": "Criada em 1987, a revista Estudos Avançados é a publicação periódica do Instituto de Estudos Avançados da Universidade de São Paulo (IEA-USP). Seu projeto editorial nasce com a missão de estimular uma prática transdisciplinar, conectando diferentes ramos do conhecimento, e de secundar um dos desígnios centrais do IEA: pensar o Brasil em sua complexidade. A revista publica trabalhos sobre temas de cultura humanística, científica e tecnológica, mantendo uma política de acesso aberto e utilizando um rigoroso sistema de avaliação por pares para garantir a integridade e a qualidade acadêmica de seus conteúdos.",
+  "avaliacao": "Duplo-cega",
+  "avaliacao_preprint": "Não especificado",
+  "taxa": "Gratuita (sem APC)",
+  "periodicidade": "Quadrimestral",
+  "preprint": "Não especificado",
+  "licenca": "CC BY-NC",
+  "data_auditoria": "2026-03-27",
+  "url_fonte_instrucoes": "https://www.iea.usp.br/revista/politica-editorial/normas",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://www.iea.usp.br/revista",
+    "submissao": "estudosavancados@usp.br",
+    "diretrizes": "https://www.iea.usp.br/revista/politica-editorial/normas"
+  },
+  "limites": {
+    "artigo_palavras": "Até 7.500 palavras (45.000 caracteres com espaço)",
+    "ensaio_palavras": "Até 7.500 palavras",
+    "resenha_palavras": "Até 1.800 palavras (10.000 caracteres)",
+    "entrevista_palavras": "Não especificado",
+    "dossie_palavras": "Variável",
+    "resumo_maximo": "5 a 10 linhas (aproximadamente 150 palavras)",
+    "palavras_chave_quantidade": "3 a 5",
+    "autores_maximo": 5,
+    "referencias_minimas_artigo": 10,
+    "referencias_minimas_ensaio": 10,
+    "referencias_minimas_resenha": 5,
+    "outros_limites": null
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": 1.5,
+    "margens": "2,5 cm",
+    "alinhamento": "justificado",
+    "citacoes_longas": "Recuo de 4 cm, fonte 11 pt",
+    "tabelas_figuras": "Numeradas, título e fonte"
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigo Original",
+      "extensao": "Até 7.500 palavras (45.000 caracteres com espaço)",
+      "detalhes": "Trabalhos inéditos sobre temas de cultura humanística, científica e tecnológica, resultantes de pesquisa e reflexão acadêmica, que contribuam para o avanço do conhecimento em suas respectivas áreas e para o diálogo transdisciplinar proposto pela revista.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 150,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título (português e inglês)",
+        "Resumo e abstract (5-10 linhas)",
+        "Palavras-chave e keywords (3 a 5)",
+        "Introdução",
+        "Desenvolvimento",
+        "Considerações finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Contribuição transdisciplinar",
+        "Ineditismo",
+        "Mínimo de 10 referências"
+      ],
+      "referencias_minimas": 10,
+      "template": "templates/Estudos_Avancados_Artigo.docx"
+    },
+    {
+      "tipo": "Ensaio",
+      "extensao": "Até 7.500 palavras",
+      "detalhes": "Textos de caráter reflexivo e analítico, com maior liberdade formal, que abordem temas de relevância cultural, social, científica ou artística, oferecendo perspectivas originais e aprofundadas.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 150,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título",
+        "Resumo",
+        "Introdução",
+        "Desenvolvimento argumentativo",
+        "Considerações finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Reflexão original",
+        "Caráter analítico",
+        "Mínimo de 10 referências"
+      ],
+      "referencias_minimas": 10,
+      "template": "templates/Estudos_Avancados_Ensaio.docx"
+    },
+    {
+      "tipo": "Resenha",
+      "extensao": "Até 1.800 palavras (10.000 caracteres)",
+      "detalhes": "Análise crítica de livros recentes e de relevância para as áreas de interesse da revista.",
+      "titulacao_minima_autor": "Mestre (mínimo)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [
+        "Título da resenha",
+        "Identificação da obra",
+        "Síntese",
+        "Análise crítica",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Obra recente",
+        "Relevância para a área",
+        "Mínimo de 5 referências"
+      ],
+      "referencias_minimas": 5,
+      "template": "templates/Estudos_Avancados_Resenha.docx"
+    },
+    {
+      "tipo": "Entrevista",
+      "extensao": "Não especificado",
+      "detalhes": "Entrevistas com personalidades de destaque nos meios acadêmico, cultural, científico ou artístico, que contribuam para a reflexão sobre temas da atualidade e do escopo da revista.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [
+        "Apresentação",
+        "Perguntas e respostas",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Personalidade de destaque"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/Estudos_Avancados_Entrevista.docx"
+    },
+    {
+      "tipo": "Dossiê",
+      "extensao": "A definir pelos organizadores em conjunto com a editoria",
+      "detalhes": "Conjunto de artigos organizados em torno de um tema específico, coordenado por pesquisadores convidados, com o objetivo de aprofundar o debate sobre questões relevantes e emergentes.",
+      "titulacao_minima_autor": "Doutor (organizadores)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 150,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título do dossiê",
+        "Apresentação dos organizadores",
+        "Artigos individuais"
+      ],
+      "requisitos_especificos": [
+        "Proposta aprovada pela editoria"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/Estudos_Avancados_Dossie.docx"
+    }
+  ],
+  "checklist": [
+    "O texto é inédito e não foi submetido a outro periódico?",
+    "O arquivo da submissão está em formato Microsoft Word, OpenOffice ou RTF?",
+    "O texto possui até 45.000 caracteres com espaço, incluindo título, notas, referências, resumo e palavras-chave?",
+    "O resumo (de 5 a 10 linhas) e as palavras-chave (mínimo de 3) foram fornecidos em português?",
+    "O abstract e as keywords (versão inglesa do resumo e palavras-chave) foram fornecidos?",
+    "As informações de qualificação profissional de cada autor (titulação, função, instituição de vínculo) foram incluídas?",
+    "O ID Orcid e o e-mail de contato de cada autor foram fornecidos?",
+    "As notas explicativas, se houver, estão restritas ao necessário e inseridas ao final do texto, antes das referências?",
+    "As referências bibliográficas estão formatadas conforme as regras da ABNT e citadas corretamente no corpo do texto (autor, ano, página)?",
+    "As imagens (tabelas, figuras, gráficos, fotos) estão em alta resolução e foram enviadas em arquivos separados, nos formatos originais?",
+    "O texto está anônimo, sem qualquer identificação de autoria, para garantir a avaliação cega por pares?"
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "Recomenda-se especificar na carta.",
+    "financiamento": "Declarar apoio.",
+    "preprint": "Política não especificada."
+  }
+}

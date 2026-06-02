@@ -1,0 +1,175 @@
+{
+  "id": 7,
+  "nome": "Dilemas - Revista de Estudos de Conflito e Controle Social",
+  "imagem": "imagem/dilemas.png",
+  "instituicao": "UFRJ (Necvu/IFCS/PPGSA)",
+  "qualis": "A2",
+  "issn": "1983-5922",
+  "foco": "Sociologia da Violência, Conflitos Urbanos, Justiça Criminal",
+  "descricao": "Revista do Núcleo de Estudos da Cidadania, Conflito e Violência Urbana da UFRJ. Publica em fluxo contínuo contribuições sobre conflito, violência, controle social, justiça criminal e segurança pública. Avaliação duplo-cega, acesso aberto.",
+  "avaliacao": "Duplo-cega",
+  "avaliacao_preprint": "Não especificado",
+  "taxa": "Gratuita",
+  "periodicidade": "Quadrimestral / Fluxo contínuo",
+  "preprint": "Não especificado",
+  "licenca": "CC BY",
+  "data_auditoria": "2026-03-27",
+  "url_fonte_instrucoes": "https://revistas.ufrj.br/index.php/dilemas/about/submissions",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://revistas.ufrj.br/index.php/dilemas",
+    "submissao": "https://revistas.ufrj.br/index.php/dilemas/about/submissions",
+    "diretrizes": "https://revistas.ufrj.br/index.php/dilemas/about/submissions"
+  },
+  "limites": {
+    "artigo_palavras": "Até 12.000 palavras",
+    "ensaio_palavras": "Até 10.000 palavras",
+    "resenha_palavras": "Até 1.800 palavras",
+    "entrevista_palavras": "Até 8.500 palavras",
+    "traducao_palavras": "Até 12.000 palavras",
+    "resumo_maximo": "150 palavras",
+    "palavras_chave_quantidade": "3 a 5",
+    "autores_maximo": 5,
+    "referencias_minimas_artigo": 20,
+    "referencias_minimas_ensaio": 15,
+    "referencias_minimas_resenha": 5,
+    "referencias_minimas_entrevista": 5,
+    "referencias_minimas_traducao": 10,
+    "outros_limites": null
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": 1.5,
+    "margens": "2,5 cm",
+    "alinhamento": "justificado",
+    "citacoes_longas": "Recuo de 4 cm, fonte 11 pt",
+    "tabelas_figuras": "Numeradas, título e fonte"
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigo",
+      "extensao": "Até 12.000 palavras",
+      "detalhes": "Pesquisa original em conflito, violência, controle social, justiça criminal. Preferencialmente com base empírica.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 150,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título (português e inglês)",
+        "Resumo e abstract (até 150 palavras)",
+        "Palavras-chave e keywords (3 a 5)",
+        "Introdução",
+        "Referencial teórico",
+        "Metodologia",
+        "Resultados e discussão",
+        "Considerações finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Base empírica preferencial",
+        "Mínimo de 20 referências"
+      ],
+      "referencias_minimas": 20,
+      "template": "templates/Dilemas_Artigo.docx"
+    },
+    {
+      "tipo": "Ensaio",
+      "extensao": "Até 10.000 palavras",
+      "detalhes": "Discussão teórica aprofundada.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 150,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título",
+        "Resumo",
+        "Introdução",
+        "Desenvolvimento argumentativo",
+        "Considerações finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Aprofundamento teórico",
+        "Mínimo de 15 referências"
+      ],
+      "referencias_minimas": 15,
+      "template": "templates/Dilemas_Ensaio.docx"
+    },
+    {
+      "tipo": "Resenha",
+      "extensao": "Até 1.800 palavras",
+      "detalhes": "Obras recentes (últimos 3 anos).",
+      "titulacao_minima_autor": "Mestre (mínimo)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [
+        "Título",
+        "Identificação da obra",
+        "Síntese",
+        "Análise crítica",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Obra publicada nos últimos 3 anos",
+        "Mínimo de 5 referências"
+      ],
+      "referencias_minimas": 5,
+      "template": "templates/Dilemas_Resenha.docx"
+    },
+    {
+      "tipo": "Entrevista",
+      "extensao": "Até 8.500 palavras",
+      "detalhes": "Com apresentação e contextualização acadêmica.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [
+        "Apresentação do entrevistado",
+        "Contextualização",
+        "Perguntas e respostas",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Relevância acadêmica do entrevistado",
+        "Mínimo de 5 referências"
+      ],
+      "referencias_minimas": 5,
+      "template": "templates/Dilemas_Entrevista.docx"
+    },
+    {
+      "tipo": "Tradução",
+      "extensao": "Até 12.000 palavras",
+      "detalhes": "Texto relevante e inédito em português, com autorização e nota introdutória.",
+      "titulacao_minima_autor": "Doutor (tradutor)",
+      "idiomas_aceitos": ["Português"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [
+        "Nota do tradutor",
+        "Texto traduzido",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Autorização do detentor dos direitos",
+        "Mínimo de 10 referências"
+      ],
+      "referencias_minimas": 10,
+      "template": "templates/Dilemas_Traducao.docx"
+    }
+  ],
+  "checklist": [
+    "Texto inédito",
+    "Arquivo anônimo",
+    "Resumo e Abstract",
+    "3 a 5 palavras-chave e keywords",
+    "ORCID obrigatório",
+    "Afiliação institucional completa"
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "CRediT recomendado.",
+    "financiamento": "Declarar apoio."
+  }
+}

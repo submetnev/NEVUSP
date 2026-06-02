@@ -1,0 +1,129 @@
+{
+  "id": 8,
+  "nome": "Sociedade e Estado",
+  "imagem": "imagem/sociedade_estado.png",
+  "instituicao": "Universidade de Brasília (UnB)",
+  "qualis": "A1",
+  "issn": "0102-6992",
+  "foco": "Teoria e Pesquisa em Ciências Sociais",
+  "descricao": "Revista do Departamento de Sociologia e do PPG em Sociologia da UnB. Publica artigos originais, ensaios e resenhas com ênfase em contribuições teóricas e empíricas. Avaliação duplo-cega, acesso aberto.",
+  "avaliacao": "Duplo-cega",
+  "avaliacao_preprint": "Não especificado",
+  "taxa": "Gratuita",
+  "periodicidade": "Quadrimestral / Fluxo contínuo",
+  "preprint": "Não especificado",
+  "licenca": "CC BY",
+  "data_auditoria": "2026-03-27",
+  "url_fonte_instrucoes": "https://periodicos.unb.br/index.php/sociedade/about/submissions",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://www.scielo.br/j/se",
+    "submissao": "https://periodicos.unb.br/index.php/sociedade/about/submissions",
+    "diretrizes": "https://periodicos.unb.br/index.php/sociedade/about/submissions"
+  },
+  "limites": {
+    "artigo_palavras": "Até 10.000 palavras",
+    "ensaio_palavras": "Até 8.500 palavras",
+    "resenha_palavras": "Até 2.000 palavras",
+    "resumo_maximo": "150 palavras",
+    "palavras_chave_quantidade": "3 a 5",
+    "autores_maximo": 5,
+    "referencias_minimas_artigo": 15,
+    "referencias_minimas_ensaio": 10,
+    "referencias_minimas_resenha": 5,
+    "outros_limites": null
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": 1.5,
+    "margens": "2,5 cm",
+    "alinhamento": "justificado",
+    "citacoes_longas": "Recuo de 4 cm, fonte 11 pt",
+    "tabelas_figuras": "Numeradas, título e fonte"
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigo",
+      "extensao": "Até 10.000 palavras",
+      "detalhes": "Contribuição teórica ou empírica original.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 150,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título (português e inglês)",
+        "Resumo e abstract (até 150 palavras)",
+        "Palavras-chave e keywords (3 a 5)",
+        "Introdução",
+        "Referencial teórico",
+        "Metodologia",
+        "Resultados e discussão",
+        "Considerações finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Contribuição original",
+        "Mínimo de 15 referências"
+      ],
+      "referencias_minimas": 15,
+      "template": "templates/Sociedade_Estado_Artigo.docx"
+    },
+    {
+      "tipo": "Ensaio",
+      "extensao": "Até 8.500 palavras",
+      "detalhes": "Reflexão teórica inovadora.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 150,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título",
+        "Resumo",
+        "Introdução",
+        "Desenvolvimento",
+        "Considerações finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Inovação teórica",
+        "Mínimo de 10 referências"
+      ],
+      "referencias_minimas": 10,
+      "template": "templates/Sociedade_Estado_Ensaio.docx"
+    },
+    {
+      "tipo": "Resenha",
+      "extensao": "Até 2.000 palavras",
+      "detalhes": "Obra publicada nos últimos 2 anos.",
+      "titulacao_minima_autor": "Mestre (mínimo)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [
+        "Título",
+        "Identificação da obra",
+        "Síntese",
+        "Análise crítica",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Obra publicada nos últimos 2 anos",
+        "Mínimo de 5 referências"
+      ],
+      "referencias_minimas": 5,
+      "template": "templates/Sociedade_Estado_Resenha.docx"
+    }
+  ],
+  "checklist": [
+    "Ineditismo",
+    "Resumo e Abstract",
+    "3 a 5 palavras-chave e keywords",
+    "ORCID obrigatório",
+    "Referências conforme ABNT",
+    "Arquivo sem identificação"
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "CRediT recomendado."
+  }
+}

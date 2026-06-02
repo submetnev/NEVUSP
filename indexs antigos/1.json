@@ -1,0 +1,122 @@
+{
+  "id": 1,
+  "nome": "Revista Brasileira de Ciências Sociais (RBCS)",
+  "imagem": "imagem/rbcs.png",
+  "instituicao": "ANPOCS",
+  "qualis": "A1",
+  "issn": "0102-6909",
+  "foco": "Ciências Sociais (Antropologia, Ciência Política, Sociologia)",
+  "descricao": "Periódico da Associação Nacional de Pós-Graduação e Pesquisa em Ciências Sociais (ANPOCS). Publica artigos inéditos e ensaios críticos. Submissões em fluxo contínuo. Avaliação duplo-cega. Permite depósito em servidores de preprint (SciELO Preprints e outros aprovados).",
+  "avaliacao": "Duplo-cega",
+  "avaliacao_preprint": "Duplo-cega (mesmo com preprint, a avaliação mantém o anonimato dos autores)",
+  "taxa": "Gratuita (sem APC)",
+  "periodicidade": "Publicação contínua (submissões em fluxo contínuo)",
+  "preprint": "Permitido (SciELO Preprints e outros servidores aprovados). O arquivo submetido deve permanecer anônimo.",
+  "licenca": "CC BY",
+  "data_auditoria": "2026-03-30",
+  "url_fonte_instrucoes": "https://anpocs.org.br/normas-para-publicacao-na-revista-brasileira-de-ciencias-sociais/",
+  "ultima_atualizacao_normas": "2026-03-30",
+  "links": {
+    "site": "https://anpocs.org.br/rbcs/",
+    "submissao": "https://submission.scielo.br/index.php/rbcsoc/login",
+    "diretrizes": "https://anpocs.org.br/normas-para-publicacao-na-revista-brasileira-de-ciencias-sociais/"
+  },
+  "limites": {
+    "artigo_palavras": "7.000 a 9.000",
+    "ensaio_palavras": "Até 3.000",
+    "resenha_palavras": "Não se aplica",
+    "dossie_artigo_palavras": "Não se aplica",
+    "nota_tecnica_palavras": "Não se aplica",
+    "comentario_critico_palavras": "Não se aplica",
+    "resumo_maximo": "200 palavras",
+    "palavras_chave_quantidade": "5",
+    "autores_maximo": 5,
+    "referencias_minimas_artigo": 20,
+    "referencias_minimas_ensaio": 5,
+    "outros_limites": null
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": 1.5,
+    "margens": "2,5 cm (superior, inferior, esquerda, direita)",
+    "alinhamento": "justificado",
+    "citacoes_longas": "Recuo de 4 cm à esquerda, fonte 11 pt, espaçamento simples, sem aspas",
+    "tabelas_figuras": "Numeradas sequencialmente, com título na parte superior e fonte na parte inferior"
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigo científico",
+      "extensao": "7.000 a 9.000 palavras",
+      "detalhes": "Pesquisa original e inédita. Deve conter problema explícito, argumento central, metodologia clara e contribuição substantiva.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 200,
+      "palavras_chave_quantidade": "5",
+      "estrutura_sugerida": [
+        "Título (português e inglês)",
+        "Resumo e abstract (até 200 palavras)",
+        "Palavras-chave e keywords (5)",
+        "Introdução",
+        "Referencial teórico",
+        "Metodologia",
+        "Resultados",
+        "Discussão",
+        "Considerações finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Problema de pesquisa explícito",
+        "Argumento central claro",
+        "Metodologia detalhada",
+        "Contribuição substantiva à área",
+        "Mínimo de 20 referências bibliográficas"
+      ],
+      "referencias_minimas": 20,
+      "template": "templates/RBCS_ANPOCS_Artigo_Cientifico.docx"
+    },
+    {
+      "tipo": "Ensaio crítico",
+      "extensao": "Até 3.000 palavras",
+      "detalhes": "Geralmente encomendado pela Comissão Editorial, mas passível de avaliação. Análise de livro recente (últimos 24 meses) + mínimo 2 referências adicionais (podem incluir materiais não bibliográficos).",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 200,
+      "palavras_chave_quantidade": "5",
+      "estrutura_sugerida": [
+        "Título (português e inglês)",
+        "Resumo e abstract (até 200 palavras)",
+        "Palavras-chave e keywords (5)",
+        "Apresentação da obra",
+        "Contextualização",
+        "Análise crítica",
+        "Contribuições para o debate",
+        "Considerações finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Obra publicada nos últimos 24 meses",
+        "Mínimo de 2 referências adicionais (podem incluir materiais não bibliográficos)"
+      ],
+      "referencias_minimas": 5,
+      "template": "templates/RBCS_ANPOCS_Ensaio_Critico.docx"
+    }
+  ],
+  "checklist": [
+    "Texto inédito (inclui preprint e anais, com devida declaração)",
+    "Arquivo principal ANÔNIMO (sem identificação de autores, afiliações, ORCID ou agradecimentos)",
+    "Resumo até 200 palavras (estruturado: problema, argumento, contribuição, metodologia)",
+    "5 palavras-chave separadas por ponto e vírgula (de escolha estratégica)",
+    "Título, resumo e palavras-chave em português E inglês",
+    "ORCID obrigatório para todos os autores (inserido nos metadados da submissão)",
+    "Carta de apresentação (obrigatória para preprint – com link – e para coautoria – com especificação CRediT). Deve conter declarações de originalidade, conflito de interesses, financiamento e agradecimentos, preservando o anonimato do arquivo principal.",
+    "Formatação: Times New Roman 12, espaçamento 1,5, margens 2,5 cm, citações no formato autor-data (ABNT NBR 10520)",
+    "Referências em ordem alfabética com nomes COMPLETOS dos autores (ABNT NBR 6023)",
+    "Número do protocolo de aprovação do Comitê de Ética em Pesquisa (CAAE) para pesquisas com seres humanos"
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "Recomenda-se especificar a contribuição de cada autor segundo a taxonomia CRediT (na carta de apresentação ou em documento separado).",
+    "disponibilidade_dados": "Recomenda-se informar a disponibilidade dos dados de pesquisa em repositórios confiáveis.",
+    "financiamento": "Informar agências de fomento e números de processo na carta de apresentação."
+  }
+}

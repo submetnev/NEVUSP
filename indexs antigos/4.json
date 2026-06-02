@@ -1,0 +1,89 @@
+{
+  "id": 4,
+  "nome": "Sociologias",
+  "imagem": "imagem/sociologias.png",
+  "instituicao": "Universidade Federal do Rio Grande do Sul (UFRGS) - Programa de Pós-Graduação em Sociologia",
+  "qualis": "A1",
+  "issn": "1517-4522",
+  "foco": "Sociologia; Ciências Sociais",
+  "descricao": "Sociologias tem orientação pluralista e publica trabalhos originais de todas as áreas da sociologia, com ênfase em abordagens teóricas e metodológicas inovadoras que interajam com a realidade social latino-americana. A revista está aberta a contribuições das ciências sociais que apresentem um diálogo efetivo com a literatura sociológica introduzindo novas perspectivas para compreender o social.",
+  "avaliacao": "Duplo-cega",
+  "avaliacao_preprint": "Permitido (SciELO Preprints). O arquivo submetido deve permanecer anônimo.",
+  "taxa": "Gratuita (sem APC)",
+  "periodicidade": "Publicação contínua (fluxo contínuo desde 2023)",
+  "preprint": "Permitido (SciELO Preprints antes ou em paralelo à submissão). O manuscrito submetido deve estar anônimo.",
+  "licenca": "CC BY",
+  "data_auditoria": "2026-04-02",
+  "url_fonte_instrucoes": "https://seer.ufrgs.br/index.php/sociologias/about/submissions#authorGuidelines",
+  "ultima_atualizacao_normas": "2026-04-02",
+  "links": {
+    "site": "https://seer.ufrgs.br/index.php/sociologias",
+    "submissao": "https://seer.ufrgs.br/index.php/sociologias/about/submissions",
+    "diretrizes": "https://seer.ufrgs.br/index.php/sociologias/about/submissions#authorGuidelines"
+  },
+  "limites": {
+    "artigo_palavras": "Não especificado",
+    "ensaio_palavras": "Não especificado",
+    "resenha_palavras": "Não especificado",
+    "dossie_artigo_palavras": "Não especificado",
+    "nota_tecnica_palavras": "Não especificado",
+    "comentario_critico_palavras": "Não especificado",
+    "resumo_maximo": 250,
+    "palavras_chave_quantidade": 5,
+    "autores_maximo": 4,
+    "referencias_minimas_artigo": null,
+    "referencias_minimas_ensaio": null,
+    "outros_limites": "Máximo de 4 autores por manuscrito"
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": 1.5,
+    "margens": "superior e esquerda: 3 cm; inferior e direita: 2 cm",
+    "alinhamento": "justificado",
+    "citacoes_longas": "Não especificado",
+    "tabelas_figuras": "ao final do documento e em arquivo fonte suplementar, com indicações claras de onde devem ser inseridas ao longo do texto"
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigo científico",
+      "extensao": "Não especificado",
+      "detalhes": "Publica trabalhos originais de todas as áreas da sociologia, com ênfase em abordagens teóricas e metodológicas inovadoras que interajam com a realidade social latino-americana.",
+      "titulacao_minima_autor": "Pelo menos um autor deve ter título de doutor; o primeiro autor deve ter no mínimo título de mestre",
+      "idiomas_aceitos": ["Português", "Inglês"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": 5,
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Manuscritos devem ser submetidos exclusivamente à Sociologias",
+        "Primeiro autor deve ter no mínimo título de mestre",
+        "Pelo menos um autor deve ter título de doutor",
+        "Manuscritos em coautoria devem ter documento suplementar esclarecendo a participação de cada autor",
+        "Recomenda-se adesão às boas práticas do COPE",
+        "Política de prevenção de plágio com software de detecção"
+      ],
+      "referencias_minimas": null,
+      "template": null
+    }
+  ],
+  "checklist": [
+    "Texto inédito (não pode estar pendente de publicação em outros veículos)",
+    "Arquivo principal ANÔNIMO (sem identificação de autores, afiliações, ORCID ou agradecimentos)",
+    "Resumo até 250 palavras (no idioma de submissão e em inglês)",
+    "5 palavras-chave separadas por ponto e vírgula (no idioma de submissão e em inglês)",
+    "Título, resumo e palavras-chave em português e inglês",
+    "ORCID opcional (recomendado, mas não obrigatório)",
+    "Carta de apresentação com declarações de originalidade, conflito de interesses, financiamento e agradecimentos (preservando anonimato do arquivo principal)",
+    "Formatação: Times New Roman 12, espaçamento 1,5, margens superior/esquerda 3 cm, inferior/direita 2 cm, alinhamento justificado",
+    "Citações no formato autor-data (ABNT NBR 10520) – conforme diretrizes da revista",
+    "Referências em ordem alfabética com nomes COMPLETOS dos autores (ABNT NBR 6023)",
+    "Pesquisas com seres humanos: informar aprovação do Comitê de Ética (CAAE) quando aplicável",
+    "Declaração de conflito de interesses (modelo ICMJE) anexa na submissão",
+    "Declaração de contribuição dos autores (CRediT) para coautorias"
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "Recomenda-se especificar a contribuição de cada autor segundo a taxonomia CRediT (na carta de apresentação ou documento suplementar).",
+    "disponibilidade_dados": "Não especificado",
+    "financiamento": "Informar agências de fomento e números de processo na carta de apresentação."
+  }
+}

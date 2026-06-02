@@ -1,0 +1,112 @@
+{
+  "id": 20,
+  "nome": "Theoretical Criminology",
+  "imagem": "imagem/theoretical_criminology.png",
+  "instituicao": "SAGE Publications",
+  "qualis": "A1",
+  "issn": "1362-4806",
+  "foco": "Artigos que promovam o debate teórico em criminologia e áreas afins, incluindo análises críticas de conceitos fundamentais, desenvolvimento de novas perspectivas teóricas e reflexões sobre a relação entre teoria, pesquisa e prática.",
+  "descricao": "Periódico internacional publicado pela SAGE Publications, dedicado exclusivamente à discussão teórica no campo da criminologia. Busca publicar trabalhos que desafiem paradigmas estabelecidos, integrem diferentes tradições teóricas e ofereçam contribuições originais para o entendimento do crime, justiça e controle social.",
+  "avaliacao": "Revisão por pares anônima (double-blind peer review).",
+  "avaliacao_preprint": "",
+  "taxa": "",
+  "periodicidade": "Bimestral (6 edições por ano)",
+  "preprint": "",
+  "licenca": "",
+  "data_auditoria": "2026-03-30",
+  "url_fonte_instrucoes": "https://journals.sagepub.com/author-instructions/tcr",
+  "ultima_atualizacao_normas": null,
+  "formatacao_origem": "extraido",
+  "links": {
+    "site": "https://journals.sagepub.com/home/tcr",
+    "submissao": "https://mc.manuscriptcentral.com/tc",
+    "diretrizes": "https://journals.sagepub.com/author-instructions/tcr"
+  },
+  "limites": {
+    "artigo_palavras": "7000 a 9000 palavras (incluindo referências, notas e tabelas)",
+    "nota_tecnica_palavras": "",
+    "comentario_critico_palavras": "",
+    "resumo_maximo": "150 a 250 palavras",
+    "titulo_maximo": null,
+    "palavras_chave_quantidade": "4 a 6",
+    "autores_maximo": null,
+    "notas_rodape_palavras": "",
+    "notas_rodape_formato": "",
+    "outros_limites": "Artigos de revisão teórica ou ensaios críticos: até 10.000 palavras (mediante justificativa). Resenhas de livros: 1000 a 1500 palavras."
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": "Duplo",
+    "margens": "2,5 cm (1 polegada)",
+    "recuo_primeira_linha": "",
+    "alinhamento": "Esquerda (não justificado)",
+    "citacoes_longas": {
+      "recuo": "1,25 cm",
+      "fonte": null,
+      "espacamento": null
+    },
+    "tabelas_figuras": "Inseridas no corpo do texto ou ao final, cada uma em página separada, numeradas sequencialmente com títulos e legendas.",
+    "citacoes_formato": "Estilo autor-data (ex.: Garland, 2001, p. 45). Para três ou mais autores: (Garland et al., 2001).",
+    "referencias_formato": "Estilo SAGE Harvard Reference Style. Lista em ordem alfabética ao final.",
+    "exemplos_citacoes": "(Garland, 2001, p. 45) ou (Garland et al., 2001)",
+    "exemplos_referencias": ""
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigo",
+      "extensao": "7000 a 9000 palavras",
+      "detalhes": "Artigos originais que apresentem contribuições teóricas significativas para a criminologia, bem como pesquisas empíricas com forte ancoragem teórica.",
+      "titulacao_minima_autor": "",
+      "idiomas_aceitos": ["Inglês"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "4 a 6",
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "O manuscrito não deve ter sido publicado anteriormente nem estar sob consideração por outro periódico.",
+        "Incluir carta de apresentação (cover letter) com justificativa da relevância teórica do trabalho.",
+        "Arquivo principal deve estar anonimizado para avaliação cega.",
+        "Página de rosto separada com título, autores, afiliações, ORCID, e-mail do autor correspondente e declaração de conflito de interesses."
+      ],
+      "referencias_minimas": null,
+      "template": "templates/theoretical_criminology_artigo.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Aceita submissões externas de artigos originais."
+    },
+    {
+      "tipo": "Resenha de Livro",
+      "extensao": "1000 a 1500 palavras",
+      "detalhes": "Resenhas críticas de livros recentes (últimos 2 anos) com relevância teórica para a criminologia.",
+      "titulacao_minima_autor": "",
+      "idiomas_aceitos": ["Inglês"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Coordenadas pelos editores de resenhas; submissões espontâneas devem ser consultadas previamente."
+      ],
+      "referencias_minimas": null,
+      "template": "templates/theoretical_criminology_resenha.docx",
+      "submissao_aberta": false,
+      "justificativa_submissao": "Resenhas são geralmente encomendadas pelos editores."
+    }
+  ],
+  "checklist": [
+    "O manuscrito é original e não foi publicado nem está sob avaliação em outro periódico.",
+    "O arquivo do manuscrito está anonimizado, sem identificação de autores ou afiliações.",
+    "A página de rosto contém todos os dados dos autores (nome completo, afiliação, ORCID, e-mail).",
+    "O resumo tem entre 150 e 250 palavras e reflete o conteúdo do artigo.",
+    "Foram fornecidas de 4 a 6 palavras-chave.",
+    "Todas as fontes citadas no texto estão presentes na lista de referências e vice-versa.",
+    "As referências seguem o estilo SAGE Harvard.",
+    "A carta de apresentação justifica a relevância teórica do trabalho.",
+    "Tabelas e figuras estão numeradas e com títulos/legendas adequados."
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "Recomenda-se especificar a contribuição de cada autor (ex.: CRediT Taxonomy).",
+    "disponibilidade_dados": "Encorajado o depósito de dados em repositórios confiáveis e a menção no artigo.",
+    "declaracao_dados_opcoes": null,
+    "financiamento": "Declarar fontes de financiamento e números de concessão na página de rosto.",
+    "preprint": ""
+  }
+}

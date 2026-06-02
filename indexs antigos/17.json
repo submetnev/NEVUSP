@@ -1,0 +1,180 @@
+{
+  "id": 17,
+  "nome": "Revista O Público e o Privado",
+  "imagem": "imagem/o_publico_e_o_privado.png",
+  "instituicao": "Programa de Pós-Graduação em Sociologia - Universidade Estadual do Ceará (UECE)",
+  "qualis": "A3",
+  "issn": "e-ISSN: 2238-5169 | ISSN-L: 1519-5481 (impresso até 2016)",
+  "foco": "O periódico destina-se a publicar e divulgar trabalhos de pesquisadores nacionais e internacionais, resultados de estudos e pesquisas, considerando a relevância e inserção da temática público/privado na produção do conhecimento teórico-empírico na área das Ciências Humanas, Sociais, Políticas e afins.",
+  "descricao": "Publicação acadêmica do Programa de Pós-Graduação em Sociologia da Universidade Estadual do Ceará (UECE). Criado em 2003 com versão impressa (ISSN 1519-5481 até 2016), passou a ser exclusivamente eletrônico em 2017 (ISSN 2238-5169). Periodicidade semestral, com publicações quadrimestrais entre 2020 e 2022. Classificação Qualis A3 (avaliação 2021-2024). Publica: Editorial, Apresentação, Artigos Temáticos, Artigos de Fluxo Contínuo, Temas Livres (ensaios), Relatórios de Pesquisa e Resenhas. **Entrevistas e Traduções são publicadas, mas não estão abertas para submissão direta de autores; são produzidas por convite ou iniciativa editorial.**",
+  "avaliacao": "Duplo-cega (double-blind review). Os textos passam por exame inicial de um ou mais Editores da Revista; em seguida, pareceristas ad hoc são acionados para indicar eventuais revisões necessárias à decisão de publicação.",
+  "avaliacao_preprint": "Não especificado nas diretrizes oficiais.",
+  "taxa": "Não há menção à cobrança de taxas. A submissão é realizada via sistema OJS da UECE.",
+  "periodicidade": "Semestral (com publicações quadrimestrais no período de 2020 a 2022)",
+  "preprint": "Não especificado nas diretrizes oficiais.",
+  "licenca": "Creative Commons Attribution (CC BY). Autores mantêm os direitos autorais e concedem à revista o direito de primeira publicação, com o trabalho simultaneamente licenciado sob a Licença Creative Commons Attribution.",
+  "data_auditoria": "2026-03-27",
+  "url_fonte_instrucoes": "https://revistas.uece.br/index.php/opublicoeoprivado/about/submissions",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://revistas.uece.br/index.php/opublicoeoprivado",
+    "submissao": "https://revistas.uece.br/index.php/opublicoeoprivado/about/submissions",
+    "diretrizes": "https://revistas.uece.br/index.php/opublicoeoprivado/about/submissions"
+  },
+  "limites": {
+    "artigo_palavras": "40.000 a 60.000 caracteres com espaço (aproximadamente 7.000 a 10.000 palavras)",
+    "ensaio_palavras": "Menor que os artigos (extensão não especificada numericamente)",
+    "resenha_palavras": "5.000 a 15.000 caracteres com espaço (aproximadamente 900 a 2.700 palavras)",
+    "relatorio_palavras": "30.000 a 60.000 caracteres com espaço (aproximadamente 5.000 a 10.000 palavras)",
+    "resumo_maximo": "1.200 caracteres sem espaço (aproximadamente 200 palavras)",
+    "palavras_chave_quantidade": "2 a 6",
+    "autores_maximo": null,
+    "referencias_minimas_artigo": null,
+    "referencias_minimas_ensaio": null,
+    "referencias_minimas_resenha": null,
+    "outros_limites": null
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": "12 pt (corpo do texto)",
+    "espacamento_entrelinhas": "Simples (1,0) entre linhas",
+    "margens": "2,5 cm (todas as margens)",
+    "alinhamento": "Justificado (conforme padrão ABNT)",
+    "citacoes_longas": "Conforme ABNT NBR 10520: citações com mais de 3 linhas: recuo de 4 cm, fonte 10 pt, espaçamento simples, sem aspas",
+    "tabelas_figuras": "Inseridas no corpo do texto, não ao final. Legendas centralizadas, numeradas sequencialmente, com fonte ou autoria. Uma linha em branco entre o elemento gráfico e o texto."
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigo (Temáticos e Fluxo Contínuo)",
+      "extensao": "40.000 a 60.000 caracteres com espaço",
+      "detalhes": "Textos inéditos resultantes de pesquisas empíricas e/ou de estudos conceituais relacionados ao campo da sociologia ou de ciências correlatas. Submissão aberta para chamadas temáticas ou fluxo contínuo.",
+      "titulacao_minima_autor": "Mestre (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol", "Francês"],
+      "resumo_maximo_palavras": 200,
+      "palavras_chave_quantidade": "2 a 6",
+      "estrutura_sugerida": [
+        "Título (na língua original)",
+        "Resumo (máx. 1.200 caracteres) e Palavras-chave (2 a 6)",
+        "Título em inglês",
+        "Abstract (mesmo limite) e Keywords",
+        "Introdução",
+        "Metodologia",
+        "Resultados",
+        "Discussão",
+        "Conclusões",
+        "Referências (ABNT NBR 6023)"
+      ],
+      "requisitos_especificos": [
+        "Submissão exclusivamente via sistema OJS da UECE",
+        "Arquivo em formato Microsoft Word, OpenOffice ou RTF",
+        "Espaçamento simples, fonte Times New Roman 12, margens 2,5 cm",
+        "Documento sem identificação de autoria (para avaliação cega)",
+        "Título, resumo e palavras-chave na língua original e em inglês",
+        "Textos em português, espanhol e francês: incluir versão em inglês",
+        "Textos em inglês: incluir versão em português",
+        "Evitar linhas órfãs"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/POP_ARTIGO.docx"
+    },
+    {
+      "tipo": "Temas Livres (Ensaio)",
+      "extensao": "Menor que os artigos (extensão não especificada numericamente)",
+      "detalhes": "Aceita textos (ensaios) menores que os artigos e se abre também a outras áreas de conhecimento, desde que apresentem aspectos relevantes para a sociologia. Submissão aberta.",
+      "titulacao_minima_autor": "Mestre (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol", "Francês"],
+      "resumo_maximo_palavras": 200,
+      "palavras_chave_quantidade": "2 a 6",
+      "estrutura_sugerida": [
+        "Título (na língua original)",
+        "Resumo (máx. 1.200 caracteres) e Palavras-chave (2 a 6)",
+        "Título em inglês",
+        "Abstract e Keywords",
+        "Desenvolvimento argumentativo",
+        "Considerações finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Submissão via sistema OJS",
+        "Documento sem identificação de autoria",
+        "Mesmas normas de formatação dos artigos (Times 12, espaçamento simples, margens 2,5 cm)"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/POP_ENSAIO.docx"
+    },
+    {
+      "tipo": "Relatório de Pesquisa",
+      "extensao": "30.000 a 60.000 caracteres com espaço",
+      "detalhes": "Textos que apresentam resultados recentes de pesquisas na área da sociologia e/ou ciências correlatas. Submissão aberta.",
+      "titulacao_minima_autor": "Mestre (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol", "Francês"],
+      "resumo_maximo_palavras": 200,
+      "palavras_chave_quantidade": "2 a 6",
+      "estrutura_sugerida": [
+        "Título (na língua original)",
+        "Resumo (máx. 1.200 caracteres) e Palavras-chave (2 a 6)",
+        "Título em inglês",
+        "Abstract e Keywords",
+        "Introdução e contextualização",
+        "Metodologia",
+        "Resultados alcançados",
+        "Considerações parciais ou finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Submissão via sistema OJS",
+        "Documento sem identificação de autoria",
+        "Mesmas normas de formatação dos artigos"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/POP_RELATORIO_PESQUISA.docx"
+    },
+    {
+      "tipo": "Resenha",
+      "extensao": "5.000 a 15.000 caracteres com espaço",
+      "detalhes": "Textos concisos comentando publicações recentes (últimos 2 anos) de interesse da Revista na área da sociologia ou ciências correlatas. Submissão aberta.",
+      "titulacao_minima_autor": "Mestre (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol", "Francês"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [
+        "Identificação completa da obra resenhada",
+        "Apresentação do autor da obra",
+        "Síntese do conteúdo",
+        "Análise crítica",
+        "Considerações finais",
+        "Referências (se houver citações adicionais)"
+      ],
+      "requisitos_especificos": [
+        "Submissão via sistema OJS",
+        "Documento sem identificação de autoria",
+        "Obra publicada nos últimos 2 anos",
+        "Mesmas normas de formatação dos artigos"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/POP_RESENHA.docx"
+    }
+  ],
+  "checklist": [
+    "A contribuição é original e inédita, não estando em avaliação por outra revista.",
+    "O arquivo está em formato Microsoft Word, OpenOffice ou RTF.",
+    "O texto segue as normas de formatação: Times New Roman 12, espaçamento simples, margens 2,5 cm.",
+    "A identificação dos autores foi removida do arquivo para garantir a avaliação cega.",
+    "Foram incluídos título, resumo e palavras-chave na língua original e em inglês.",
+    "O resumo não ultrapassa 1.200 caracteres sem espaço.",
+    "As palavras-chave estão entre 2 e 6, separadas por ponto e vírgula.",
+    "As referências bibliográficas seguem as normas ABNT (NBR 6023).",
+    "As citações seguem a ABNT NBR 10520.",
+    "Tabelas e figuras estão inseridas no corpo do texto, numeradas sequencialmente, com legendas centralizadas e fonte indicada.",
+    "Pesquisas com seres humanos: incluída autorização do Comitê de Ética (Res. 196/96) e conformidade com a Declaração de Helsinque.",
+    "O ORCID de todos os autores está incluído nos metadados da submissão."
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "Não especificado. Recomenda-se declarar a contribuição de cada autor nos metadados da submissão.",
+    "disponibilidade_dados": "Não especificado.",
+    "financiamento": "Declarar agências de fomento nos metadados da submissão ou em nota de rodapé.",
+    "etica": "Pesquisas envolvendo seres humanos devem indicar aprovação por Comitê de Ética em Pesquisa (CEP/CONEP), conforme a Resolução 196/96 do Conselho Nacional de Saúde (MS) e as diretrizes da Declaração de Helsinque.",
+    "direitos_autorais": "Autores mantêm os direitos autorais e concedem à revista o direito de primeira publicação, com o trabalho licenciado sob a Licença Creative Commons Attribution (CC BY).",
+    "secoes_nao_submissiveis": "A revista também publica Editorial, Apresentação, Entrevistas e Traduções. Essas seções não estão abertas para submissão direta de autores; são produzidas por convite ou iniciativa editorial."
+  }
+}

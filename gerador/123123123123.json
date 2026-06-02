@@ -1,0 +1,93 @@
+{
+  "revistas": [
+    {
+      "id": 1,
+      "nome": "DADOS – Revista de Ciências Sociais",
+      "urls": [
+        "https://dados.iesp.uerj.br/instrucoes/",
+        "https://www.scielo.br/journal/dados/about/"
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Tempo Social – Revista de Sociologia",
+      "urls": [
+        "https://www.revistas.usp.br/ts/about/submissions",
+        "https://revistas.usp.br/ts/pt_BR/about"
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Revista Brasileira de Ciências Sociais (RBCS)",
+      "urls": [
+        "https://anpocs.org.br/normas-para-publicacao-na-revista-brasileira-de-ciencias-sociais/",
+        "https://submission.scielo.br/index.php/rbcsoc/about/submissions",
+        "https://anpocs.org.br/politica-editorial-da-revista-brasileira-de-ciencias-sociais/"
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Sociologias",
+      "urls": [
+        "https://seer.ufrgs.br/index.php/sociologias/about/submissions",
+        "https://seer.ufrgs.br/index.php/sociologias/instrucoes"
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Revista Brasileira de Sociologia (RBS)",
+      "urls": [
+        "https://rbs.sbsociologia.com.br/rbs/about/submissions",
+        "https://rbs.sbsociologia.com.br/rbs/about"
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Revista Brasileira de Segurança Pública (RBSP)",
+      "urls": [
+        "https://revista.forumseguranca.org.br/index.php/rbsp/about/submissions",
+        "https://revista.forumseguranca.org.br/index.php/rbsp/diretriz_autor"
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Dilemas – Revista de Estudos de Conflito e Controle Social",
+      "urls": [
+        "https://revistas.ufrj.br/index.php/dilemas/about/submissions",
+        "https://revistas.ufrj.br/index.php/dilemas/information/authors"
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Estudos Avançados",
+      "urls": [
+        "https://submission.scielo.br/index.php/ea/about/submissions",
+        "https://www.revistas.usp.br/eav/about"
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "American Sociological Review",
+      "urls": [
+        "https://journals.sagepub.com/author-instructions/ASR",
+        "https://www.asanet.org/publications/journals/american-sociological-review/"
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Brazilian Journal of Latin American Studies",
+      "urls": [
+        "https://www.revistas.usp.br/prolam/about/submissions",
+        "https://www.revistas.usp.br/prolam/about"
+      ]
+    },
+    {
+      "id": 19,
+      "nome": "Punishment & Society",
+      "urls": [
+        "https://journals.sagepub.com/author-instructions/pun",
+        "https://journals.sagepub.com/aims-scope/PUN"
+      ]
+    }
+  ]
+}

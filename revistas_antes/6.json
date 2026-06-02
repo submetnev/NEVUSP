@@ -1,0 +1,137 @@
+{
+  "id": 6,
+  "nome": "Revista Brasileira de Segurança Pública (RBSP)",
+  "imagem": "imagem/revista_brasileira_de_seguranca_publica_rbsp.png",
+  "instituicao": "Fórum Brasileiro de Segurança Pública (FBSP)",
+  "qualis": "A3",
+  "issn": "1981-1659 (impressa) | 2595-0258 (online)",
+  "foco": "Segurança Pública, abrangendo áreas do Direito, Antropologia, Economia, História, Sociologia e outras áreas das ciências sociais e ciências sociais aplicadas.",
+  "descricao": "Publicação do Fórum Brasileiro de Segurança Pública que visa divulgar estudos originais sobre segurança pública, com ênfase em pesquisas empíricas e análises de políticas públicas na área.",
+  "avaliacao": "Avaliação em sistema duplo-cego. Os artigos passam por apreciação da comissão editorial (até 30 dias) e, se aprovados, são enviados a pareceristas ad hoc (prazo médio de 60 dias). Após pareceres, autores têm 45 dias para revisão. O tempo total para publicação pode chegar a 18 meses.",
+  "avaliacao_preprint": "Pré-prints são considerados publicações e ferem a política de avaliação duplo-cega. Portanto, a revista não aceita submissões que tenham sido previamente disponibilizadas como preprint.",
+  "taxa": "Gratuita",
+  "periodicidade": "Semestral",
+  "preprint": "Não aceita",
+  "licenca": null,
+  "data_auditoria": "2026-03-30",
+  "url_fonte_instrucoes": "https://revista.forumseguranca.org.br/index.php/rbsp/about/submissions",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://revista.forumseguranca.org.br/index.php/rbsp",
+    "submissao": "https://revista.forumseguranca.org.br/index.php/rbsp/about/submissions",
+    "diretrizes": "https://revista.forumseguranca.org.br/index.php/rbsp/about/submissions"
+  },
+  "limites": {
+    "artigo_palavras": "5.000 a 10.000 palavras (excluindo título, resumo, referências e apêndices)",
+    "nota_tecnica_palavras": "5.000 a 10.000 palavras",
+    "comentario_critico_palavras": null,
+    "resumo_maximo": "1.000 caracteres com espaços",
+    "titulo_maximo": null,
+    "palavras_chave_quantidade": null,
+    "autores_maximo": 5,
+    "notas_rodape_palavras": "até 3 linhas",
+    "notas_rodape_formato": "apenas para informações complementares e substantivas",
+    "outros_limites": null
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": 1.5,
+    "margens": null,
+    "alinhamento": null,
+    "citacoes_longas": "Citações com mais de duas linhas: em novo parágrafo recuado, sem aspas",
+    "tabelas_figuras": "Enviadas como arquivos à parte em formato PNG, JPG ou Microsoft Excel, com indicação da fonte",
+    "citacoes_formato": "Sistema autor-data: (autor, ano) ou (autor, ano: página)",
+    "referencias_formato": "ABNT NBR 6023:2002",
+    "exemplos_referencias": "Livro: SOBRENOME, Nome. Título da obra em negrito. Nº da edição. Local: Editora, Data.\nArtigo: SOBRENOME, Nome. Título do artigo. Nome do periódico em negrito, Volume, Número, Data, Páginas."
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigos originais",
+      "extensao": "5.000 a 10.000 palavras",
+      "detalhes": "Estudos originais que discutam sobre Segurança Pública, com correção ortográfica e gramatical, sem marcas de revisão.",
+      "titulacao_minima_autor": "Ensino Superior Completo",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Artigo deve ser original, inédito e não estar sob avaliação simultânea em outra revista",
+        "Não conter identificação dos autores (nome, instituição, título do projeto)",
+        "Resumo de até 1.000 caracteres com espaços, especificando problema, argumento, contribuição, materiais empíricos e metodologia",
+        "Título, resumo e palavras-chave em duas línguas (inglês obrigatório)",
+        "Citações textuais curtas (até 2 linhas) entre aspas; longas (>2 linhas) em novo parágrafo recuado",
+        "Notas de rodapé com no máximo 3 linhas, apenas para informações complementares",
+        "Tabelas, quadros, gráficos e figuras enviados como arquivos à parte (PNG, JPG, Excel)",
+        "Arquivo em formato .doc, .docx ou .rtf",
+        "Informar financiamento, se houver",
+        "Pesquisas com seres humanos: aprovação por CEP, com número do processo e TCLE"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/revista_brasileira_de_seguranca_publica_rbsp_artigos_originais.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo tradicionalmente aceito para submissão"
+    },
+    {
+      "tipo": "Notas técnicas",
+      "extensao": "5.000 a 10.000 palavras",
+      "detalhes": "Trabalhos que descrevem métodos, técnicas, protocolos ou ferramentas aplicadas à área de Segurança Pública.",
+      "titulacao_minima_autor": "Ensino Superior Completo",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Mesmos requisitos dos artigos originais"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/revista_brasileira_de_seguranca_publica_rbsp_notas_tcnicas.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo de manuscrito aceito para submissão"
+    },
+    {
+      "tipo": "Entrevistas",
+      "extensao": "5.000 a 10.000 palavras",
+      "detalhes": "Entrevistas com especialistas ou autoridades na área de Segurança Pública.",
+      "titulacao_minima_autor": "Ensino Superior Completo",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Mesmos requisitos dos artigos originais"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/revista_brasileira_de_seguranca_publica_rbsp_entrevistas.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo de manuscrito aceito para submissão"
+    }
+  ],
+  "checklist": [
+    "O artigo é original e inédito (pré-prints não são aceitos).",
+    "O artigo não está sendo avaliado simultaneamente em outra revista.",
+    "O artigo não contém identificação dos autores (nome, instituição, título do projeto).",
+    "O artigo está em português, inglês ou espanhol.",
+    "Todos os autores e coautores foram listados com nome completo, minibiografia, filiação institucional, formação mais elevada, cidade, estado, ORCID e e-mail.",
+    "Os autores declaram não ter publicado na RBSP nos últimos dois anos.",
+    "Manuscrito em versão final, com correção ortográfica e gramatical, sem marcas de revisão.",
+    "Extensão: mínimo de 5.000 e máximo de 10.000 palavras (excluindo título, resumo, referências e apêndices).",
+    "Resumo de até 1.000 caracteres com espaços, especificando problema, argumento central, contribuição, materiais empíricos e metodologia.",
+    "Título, resumo e palavras-chave em duas línguas (inglês obrigatório).",
+    "Citações curtas (até 2 linhas) entre aspas; longas (>2 linhas) em novo parágrafo recuado.",
+    "Notas de rodapé com no máximo 3 linhas, apenas para informações complementares.",
+    "Tabelas, quadros, gráficos e figuras enviados como arquivos à parte (PNG, JPG, Excel), com indicação da fonte.",
+    "Arquivo em formato .doc, .docx ou .rtf.",
+    "URLs para referências informadas quando possível.",
+    "No máximo cinco autores (ou número justificado com contribuições).",
+    "Nota de rodapé anonimizada informando se o texto foi apresentado em evento ou é fruto de tese/dissertação.",
+    "Pesquisa com seres humanos: aprovação por CEP (número do processo e TCLE ou declaração de dispensa)."
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "As contribuições de cada autor devem ser enviadas na caixa de 'Comentários para o editor'. A qualificação de autor/coautor requer o cumprimento de ao menos dois dos seguintes critérios: a) Concepção e delineamento do estudo; b) Análise e interpretação dos dados; c) Redação do manuscrito ou revisão crítica. Todos os autores devem ter revisado e aprovado a versão final.",
+    "disponibilidade_dados": null,
+    "declaracao_dados_opcoes": null,
+    "financiamento": "Caso haja financiamento do trabalho, a instituição financiadora deve ser indicada.",
+    "preprint": "Pré-prints são considerados publicações e ferem a política de avaliação duplo-cega. A revista não aceita submissão de manuscritos previamente disponibilizados em servidores de preprint."
+  }
+}

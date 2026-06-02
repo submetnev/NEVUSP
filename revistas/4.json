@@ -1,0 +1,160 @@
+{
+  "id": 4,
+  "nome": "Sociologias",
+  "imagem": "imagem/sociologias.png",
+  "instituicao": "Universidade Federal do Rio Grande do Sul (UFRGS), Instituto de Filosofia e Ciências Humanas (IFCH), Programa de Pós-Graduação em Sociologia (PPGS)",
+  "qualis": "A1",
+  "issn": "1517-4522 (impressa) | 1807-0337 (online)",
+  "foco": "Publicação de orientação pluralista que aceita trabalhos originais de todas as áreas da sociologia, com ênfase em abordagens teóricas e metodológicas inovadoras que interajam com a realidade social latino-americana. Aberta a contribuições das ciências sociais que apresentem diálogo efetivo com a literatura sociológica, introduzindo novas perspectivas para compreender o social.",
+  "descricao": "Revista do Programa de Pós-Graduação em Sociologia da UFRGS, criada para substituir os Cadernos de Sociologia. Publica artigos científicos, resenhas, notas de pesquisa e entrevistas. Tem orientação pluralista e busca disseminar o conhecimento sociológico com ênfase na realidade latino-americana.",
+  "avaliacao": "Processo em três etapas: 1) avaliação de conformidade formal (3 a 7 dias); 2) avaliação editorial quanto à adequação ao escopo e rigor (até 45 dias); 3) avaliação duplo-cega por pelo menos dois pareceristas ad hoc (até 4 meses). Em caso de divergência, terceiro parecer é solicitado. Critérios: clareza, rigor argumentativo, validade dos dados, relevância e atualidade das referências.",
+  "avaliacao_preprint": "Manuscritos previamente publicados em servidores preprint (como SciELO Preprints) são bem-vindos. A avaliação padrão é duplo-cega, mas, para submissões com preprint, os revisores terão acesso à identidade dos autores através do trabalho disponível no repositório (sistema simples-cego).",
+  "taxa": "Isenta para autores de países da África, América do Sul, América Central e México. Para os demais autores, taxa de USD 350,00 por artigo aprovado (apenas após confirmação de aprovação).",
+  "periodicidade": "Fluxo contínuo (desde 2023)",
+  "preprint": "Sim. A revista aceita submissão de manuscritos previamente depositados em servidores de preprint, especialmente SciELO Preprints.",
+  "licenca": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "data_auditoria": "2026-03-30",
+  "url_fonte_instrucoes": "https://seer.ufrgs.br/index.php/sociologias/about/submissions",
+  "ultima_atualizacao_normas": null,
+  "formatacao_origem": "extraido",
+  "links": {
+    "site": "https://seer.ufrgs.br/index.php/sociologias",
+    "submissao": "https://seer.ufrgs.br/index.php/sociologias/about/submissions",
+    "diretrizes": "https://seer.ufrgs.br/index.php/sociologias/about/submissions"
+  },
+  "limites": {
+    "artigo_palavras": "Até 10.000 palavras",
+    "nota_tecnica_palavras": null,
+    "comentario_critico_palavras": null,
+    "resumo_maximo": "250 palavras",
+    "titulo_maximo": null,
+    "palavras_chave_quantidade": "até 5",
+    "autores_maximo": 4,
+    "notas_rodape_palavras": null,
+    "notas_rodape_formato": "limitadas ao mínimo essencial; numeradas sequencialmente",
+    "outros_limites": "Resenhas: até 4.500 palavras"
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": 1.5,
+    "margens": "superior e esquerda de 3 cm; inferior e direita de 2 cm",
+    "recuo_primeira_linha": "1,25 cm",
+    "alinhamento": "justificado",
+    "citacoes_longas": {
+      "recuo": "4 cm a partir da margem esquerda",
+      "fonte": 11,
+      "espacamento": null
+    },
+    "tabelas_figuras": "Incluídas ao final do documento e em arquivo fonte suplementar (Excel, PowerPoint etc.), com indicações claras de onde devem ser inseridas",
+    "citacoes_formato": "Sistema autor-data: (Sobrenome, ano) ou (Sobrenome, ano, página)",
+    "referencias_formato": "ABNT NBR 6023, com nomes completos (SOBRENOME, nome por extenso)",
+    "exemplos_citacoes": "(Sobrenome, ano) ou (Sobrenome, ano, página)",
+    "exemplos_referencias": "Livro: MOSER, Anita. A nova submissão: mulheres da zona rural no processo de trabalho industrial. EDIPAZ, 1985.\nArtigo: NOGUEIRA, Ronidalva. Michel Foucault numa breve visita às prisões de Pernambuco. Cadernos de Estudos Sociais, 6(2): 269-282, 1990."
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigos",
+      "extensao": "Até 10.000 palavras",
+      "detalhes": "Textos originais e inéditos que apresentem contribuição relevante e inovadora para a sociologia, com rigor teórico e metodológico. Trabalhos que envolvam somente revisão bibliográfica não são aceitos.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor); em coautoria, primeiro autor deve ter no mínimo Mestrado",
+      "idiomas_aceitos": ["Português", "Espanhol", "Francês", "Inglês"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "até 5",
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Submeter dois arquivos: Title Page (com identificação) e documento principal anônimo",
+        "Declaração de Autoria e Originalidade preenchida e anexada",
+        "Remover identificação de autoria do arquivo e das propriedades do Word",
+        "Autorreferências substituídas por 'Autor' e excluídas da lista de referências",
+        "Título e resumo (até 250 palavras) no idioma original e em inglês",
+        "Até cinco palavras-chave",
+        "Recuo de primeira linha de 1,25 cm",
+        "Anexos e apêndices não são aceitos, exceto se indispensáveis"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/sociologias_artigos.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo principal de manuscrito aceito para submissão"
+    },
+    {
+      "tipo": "Resenhas",
+      "extensao": "Até 4.500 palavras",
+      "detalhes": "Resenhas de obras publicadas recentemente no Brasil (há dois anos ou menos) ou de obras em língua estrangeira ainda inéditas em português, com abordagens relevantes para as ciências sociais.",
+      "titulacao_minima_autor": "Mestre",
+      "idiomas_aceitos": ["Português", "Espanhol"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "até 5",
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Submeter Title Page e documento principal anônimo",
+        "Declaração de Autoria e Originalidade anexada",
+        "Remover identificação de autoria"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/sociologias_resenhas.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo de manuscrito aceito para submissão"
+    },
+    {
+      "tipo": "Entrevistas",
+      "extensao": "Até 10.000 palavras",
+      "detalhes": "Transcrições de entrevistas com acadêmicos/intelectuais cujo trabalho ofereça contribuição relevante para a sociologia. O texto deve incluir discussão com a obra do entrevistado e referências.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor); em coautoria, primeiro autor deve ter no mínimo Mestrado",
+      "idiomas_aceitos": ["Português", "Espanhol", "Francês", "Inglês"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "até 5",
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Submeter Title Page e documento principal anônimo",
+        "Declaração de Autoria e Originalidade anexada",
+        "Remover identificação de autoria"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/sociologias_entrevistas.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo de manuscrito aceito para submissão"
+    },
+    {
+      "tipo": "Dossiês",
+      "extensao": "Até 10.000 palavras",
+      "detalhes": "Selecionados mediante edital anual internacional de chamada temática de artigos.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor); em coautoria, primeiro autor deve ter no mínimo Mestrado",
+      "idiomas_aceitos": ["Português", "Espanhol", "Francês", "Inglês"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "até 5",
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Submeter conforme edital específico"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/sociologias_dossies.docx",
+      "submissao_aberta": false,
+      "justificativa_submissao": "Submissão apenas mediante chamada pública temática"
+    }
+  ],
+  "checklist": [
+    "Todos os autores foram cadastrados com ORCID e minibiografia.",
+    "A Title Page e a Declaração de Autoria e Originalidade foram preenchidas e anexadas.",
+    "As informações de todos os autores foram preenchidas (titulação, afiliação institucional, CV Lattes e/ou ORCID).",
+    "A contribuição é original e inédita, e não está sendo avaliada por outra revista.",
+    "Pelo menos um autor possui título de Doutor; em coautoria, o primeiro autor tem no mínimo Mestrado; no máximo quatro autores.",
+    "Resenhas: autores com titulação mínima de Mestre.",
+    "Arquivo em formato .doc, .docx ou .rtf (até 2MB).",
+    "Texto em espaço 1,5, fonte Times New Roman 12, recuo de primeira linha de 1,25 cm, margens superior e esquerda de 3 cm e inferior e direita de 2 cm.",
+    "Título e resumo (até 250 palavras) no idioma original e em inglês; até cinco palavras-chave.",
+    "Todas as URLs estão ativas e clicáveis.",
+    "Figuras e tabelas ao final do documento e em arquivo fonte suplementar, com indicação de local de inserção.",
+    "Texto segue padrões de estilo e referências conforme ABNT.",
+    "Identificação de autoria removida do arquivo e das propriedades do Word (para avaliação cega).",
+    "Autorreferências substituídas por 'Autor' e excluídas da lista de referências.",
+    "Notas de rodapé limitadas ao mínimo essencial."
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "Manuscritos em coautoria devem vir acompanhados de documento suplementar (Title Page) esclarecendo a participação de cada autor, seguindo o padrão da taxonomia CRediT (Contributor Roles Taxonomy).",
+    "disponibilidade_dados": "A revista incentiva o depósito e o compartilhamento de dados de pesquisa em repositórios públicos (como SciELO Data, FAIRsharing, Re3Data). Os artigos publicados a partir de 2025 incluem a seção 'Disponibilidade de Dados'. A metodologia de coleta e manipulação dos dados deve ser descrita com clareza.",
+    "declaracao_dados_opcoes": "Recomenda-se depósito em repositório público de dados.",
+    "financiamento": "Os autores devem informar as fontes de apoio ao trabalho, incluindo nomes de patrocinadores e número de contrato (se houver), na seção de agradecimentos ou na Title Page.",
+    "preprint": "Os autores podem submeter manuscritos ao SciELO Preprints antes ou em paralelo à submissão. Ao enviar submissão previamente publicada em preprint, devem declarar todos os detalhes (nome do servidor e DOI). Após a publicação, devem atualizar o registro no servidor preprint com a referência completa e o DOI do artigo publicado. A avaliação padrão é duplo-cega, mas, para preprints, os revisores terão acesso à identidade dos autores."
+  }
+}

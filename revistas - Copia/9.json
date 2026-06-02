@@ -1,0 +1,90 @@
+{
+  "id": 9,
+  "nome": "Estudos Avançados",
+  "imagem": "imagem/estudos_avancados.png",
+  "instituicao": "Instituto de Estudos Avançados da Universidade de São Paulo (IEA-USP)",
+  "qualis": "A2",
+  "issn": "0103-4014 (impressa) | 1806-9592 (online)",
+  "foco": "Fórum de debates sobre problemas socioeconômicos e latino-americanos. Publica trabalhos de pesquisadores do IEA e de conferencistas convidados, além de textos de outros especialistas sobre questões de relevância nacional e internacional.",
+  "descricao": "Publicação quadrimestral do Instituto de Estudos Avançados da USP (IEA-USP). Criada em dezembro de 1987, consolida-se como uma das principais revistas universitárias brasileiras, com abordagem interdisciplinar.",
+  "avaliacao": "Os manuscritos são avaliados pela Comissão Editorial quanto à pertinência e qualidade. A revista utiliza revisão por pares para os artigos submetidos espontaneamente. O processo pode ser duplo-cego, exceto quando o autor opta por publicação em modelo de ciência aberta.",
+  "avaliacao_preprint": "Aceita a publicação de artigos de preprints. O periódico recebe preprints arquivados nos servidores: SciELO Preprints, Core (MLA), Zenodo, Preprints.org e SocArXiv. Artigos submetidos a preprints compartilham com os periódicos o ineditismo na publicação e o processo de avaliação não utilizará o procedimento duplo anonimizado.",
+  "taxa": "Gratuita",
+  "periodicidade": "Quadrimestral",
+  "preprint": "Aceita a publicação de artigos de preprints.",
+  "licenca": "Creative Commons Attribution (CC BY)",
+  "data_auditoria": "2026-03-30",
+  "url_fonte_instrucoes": "https://submission.scielo.br/index.php/ea/about/submissions",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://www.revistas.usp.br/eav/",
+    "submissao": "https://submission.scielo.br/index.php/ea/about/submissions",
+    "diretrizes": "https://submission.scielo.br/index.php/ea/about/submissions"
+  },
+  "limites": {
+    "artigo_palavras": null,
+    "nota_tecnica_palavras": null,
+    "comentario_critico_palavras": null,
+    "resumo_maximo": "até dez linhas",
+    "titulo_maximo": null,
+    "palavras_chave_quantidade": null,
+    "autores_maximo": null,
+    "notas_rodape_palavras": null,
+    "notas_rodape_formato": "inseridas no final do texto, antes das Referências bibliográficas",
+    "outros_limites": "A Mesa Editorial se reserva o direito de solicitar a redução do número de páginas dos textos."
+  },
+  "formatacao": {
+    "fonte": null,
+    "tamanho_fonte": null,
+    "espacamento_entrelinhas": null,
+    "margens": null,
+    "alinhamento": null,
+    "citacoes_longas": "Citações com mais de cinco linhas: em destaque, de forma recuada, em corpo menor.",
+    "tabelas_figuras": "Além de inseridos no texto, os arquivos de imagens (tabelas, figuras, gráficos, fotos) devem ser encaminhados em separado, na extensão original, em alta resolução para impressão.",
+    "citacoes_formato": "Sistema autor-data: (nome do autor, ano da obra, número da página)",
+    "referencias_formato": "ABNT",
+    "exemplos_referencias": "(Le Goff, 1980, p.134)"
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigos",
+      "extensao": null,
+      "detalhes": "Os textos devem trazer Resumo (até dez linhas) e Palavras-chave, com respectiva versão inglesa (Abstract e Keywords).",
+      "titulacao_minima_autor": null,
+      "idiomas_aceitos": ["Português", "Inglês"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Créditos dos autores: titulação, função, instituição, últimas publicações (se houver), e-mail pessoal",
+        "Citações com até cinco linhas no corpo do texto, destacadas por aspas duplas",
+        "Declaração de aprovação por comitê de ética, se for o caso",
+        "Compartilhamento de dados subjacentes ao manuscrito (preferencialmente)"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/estudos_avancados_artigos.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo tradicionalmente aceito para submissão"
+    }
+  ],
+  "checklist": [
+    "Os Créditos dos autores trazem titulação, função, instituição, últimas publicações (se houver) e e-mail pessoal.",
+    "O texto traz Resumo (até dez linhas) e Palavras-chave, com respectiva versão inglesa (Abstract e Keywords).",
+    "Citações com até cinco linhas estão entre aspas duplas no corpo do texto.",
+    "Citações com mais de cinco linhas estão destacadas em bloco recuado, corpo menor.",
+    "Notas restringem-se a comentários explicativos, inseridas no final do texto, antes das referências.",
+    "Referências são citadas no formato abreviado entre parênteses (autor, ano, página).",
+    "Referências completas estão listadas ao final, conforme ABNT.",
+    "Imagens (tabelas, figuras, gráficos, fotos) foram enviadas em arquivos separados, em alta resolução.",
+    "Os autores mantêm os direitos autorais e concedem ao periódico o direito de primeira publicação sob licença CC BY.",
+    "Declaração de aprovação por comitê de ética foi anexada (se for o caso).",
+    "Os dados subjacentes ao manuscrito foram compartilhados ou estão disponíveis mediante solicitação."
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "Os Créditos dos autores devem trazer sua titulação, função e instituição a que estão vinculados, últimas publicações (se houver), seguidas de e-mail pessoal.",
+    "disponibilidade_dados": "É solicitado ao autor o compartilhamento de todos os conteúdos (dados, códigos de programa e outros materiais) subjacentes ao texto do manuscrito, anteriormente ou no momento da publicação. Exceções são permitidas em casos de questões legais e éticas.",
+    "declaracao_dados_opcoes": "Os dados serão disponibilizados mediante solicitação direta ao autor, ou todos os dados estão contidos e discutidos no artigo.",
+    "financiamento": null,
+    "preprint": "Estudos Avançados aceita a publicação de artigos de preprints. O periódico recebe preprints dos servidores: SciELO Preprints, Core (MLA), Zenodo, Preprints.org e SocArXiv. O uso do preprint é opção do autor, e deve-se informar nome do servidor e DOI no Formulário sobre Conformidade com a Ciência Aberta. Artigos submetidos a preprints não utilizarão o procedimento duplo anonimizado."
+  }
+}

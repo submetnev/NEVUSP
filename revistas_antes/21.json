@@ -1,0 +1,117 @@
+{
+  "id": 21,
+  "nome": "British Journal of Criminology",
+  "imagem": "imagem/british_journal_of_criminology.png",
+  "instituicao": "Oxford University Press",
+  "qualis": "A1",
+  "issn": "0007-0955",
+  "foco": "Pesquisas teóricas e empíricas de alta qualidade em todas as áreas da criminologia, incluindo justiça criminal, direito penal, sociologia do desvio, vitimologia e estudos de segurança.",
+  "descricao": "Periódico acadêmico internacional publicado pela Oxford University Press em nome do Centre for Crime and Justice Studies (Londres). Reconhecido por publicar pesquisas inovadoras e artigos que influenciam políticas públicas e debates contemporâneos sobre crime, punição e justiça.",
+  "avaliacao": "Revisão por pares anônima (double-blind peer review).",
+  "avaliacao_preprint": "",
+  "taxa": "",
+  "periodicidade": "Bimestral",
+  "preprint": "",
+  "licenca": "",
+  "data_auditoria": "2026-03-30",
+  "url_fonte_instrucoes": "https://academic.oup.com/bjc/pages/General_Instructions",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://academic.oup.com/bjc",
+    "submissao": "https://mc.manuscriptcentral.com/bjc",
+    "diretrizes": "https://academic.oup.com/bjc/pages/General_Instructions"
+  },
+  "limites": {
+    "artigo_palavras": "Até 8.000 palavras (excluindo referências, tabelas e resumo)",
+    "nota_tecnica_palavras": "",
+    "comentario_critico_palavras": "",
+    "resumo_maximo": "200 palavras",
+    "titulo_maximo": "",
+    "palavras_chave_quantidade": "5 a 8",
+    "autores_maximo": null,
+    "notas_rodape_palavras": "",
+    "notas_rodape_formato": "",
+    "outros_limites": "Resenhas de livros: até 3.000 palavras (mediante convite)."
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": "Duplo",
+    "margens": "2,5 cm (1 polegada)",
+    "alinhamento": "Esquerda",
+    "citacoes_longas": "Citações com mais de 40 palavras: em bloco, recuo de 1,25 cm, sem aspas",
+    "tabelas_figuras": "Numeradas sequencialmente, com títulos e fontes. Podem ser inseridas no texto ou ao final.",
+    "citacoes_formato": "Estilo autor-data (ex.: Garland, 2001:45). Para três ou mais autores: (Garland et al., 2001).",
+    "referencias_formato": "Estilo Oxford (BJC) – adaptado do Harvard. Lista em ordem alfabética ao final.",
+    "exemplos_referencias": ""
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigo",
+      "extensao": "Até 8.000 palavras",
+      "detalhes": "Artigos originais que contribuam significativamente para o conhecimento criminológico, baseados em pesquisa empírica sólida ou desenvolvimento teórico rigoroso.",
+      "titulacao_minima_autor": "",
+      "idiomas_aceitos": ["Inglês"],
+      "resumo_maximo_palavras": 200,
+      "palavras_chave_quantidade": "5 a 8",
+      "estrutura_sugerida": [
+        "Página de rosto com título, autores, afiliações, ORCID, e-mail do autor correspondente e agradecimentos",
+        "Resumo (até 200 palavras)",
+        "Palavras-chave (5 a 8)",
+        "Introdução",
+        "Métodos (se aplicável)",
+        "Resultados/Análise (se aplicável)",
+        "Discussão",
+        "Conclusão",
+        "Referências",
+        "Notas de rodapé (se houver)"
+      ],
+      "requisitos_especificos": [
+        "O manuscrito não deve ter sido publicado anteriormente nem estar sob consideração por outro periódico.",
+        "Submissão exclusivamente via ScholarOne Manuscripts.",
+        "Arquivo principal deve estar anonimizado.",
+        "Todos os autores devem ter ORCID registrado.",
+        "Declaração de financiamento e conflito de interesses obrigatória."
+      ],
+      "referencias_minimas": null,
+      "template": "templates/british_journal_of_criminology_artigo.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Aceita submissões externas de artigos originais."
+    },
+    {
+      "tipo": "Resenha de Livro",
+      "extensao": "Até 3.000 palavras",
+      "detalhes": "Resenhas de livros recentes (últimos 2 anos) com relevância para a criminologia. Geralmente por convite.",
+      "titulacao_minima_autor": "",
+      "idiomas_aceitos": ["Inglês"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Consultar previamente os editores de resenhas antes de submeter."
+      ],
+      "referencias_minimas": null,
+      "template": "templates/british_journal_of_criminology_resenha.docx",
+      "submissao_aberta": false,
+      "justificativa_submissao": "Resenhas são geralmente encomendadas pelos editores."
+    }
+  ],
+  "checklist": [
+    "O manuscrito não foi publicado previamente e não está sob avaliação em outro periódico.",
+    "O arquivo do manuscrito está anonimizado para double-blind review.",
+    "A página de rosto contém título, autores completos, afiliações, ORCID e e-mail do autor correspondente.",
+    "O resumo tem até 200 palavras e descreve claramente os objetivos, métodos e principais conclusões.",
+    "Foram fornecidas entre 5 e 8 palavras-chave.",
+    "Todas as referências estão completas e formatadas no estilo Oxford (BJC).",
+    "As citações no texto seguem o padrão autor-data (ex.: autor, ano: páginas).",
+    "Tabelas e figuras estão numeradas e acompanhadas de títulos e fontes.",
+    "A carta de apresentação inclui justificativa da relevância e declaração de conflito de interesses.",
+    "Financiamentos e agradecimentos estão declarados na página de rosto."
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "A contribuição de cada autor deve ser explicitada (recomenda-se CRediT).",
+    "disponibilidade_dados": "O periódico incentiva o compartilhamento de dados e códigos em repositórios confiáveis.",
+    "financiamento": "Declarar todas as fontes de financiamento na página de rosto.",
+    "preprint": ""
+  }
+}

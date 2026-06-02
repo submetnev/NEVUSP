@@ -1,0 +1,99 @@
+{
+  "id": 17,
+  "nome": "Lua Nova: Revista de Cultura e Política",
+  "imagem": "imagem/lua_nova_revista_de_cultura_e_politica.png",
+  "instituicao": "Centro de Estudos de Cultura Contemporânea (CEDEC)",
+  "qualis": "A1",
+  "issn": "1807-0175 (eletrônico) | 0102-6445 (impresso)",
+  "foco": "Cultura e Política, abrangendo ciências sociais, humanidades e áreas interdisciplinares. Publica artigos que contribuam para o debate teórico e empírico sobre temas contemporâneos das sociedades brasileira e latino-americana.",
+  "descricao": "Revista científica publicada pelo CEDEC, criada em 1984. É uma das principais publicações das ciências sociais brasileiras, com abordagem interdisciplinar entre cultura e política. Publica artigos em fluxo contínuo, com sistema de avaliação duplo-cega por pares.",
+  "avaliacao": "As colaborações são submetidas ao Conselho Editorial, que as encaminha a dois pareceristas externos para avaliação duplo-cega. Ao Conselho cabe a decisão final sobre a publicação, reservando-se o direito de sugerir modificações. A revista utiliza software de verificação de plágio (Turnitin).",
+  "avaliacao_preprint": "Não permite o armazenamento e acesso da versão preprint em repositórios institucionais/digitais[citation:3].",
+  "taxa": "Gratuita. Não há cobrança de taxas para submissão, avaliação ou publicação[citation:7].",
+  "periodicidade": "Fluxo contínuo",
+  "preprint": "Não permite",
+  "licenca": "Creative Commons Attribution 4.0 International (CC BY)[citation:3]",
+  "data_auditoria": "2026-03-30",
+  "url_fonte_instrucoes": "https://submission.scielo.br/index.php/ln/about/submissions",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://www.scielo.br/ln/",
+    "submissao": "https://submission.scielo.br/index.php/ln/about/submissions",
+    "diretrizes": "https://submission.scielo.br/index.php/ln/about/submissions"
+  },
+  "limites": {
+    "artigo_palavras": "até 53.000 caracteres com espaços",
+    "nota_tecnica_palavras": null,
+    "comentario_critico_palavras": null,
+    "resumo_maximo": "1.000 caracteres com espaços",
+    "titulo_maximo": "1,5 linha",
+    "palavras_chave_quantidade": null,
+    "autores_maximo": 3,
+    "notas_rodape_palavras": null,
+    "notas_rodape_formato": "apenas para complementar informações do texto, nunca para referências bibliográficas",
+    "outros_limites": "Máximo de 20 páginas (Word, espaço 1,5, margens padrão, A4)"
+  },
+  "formatacao": {
+    "fonte": null,
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": 1.5,
+    "margens": "padrão (superior e inferior 2,5 cm; esquerda e direita 3 cm)",
+    "alinhamento": null,
+    "citacoes_longas": "mais de 3 linhas: corpo menor, em parágrafo separado",
+    "tabelas_figuras": "inseridas no corpo do texto; devem ser enviadas também no programa que as gerou, em arquivo separado",
+    "citacoes_formato": "sistema autor/data: (SOBRENOME, ano, página)",
+    "referencias_formato": "ABNT adaptada (itálico no lugar de negrito)",
+    "exemplos_referencias": "Livro: GOMES, L. G. F. F. 1998. Novela e sociedade no Brasil. 3. ed. Niterói: Cortez.\nArtigo: FERNANDES, E. 2007. “Constructing the ‘right to the city’ in Brazil”. Social & Legal Studies, v. 16, n. 2, pp. 201-19.\nCapítulo: BASSUL, J. R. 2010. “Estatuto da cidade: a construção de uma lei”. In: CARVALHO, C. S.; ROSSBACH, A. (orgs.). O estatuto da cidade. São Paulo: Ministério das Cidades/Aliança das Cidades, 2010, pp. 71-90."
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigos",
+      "extensao": "até 53.000 caracteres com espaços",
+      "detalhes": "Artigos inéditos em português, inglês ou espanhol que contribuam para o debate nas áreas de cultura e política. Salvo casos excepcionais, não devem ultrapassar 20 páginas.",
+      "titulacao_minima_autor": null,
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Informar ORCID de todos os autores",
+        "Enviar nota biográfica sucinta (atividade atual e instituição)",
+        "Resumo/abstract em português e inglês (máx. 10 linhas / 1.000 caracteres)",
+        "Palavras-chave/keywords",
+        "Título traduzido em inglês (máx. 1,5 linha)",
+        "Máximo de 3 autores por artigo",
+        "Citações em língua estrangeira devem ser traduzidas para o português no corpo do texto",
+        "Citações com mais de 3 linhas: corpo menor em parágrafo separado",
+        "Não usar notas de rodapé para referências bibliográficas",
+        "Não usar destaques sublinhados ou negrito; itálico reservado para palavras estrangeiras",
+        "Todas as referências citadas devem constar na lista final"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/lua_nova_revista_de_cultura_e_politica_artigos.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo principal de manuscrito aceito para submissão"
+    }
+  ],
+  "checklist": [
+    "A contribuição é original e inédita, e não está sendo avaliada para publicação por outro periódico.",
+    "O arquivo da submissão está em formato Microsoft Word, OpenOffice ou RTF.",
+    "URLs para as referências foram informadas quando possível, com data de acesso.",
+    "O texto está em espaço 1,5; usa fonte de 12-pontos; emprega itálico em vez de sublinhado.",
+    "As figuras e tabelas estão inseridas no texto e também enviadas em arquivos separados.",
+    "O texto segue os padrões de estilo e requisitos bibliográficos da revista.",
+    "As instruções para avaliação cega foram seguidas (remoção de identificação dos autores).",
+    "O ORCID de todos os autores foi informado.",
+    "O resumo (português e inglês) não ultrapassa 10 linhas (cerca de 1.000 caracteres).",
+    "O título não ultrapassa 1,5 linha.",
+    "Citações em língua estrangeira foram traduzidas para o português.",
+    "Não há notas de rodapé com referências bibliográficas.",
+    "Todas as fontes citadas constam na lista de referências ao final."
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "Os autores devem enviar nota biográfica sucinta com atividade atual e instituição. O ORCID deve ser informado para todos os autores.",
+    "disponibilidade_dados": null,
+    "declaracao_dados_opcoes": null,
+    "financiamento": null,
+    "preprint": "A revista não permite o armazenamento e acesso da versão preprint em repositórios institucionais/digitais[citation:3]."
+  }
+}

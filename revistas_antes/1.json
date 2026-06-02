@@ -1,0 +1,136 @@
+{
+  "id": 1,
+  "nome": "DADOS – Revista de Ciências Sociais",
+  "imagem": "imagem/dados__revista_de_ciencias_sociais.png",
+  "instituicao": "Instituto de Estudos Sociais e Políticos (IESP) da Universidade do Estado do Rio de Janeiro (UERJ)",
+  "qualis": "A1",
+  "issn": "0011-5258 (impressa) | 1678-4588 (online)",
+  "foco": "Publica artigos inéditos no campo das Ciências Sociais que contribuam para a inovação teórica, metodológica e/ou análise empírica. Fomenta a diversidade de gênero e raça em autoria, o pluralismo temático e conceitual das contribuições, que devem ser de interesse acadêmico e social. Não aceita ensaios livres, análises de conjuntura, resenhas, entrevistas, balanços bibliográficos, relatos de caso ou traduções.",
+  "descricao": "Uma das principais e mais longevas publicações nas ciências sociais no Brasil, criada em 1966. Divulga trabalhos inéditos e inovadores, oriundos de pesquisa acadêmica, de autores brasileiros e estrangeiros. Editada pelo IESP-UERJ, tem como objetivo conciliar o rigor científico e a excelência acadêmica com ênfase no debate público a partir da análise de questões substantivas da sociedade e da política.",
+  "avaliacao": "Sistema triplo-cego? (Os manuscritos não disponibilizados em servidores preprint são avaliados no sistema duplo-cego, no qual nem pareceristas, nem autores conhecem suas identidades. Manuscritos previamente disponibilizados em servidores preprint são submetidos à revisão cega, em que somente os pareceristas tomam conhecimento da identidade do autor). Os artigos recebidos passam por um triplo filtro de avaliação: 1) filtro formal (Editor-chefe); 2) filtro de escopo (Editores Associados e Conselho Editorial); 3) avaliação por pares (Conselho Consultivo).",
+  "avaliacao_preprint": "Manuscritos disponibilizados em servidores preprint: submetidos à revisão cega (somente os pareceristas tomam conhecimento da identidade do autor). Manuscritos não disponibilizados em servidores preprint: avaliados no sistema duplo-cego.",
+  "taxa": "Não há taxa para submissão e avaliação de artigos.",
+  "periodicidade": "Trimestral",
+  "preprint": "Sim. A revista aceita a submissão de manuscritos previamente submetidos a servidores de preprints. A lista completa de servidores preprint aceitos pelo periódico pode ser consultada em http://dados.iesp.uerj.br/preprints.",
+  "licenca": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "data_auditoria": "2026-03-30",
+  "url_fonte_instrucoes": "https://dados.iesp.uerj.br/instrucoes/",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://dados.iesp.uerj.br/",
+    "submissao": "https://mc04.manuscriptcentral.com/dados-scielo",
+    "diretrizes": "https://dados.iesp.uerj.br/instrucoes/"
+  },
+  "limites": {
+    "artigo_palavras": "4.000 a 14.000 palavras",
+    "nota_tecnica_palavras": "Até 6.000 palavras",
+    "comentario_critico_palavras": "Até 6.000 palavras",
+    "resumo_maximo": "Até 150 palavras",
+    "titulo_maximo": null,
+    "palavras_chave_quantidade": "5",
+    "autores_maximo": 5,
+    "notas_rodape_palavras": "Até 700 palavras",
+    "notas_rodape_formato": "Numeradas sequencialmente, dispostas ao final do artigo",
+    "outros_limites": null
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": 1.5,
+    "margens": "2,5 cm em todos os lados",
+    "alinhamento": "Parágrafos sem recuo",
+    "citacoes_longas": "Mais de 3 linhas: recuo de bloco de 1 cm, espaçamento simples, corpo 11, sem aspas",
+    "tabelas_figuras": "Títulos numerados, corpo 11, negrito; fonte dos dados no rodapé; enviar em formato vetorial editável (xls, xlsx) em arquivo separado",
+    "citacoes_formato": "(Sobrenome, Ano:páginas)",
+    "referencias_formato": "Conforme exemplos fornecidos no manual (ver instruções)",
+    "exemplos_referencias": "Abers, Rebecca; Serafim, Lizandra; Tatagiba, Luciana. (2014), “Repertórios de Interação Estado-Sociedade em um Estado Heterogêneo: a Experiência na Era Lula”. DADOS, v. 57, n. 2, pp. 325-57. Disponível em: https://doi.org/10.1590/0011-5258201411"
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigos",
+      "extensao": "4.000 a 14.000 palavras",
+      "detalhes": "Manuscritos inéditos com resultados de pesquisa acadêmica sistemática e que apresenta clara contribuição teórica, empírica ou metodológica à bibliografia especializada atual sobre seu tema.",
+      "titulacao_minima_autor": "Mestre (pelo menos um dos autores)",
+      "idiomas_aceitos": ["Português", "Espanhol", "Inglês", "Francês"],
+      "resumo_maximo_palavras": 150,
+      "palavras_chave_quantidade": "5",
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Submeter dois arquivos: carta de apresentação (cover letter) e documento principal anônimo",
+        "Incluir ORCID de todos os autores",
+        "Indicar as contribuições específicas de cada autor",
+        "Garantir que o artigo não tenha sido publicado total ou parcialmente como parte de livros ou em revistas e que não tenha sido enviado simultaneamente a outro periódico"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/dados__revista_de_ciencias_sociais_artigos.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo tradicionalmente aceito para submissão"
+    },
+    {
+      "tipo": "Notas técnicas",
+      "extensao": "Até 6.000 palavras",
+      "detalhes": "Textos que visem disponibilizar à comunidade acadêmica códigos, pacotes e bases de dados inovadores, com o objetivo de descrever e discutir sua implementação. A reprodutibilidade total é obrigatória e o código-fonte é publicado junto com a nota.",
+      "titulacao_minima_autor": "Mestre (pelo menos um dos autores)",
+      "idiomas_aceitos": ["Português", "Espanhol", "Inglês", "Francês"],
+      "resumo_maximo_palavras": 150,
+      "palavras_chave_quantidade": "5",
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Submeter dois arquivos: carta de apresentação (cover letter) e documento principal anônimo",
+        "Incluir ORCID de todos os autores",
+        "Indicar as contribuições específicas de cada autor",
+        "Garantir que o artigo não tenha sido publicado total ou parcialmente como parte de livros ou em revistas e que não tenha sido enviado simultaneamente a outro periódico"
+      ],
+      "referencias_minimas": null,
+      "template": null,
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo de manuscrito aceito para submissão"
+    },
+    {
+      "tipo": "Comentários críticos (réplicas)",
+      "extensao": "Até 6.000 palavras",
+      "detalhes": "Textos que formulam avaliações críticas de manuscritos publicados pela própria revista nos últimos cinco anos. As críticas devem ser estritamente acadêmicas e se ater ao conteúdo dos textos.",
+      "titulacao_minima_autor": "Mestre (pelo menos um dos autores)",
+      "idiomas_aceitos": ["Português", "Espanhol", "Inglês", "Francês"],
+      "resumo_maximo_palavras": 150,
+      "palavras_chave_quantidade": "5",
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Submeter dois arquivos: carta de apresentação (cover letter) e documento principal anônimo",
+        "Incluir ORCID de todos os autores",
+        "Indicar as contribuições específicas de cada autor",
+        "Garantir que o artigo não tenha sido publicado total ou parcialmente como parte de livros ou em revistas e que não tenha sido enviado simultaneamente a outro periódico"
+      ],
+      "referencias_minimas": null,
+      "template": null,
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo de manuscrito aceito para submissão"
+    }
+  ],
+  "checklist": [
+    "O manuscrito não foi publicado total ou parcialmente como parte de livros ou em revistas e não foi enviado simultaneamente a outro periódico.",
+    "O manuscrito está em conformidade com o escopo e as normas editoriais da revista.",
+    "O arquivo do manuscrito está em formato .rtf, .doc ou .docx.",
+    "O manuscrito segue as normas de formatação: fonte Times New Roman, corpo 12, espaçamento entrelinhas 1,5, margens de 2,5 cm, parágrafos sem recuo.",
+    "Citações com mais de 3 linhas estão em recuo de 1 cm, corpo 11, espaçamento simples e sem aspas.",
+    "Notas de fim não ultrapassam 700 palavras e estão numeradas sequencialmente.",
+    "O resumo tem até 150 palavras e está em pelo menos dois idiomas.",
+    "O manuscrito inclui cinco palavras-chave em todos os idiomas dos resumos.",
+    "Todos os autores possuem registro ORCID e este foi informado.",
+    "As contribuições específicas de cada autor na construção da pesquisa e do manuscrito estão indicadas.",
+    "O manuscrito não contém mais de cinco autores.",
+    "Pelo menos um dos autores possui titulação mínima de mestre.",
+    "As referências bibliográficas completas estão no final do texto, conforme o padrão da revista.",
+    "Gráficos e tabelas possuem títulos e fontes e foram submetidos em formato editável (xls, xlsx) em arquivo separado.",
+    "Imagens em alta definição não estão incluídas no documento principal e foram anexadas separadamente.",
+    "Para submissões no sistema duplo-cego, o artigo foi enviado sem qualquer tipo de referência ou informações que possibilitem a identificação dos autores.",
+    "Manuscritos previamente disponibilizados em servidores preprint indicam a localização virtual (link, DOI etc.)."
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "Deve-se indicar as contribuições específicas na construção da pesquisa e do manuscrito de cada autor.",
+    "disponibilidade_dados": "Artigos aprovados e baseados em dados quantitativos e qualitativos disponibilizáveis ao público devem ser acompanhados de seus respectivos bancos de dados consolidados. Os bancos de dados e os códigos devem ser fornecidos em formato que possibilite o acesso e replicação em pelo menos uma das principais ferramentas estatísticas (R, Python, SPSS, Stata e Excel). O código para a replicação deve ser extensivamente comentado.",
+    "declaracao_dados_opcoes": "Manuscritos disponibilizados em servidores preprint.\nManuscritos não disponibilizados em servidores preprint.",
+    "financiamento": "Não explicitamente exigido, mas recomenda-se que os autores informem fontes de financiamento, se houver, na carta de apresentação ou em seção específica do manuscrito.",
+    "preprint": "Preprints ou artigos publicados apenas em anais de congresso são bem-vindos. Preprints são considerados inéditos. Preprints devem indicar o link da versão publicada em DADOS. Preprints deverão informar a localização virtual do mesmo (link, DOI etc.) e serão submetidos à revisão cega. Manuscritos não disponibilizados em servidores preprint continuam sendo avaliados no sistema duplo-cego. A lista completa de servidores preprint aceitos pelo periódico pode ser consultada em http://dados.iesp.uerj.br/preprints. Se o trabalho foi apresentado em evento científico, não é preciso deixar o texto anônimo."
+  }
+}

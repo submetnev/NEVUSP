@@ -1,0 +1,163 @@
+{
+  "id": 6,
+  "nome": "Revista Brasileira de Segurança Pública (RBSP)",
+  "imagem": "imagem/rbsp.png",
+  "instituicao": "Fórum Brasileiro de Segurança Pública (FBSP)",
+  "qualis": "A4",
+  "issn": "Não especificado",
+  "foco": "Segurança Pública, Violência, Políticas Públicas",
+  "descricao": "Revista focada em violência, crime e políticas de segurança pública. Ênfase em pesquisa aplicada e avaliação de políticas. Avaliação duplo-cega, acesso aberto e gratuito.",
+  "avaliacao": "Duplo-cega",
+  "avaliacao_preprint": "Não especificado",
+  "taxa": "Gratuita",
+  "periodicidade": "Semestral",
+  "preprint": "Não especificado",
+  "licenca": "CC BY",
+  "data_auditoria": "2026-03-27",
+  "url_fonte_instrucoes": "https://revista.forumseguranca.org.br/index.php/rbsp/about/submissions",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://revista.forumseguranca.org.br",
+    "submissao": "https://revista.forumseguranca.org.br/index.php/rbsp/about/submissions",
+    "diretrizes": "https://revista.forumseguranca.org.br/index.php/rbsp/about/submissions"
+  },
+  "limites": {
+    "artigo_palavras": "7.000 a 10.000 palavras",
+    "artigo_tecnico_palavras": "5.000 a 8.000 palavras",
+    "nota_pesquisa_palavras": "Até 3.000 palavras",
+    "resenha_palavras": "Até 2.500 palavras",
+    "resumo_maximo": "250 palavras",
+    "palavras_chave_quantidade": "3 a 5",
+    "autores_maximo": 5,
+    "referencias_minimas_artigo": 20,
+    "referencias_minimas_artigo_tecnico": 15,
+    "referencias_minimas_nota_pesquisa": 10,
+    "referencias_minimas_resenha": 5,
+    "outros_limites": null
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": 1.5,
+    "margens": "2,5 cm",
+    "alinhamento": "justificado",
+    "citacoes_longas": "Recuo de 4 cm, fonte 11 pt",
+    "tabelas_figuras": "Numeradas, título e fonte"
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigo científico",
+      "extensao": "7.000 a 10.000 palavras",
+      "detalhes": "Metodologia explicitada, contribuição empírica original.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título (português e inglês)",
+        "Resumo e abstract (até 250 palavras)",
+        "Palavras-chave e keywords (3 a 5)",
+        "Introdução",
+        "Referencial teórico",
+        "Metodologia",
+        "Resultados",
+        "Discussão",
+        "Considerações finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Metodologia explicitada",
+        "Contribuição empírica original",
+        "Mínimo de 20 referências"
+      ],
+      "referencias_minimas": 20,
+      "template": "templates/RBSP_Artigo_Cientifico.docx"
+    },
+    {
+      "tipo": "Artigo técnico",
+      "extensao": "5.000 a 8.000 palavras",
+      "detalhes": "Avaliação de políticas públicas, programas ou intervenções.",
+      "titulacao_minima_autor": "Especialista / Mestre (preferencialmente)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título",
+        "Resumo",
+        "Introdução",
+        "Contexto da política/programa",
+        "Metodologia de avaliação",
+        "Resultados",
+        "Recomendações",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Foco em avaliação de políticas",
+        "Resultados aplicáveis",
+        "Mínimo de 15 referências"
+      ],
+      "referencias_minimas": 15,
+      "template": "templates/RBSP_Artigo_Tecnico.docx"
+    },
+    {
+      "tipo": "Nota de pesquisa",
+      "extensao": "Até 3.000 palavras",
+      "detalhes": "Resultados preliminares, pesquisas em andamento.",
+      "titulacao_minima_autor": "Mestre (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 200,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título",
+        "Resumo",
+        "Introdução",
+        "Objetivos",
+        "Metodologia em desenvolvimento",
+        "Resultados parciais",
+        "Próximos passos",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Pesquisa em andamento",
+        "Resultados preliminares",
+        "Mínimo de 10 referências"
+      ],
+      "referencias_minimas": 10,
+      "template": "templates/RBSP_Nota_Pesquisa.docx"
+    },
+    {
+      "tipo": "Resenha",
+      "extensao": "Até 2.500 palavras",
+      "detalhes": "Obras recentes sobre segurança pública, violência e políticas públicas.",
+      "titulacao_minima_autor": "Mestre (mínimo)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [
+        "Título da resenha",
+        "Identificação da obra",
+        "Síntese",
+        "Análise crítica",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Obra recente (últimos 3 anos)",
+        "Mínimo de 5 referências"
+      ],
+      "referencias_minimas": 5,
+      "template": "templates/RBSP_Resenha.docx"
+    }
+  ],
+  "checklist": [
+    "Foco em segurança pública, violência ou políticas correlatas",
+    "Metodologia clara e reprodutível",
+    "Idiomas: PT, EN, ES",
+    "Resumo e Abstract",
+    "ORCID obrigatório",
+    "Arquivo anônimo"
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "CRediT recomendado.",
+    "financiamento": "Declarar apoio."
+  }
+}

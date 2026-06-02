@@ -1,0 +1,127 @@
+{
+  "id": 18,
+  "nome": "Lua Nova: Revista de Cultura e Política",
+  "imagem": "imagem/lua_nova.png",
+  "instituicao": "Centro de Estudos de Cultura Contemporânea (CEDEC)",
+  "qualis": "A2",
+  "foco": "Ciências Sociais com ênfase em democracia, cidadania, direitos, análise de políticas públicas, reflexão teórica nacional e internacional. Publica pesquisas originais voltadas para a compreensão dos fenômenos políticos e sociais contemporâneos.",
+  "descricao": "Publicação trimestral do CEDEC, um dos periódicos mais tradicionais e respeitados do Brasil nas Ciências Sociais. Fundada em 1984, a revista publica artigos avulsos e dossiês temáticos. Submissões em fluxo contínuo. A revista adota o sistema de avaliação por pares no modelo blind review e está indexada em importantes bases como SciELO, Scopus e Web of Science.",
+  "avaliacao": "Duplo-cega (blind peer review)",
+  "avaliacao_preprint": "A revista não permite o armazenamento e acesso da versão preprint do documento submetido para avaliação",
+  "taxa": "Gratuita (sem taxas de submissão ou publicação)",
+  "periodicidade": "Trimestral (4 números por ano)",
+  "preprint": "Não permitido",
+  "licenca": "Creative Commons Atribuição (CC BY)",
+  "data_auditoria": "2026-03-30",
+  "url_fonte_instrucoes": "https://www.scielo.br/j/ln/about/",
+  "ultima_atualizacao_normas": "2023-03-20",
+  "links": {
+    "site": "https://www.scielo.br/j/ln/",
+    "submissao": "https://mc04.manuscriptcentral.com/ln-scielo",
+    "diretrizes": "https://www.scielo.br/j/ln/about/"
+  },
+  "limites": {
+    "artigo_palavras": "Informação não disponível no site oficial",
+    "ensaio_palavras": "Informação não disponível no site oficial",
+    "resenha_palavras": "Informação não disponível no site oficial",
+    "nota_tecnica_palavras": "Informação não disponível no site oficial",
+    "comentario_critico_palavras": "Informação não disponível no site oficial",
+    "resumo_maximo": "150 a 250 palavras",
+    "palavras_chave_quantidade": "3 a 5",
+    "autores_maximo": "Informação não disponível no site oficial",
+    "outros_limites": "A revista publica dossiês temáticos. Título, resumo e palavras-chave obrigatórios em inglês."
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": 1.5,
+    "margens": "3cm superior e inferior, 2,5cm esquerda e direita",
+    "alinhamento": "justificado",
+    "citacoes_longas": "Citações com mais de 3 linhas: recuo de 4cm, fonte 11pt, espaçamento simples, sem aspas",
+    "tabelas_figuras": "Numeradas sequencialmente, com título acima e fonte abaixo. Enviadas em arquivos separados editáveis.",
+    "citacoes_formato": "autor-data (ABNT NBR 10520)",
+    "referencias_formato": "ABNT NBR 6023"
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigo",
+      "extensao": "Informação não disponível no site oficial",
+      "detalhes": "Artigos avulsos voltados para reflexão de longo alcance sobre democracia, cidadania e direitos, tanto na análise empírica quanto nos fundamentos teóricos. Submissão aberta em fluxo contínuo.",
+      "titulacao_minima_autor": "Informação não disponível no site oficial",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Introdução",
+        "Referencial teórico",
+        "Metodologia",
+        "Resultados",
+        "Discussão",
+        "Considerações finais"
+      ],
+      "requisitos_especificos": [
+        "Submeter via sistema ScholarOne",
+        "Artigo deve ser inédito",
+        "Avaliação por pares no sistema blind review",
+        "Título, resumo e palavras-chave em português e inglês (obrigatórios)",
+        "Declaração de conflito de interesses",
+        "Especificação de contribuição dos autores (CRediT)",
+        "Pesquisas com humanos: anexar aprovação do Comitê de Ética",
+        "Declaração de uso de IA generativa, se aplicável"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/LN_Artigo.docx"
+    },
+    {
+      "tipo": "Dossiê",
+      "extensao": "Informação não disponível no site oficial",
+      "detalhes": "Números centrados em núcleos temáticos, organizados por editores convidados. Submissão mediante convite e aprovação do conselho editorial.",
+      "titulacao_minima_autor": "Informação não disponível no site oficial",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Introdução",
+        "Referencial teórico",
+        "Metodologia",
+        "Resultados",
+        "Discussão",
+        "Considerações finais"
+      ],
+      "requisitos_especificos": [
+        "Submissão organizada por editor convidado",
+        "Artigos devem seguir as normas da revista",
+        "Título, resumo e palavras-chave em português e inglês (obrigatórios)",
+        "Declaração de conflito de interesses para cada artigo",
+        "Especificação de contribuição dos autores (CRediT)"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/LN_Dossie.docx"
+    }
+  ],
+  "checklist": [
+    "Originalidade e ineditismo do trabalho",
+    "Aderência ao escopo da revista (democracia, cidadania, direitos, políticas públicas, teoria política e social)",
+    "Respeito às políticas de preprint da revista (preprint não permitido)",
+    "Preparação adequada para avaliação cega por pares (arquivo sem identificação de autores)",
+    "Título, resumo e palavras-chave em português e inglês",
+    "Resumo entre 150 e 250 palavras",
+    "3 a 5 palavras-chave em cada idioma",
+    "Observância das normas ABNT NBR 6023 para referências",
+    "Observância das normas ABNT NBR 10520 para citações",
+    "Declaração de conflito de interesses assinada por todos os autores",
+    "Especificação da contribuição de cada autor (CRediT)",
+    "Pesquisas com seres humanos: anexar aprovação do Comitê de Ética (CAAE)",
+    "Declaração de uso de ferramentas de IA generativa, se aplicável",
+    "ORCID de todos os autores nos metadados da submissão",
+    "Arquivo em formato Microsoft Word (.docx)",
+    "Formatação: Times New Roman 12, espaçamento 1,5, margens 2,5-3cm"
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "Recomenda-se especificar a contribuição de cada autor segundo a taxonomia CRediT na carta de apresentação.",
+    "disponibilidade_dados": "Recomenda-se depositar os dados de pesquisa em repositórios confiáveis (SciELO Data, Harvard Dataverse).",
+    "financiamento": "Informar agências de fomento e números de processo na carta de apresentação ou em nota de rodapé.",
+    "etica": "Pesquisas envolvendo seres humanos devem informar número do CAAE e parecer de aprovação do Comitê de Ética em Pesquisa.",
+    "direitos_autorais": "Autores mantêm os direitos autorais e concedem à revista o direito de primeira publicação, com o trabalho licenciado sob a Licença Creative Commons Atribuição (CC BY)."
+  }
+}

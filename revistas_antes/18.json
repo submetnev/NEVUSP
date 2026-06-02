@@ -1,0 +1,101 @@
+{
+  "id": 18,
+  "nome": "Opinião Pública",
+  "imagem": "imagem/opiniao_publica.png",
+  "instituicao": "Universidade Estadual de Campinas (UNICAMP), Centro de Estudos de Opinião Pública (CESOP)",
+  "qualis": "A1",
+  "issn": "1807-0191 (eletrônico) | 0104-6276 (impresso)",
+  "foco": "Comportamento político e social. Estuda as mudanças contemporâneas na política e seus impactos nos indivíduos e nas formas de organização e atuação da sociedade. Abrange ciência política, sociologia e metodologia de pesquisa.",
+  "descricao": "Revista acadêmica do CESOP/UNICAMP, criada em 1993. Publica artigos originais sobre opinião pública, comportamento político e metodologia de pesquisa. Acesso aberto e gratuito, com periodicidade anual em fluxo contínuo.",
+  "avaliacao": "Os manuscritos passam por avaliação inicial do Comitê Editorial. Se aprovados, seguem para revisão por pares com pelo menos dois pesquisadores doutores. A revista adota três formatos: duplo-anônimo, simples-anônimo ou revisão aberta (a critério dos autores e revisores). Em caso de pareceres divergentes, um terceiro revisor é consultado.",
+  "avaliacao_preprint": "No caso de artigos oriundos de servidores preprint, não é possível garantir o anonimato do autor, portanto o processo de avaliação pode ser simples-anônimo ou aberto.",
+  "taxa": "Gratuita. Não há cobrança de taxas para submissão, avaliação ou publicação.",
+  "periodicidade": "Anual (fluxo contínuo)",
+  "preprint": "Sim. Aceita preprints dos servidores: SciELO Preprints, Social Science Research Network (SSRN) e ResearchGate.",
+  "licenca": "Creative Commons Attribution 4.0 International (CC BY)",
+  "data_auditoria": "2026-03-30",
+  "url_fonte_instrucoes": "https://www.cesop.unicamp.br/por/opiniao_publica/submissao",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://www.scielo.br/op/",
+    "submissao": "https://mc04.manuscriptcentral.com/op-scielo",
+    "diretrizes": "https://www.cesop.unicamp.br/por/opiniao_publica/submissao"
+  },
+  "limites": {
+    "artigo_palavras": "7.000 a 14.000 palavras",
+    "nota_tecnica_palavras": null,
+    "comentario_critico_palavras": null,
+    "resumo_maximo": "900 caracteres",
+    "titulo_maximo": "20 palavras",
+    "palavras_chave_quantidade": "5",
+    "autores_maximo": null,
+    "notas_rodape_palavras": null,
+    "notas_rodape_formato": null,
+    "outros_limites": null
+  },
+  "formatacao": {
+    "fonte": null,
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": null,
+    "margens": null,
+    "alinhamento": null,
+    "citacoes_longas": null,
+    "tabelas_figuras": "Em formato jpg (300 a 500 dpi), com título, legenda e fonte. Se aprovado, enviar em formatos originais editáveis.",
+    "citacoes_formato": "ABNT NBR 10520: (Sobrenome do Autor, data) ou (Sobrenome do Autor, data, página)",
+    "referencias_formato": "ABNT NBR 6023, em ordem alfabética",
+    "exemplos_referencias": "Livro: SOBRENOME do Autor em versalete, Nome (abreviado). Título em itálico: subtítulo sem itálico. N. ed. Local: Editora, ano.\nArtigo: SOBRENOME em versalete, Nome (abreviado). \"Título do artigo\". Nome do periódico em itálico, local, v. n. n., pp., período, ano."
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigos",
+      "extensao": "7.000 a 14.000 palavras",
+      "detalhes": "Artigos originais nas áreas de comportamento político e social, incluindo imagens, notas e referências. Trabalhos divulgados em anais de eventos, perfis pessoais de plataformas acadêmicas ou plataformas de preprint são considerados inéditos.",
+      "titulacao_minima_autor": null,
+      "idiomas_aceitos": ["Português", "Espanhol", "Inglês"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": "5",
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Submissão exclusiva pelo sistema SciELO/ScholarOne (https://mc04.manuscriptcentral.com/op-scielo)",
+        "Ao submeter, informar nome completo, ORCID, afiliação institucional, e-mail, mini CV com titulação, fontes de apoio e número de contrato (se houver) de todos os autores",
+        "Submissões com dados incompletos serão recusadas imediatamente",
+        "Resumo (máx. 900 caracteres) deve conter: objeto analisado, objetivos, tipo de pesquisa, metodologia, resultados, implicações e originalidade",
+        "Título (máx. 20 palavras) apresentado nos quatro idiomas (português, inglês, espanhol)",
+        "Títulos de seções em negrito, subseções em itálico",
+        "Não numerar seções e subseções",
+        "Tabelas e gráficos: títulos e fontes fora das tabelas/gráficos",
+        "Sinais (% etc.) devem estar junto aos títulos",
+        "Declarar uso de IA (nome e versão da ferramenta, data, finalidade, parte gerada)",
+        "Declarar conflito de interesses, se houver"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/opiniao_publica_artigos.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo principal de manuscrito aceito para submissão"
+    }
+  ],
+  "checklist": [
+    "A contribuição é original e inédita (consideram-se inéditos trabalhos em anais de eventos, perfis acadêmicos e plataformas de preprint).",
+    "O artigo não está sendo avaliado simultaneamente por outra revista.",
+    "O arquivo da submissão está em formato .doc (Microsoft Word).",
+    "ORCID de todos os autores foi informado.",
+    "Afiliação institucional, e-mail e mini CV com titulação de todos os autores foram informados.",
+    "Fontes de financiamento foram informadas (nomes de patrocinadores, número de contrato).",
+    "O resumo não excede 900 caracteres e contém objeto, objetivos, metodologia, resultados e originalidade.",
+    "O título não excede 20 palavras e foi apresentado nos quatro idiomas.",
+    "O artigo contém 5 palavras-chave.",
+    "Títulos de seções em negrito; subseções em itálico; seções não numeradas.",
+    "Tabelas e gráficos: em formato jpg (300-500 dpi), com título, legenda e fonte.",
+    "Citações seguem ABNT NBR 10520; referências seguem ABNT NBR 6023.",
+    "Declaração de uso de IA foi incluída (quando aplicável).",
+    "Declaração de conflito de interesses foi anexada (quando aplicável).",
+    "Pesquisas com seres humanos: aprovação por Comitê de Ética e número do processo informados."
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "Todos aqueles que contribuíram para a concepção, desenvolvimento e análise dos dados apresentados devem ser identificados como autores. Em caso de aceitação, as contribuições de cada autor devem ser registradas ao final do manuscrito. Todos os autores devem aceitar, comprovadamente, a responsabilidade pelo conteúdo do artigo.",
+    "disponibilidade_dados": "Se aprovado, o autor deve compartilhar bases de dados, códigos, métodos e outros materiais utilizados, que serão disponibilizados no site da revista, ou indicar o repositório onde estão depositados.",
+    "declaracao_dados_opcoes": "Disponibilização no site da Opinião Pública ou indicação de repositório.",
+    "financiamento": "O autor responsável deverá informar fontes de apoio para o trabalho, incluindo nomes de patrocinadores e número de contrato (se houver).",
+    "preprint": "Opinião Pública aceita a publicação de artigos preprint. Manuscritos divulgados em plataformas de preprint são considerados inéditos. A revista aceita preprints dos servidores: SciELO Preprints, Social Science Research Network (SSRN) e ResearchGate. Ao submeter, deve-se informar o nome do servidor e o DOI do preprint. No caso de artigos oriundos de preprint, o processo de avaliação pode ser simples-anônimo ou aberto."
+  }
+}

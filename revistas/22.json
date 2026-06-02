@@ -1,0 +1,154 @@
+{
+  "id": 22,
+  "nome": "Delito y Sociedad",
+  "imagem": "imagem/delito_y_sociedad.png",
+  "instituicao": "Universidad Nacional del Litoral (UNL) / Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)",
+  "qualis": "A3",
+  "issn": "2362-3300",
+  "foco": "Estudos interdisciplinares sobre crime, violência, justiça penal, direitos humanos e controle social, com ênfase na realidade latino-americana e abordagens críticas.",
+  "descricao": "Revista acadêmica publicada pela Universidade Nacional del Litoral (Argentina) em parceria com o CONICET. Tem periodicidade semestral e acesso aberto. Publica artigos originais, ensaios, resenhas e entrevistas que contribuam para o debate teórico e empírico sobre as relações entre crime, sociedade e sistema de justiça.",
+  "avaliacao": "Revisão por pares anônima (double-blind peer review).",
+  "avaliacao_preprint": "",
+  "taxa": "Sem taxas de submissão ou publicação (APC).",
+  "periodicidade": "Semestral",
+  "preprint": "",
+  "licenca": "CC BY-NC-SA",
+  "data_auditoria": "2026-03-30",
+  "url_fonte_instrucoes": "https://bibliotecavirtual.unl.edu.ar/publicaciones/index.php/DelitoYSociedad/about/submissions",
+  "ultima_atualizacao_normas": null,
+  "formatacao_origem": "extraido",
+  "links": {
+    "site": "https://bibliotecavirtual.unl.edu.ar/publicaciones/index.php/DelitoYSociedad",
+    "submissao": "https://bibliotecavirtual.unl.edu.ar/publicaciones/index.php/DelitoYSociedad/about/submissions",
+    "diretrizes": "https://bibliotecavirtual.unl.edu.ar/publicaciones/index.php/DelitoYSociedad/about"
+  },
+  "limites": {
+    "artigo_palavras": "6.000 a 8.000 palavras",
+    "nota_tecnica_palavras": "",
+    "comentario_critico_palavras": "",
+    "resumo_maximo": "200 palavras",
+    "titulo_maximo": null,
+    "palavras_chave_quantidade": "3 a 5",
+    "autores_maximo": null,
+    "notas_rodape_palavras": "",
+    "notas_rodape_formato": "",
+    "outros_limites": "Ensaios: 6.000 a 8.000 palavras; Resenhas: 1.500 a 2.000 palavras"
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": "Duplo",
+    "margens": "2,5 cm",
+    "recuo_primeira_linha": "",
+    "alinhamento": "Justificado",
+    "citacoes_longas": {
+      "recuo": "1 cm",
+      "fonte": 10,
+      "espacamento": "simples"
+    },
+    "tabelas_figuras": "Numeradas sequencialmente com títulos e fontes. Enviadas em arquivos separados (XLS, JPG, PNG).",
+    "citacoes_formato": "Estilo autor-data (ex.: Zaffaroni, 2002, p. 45). Para três ou mais autores: (Zaffaroni et al., 2002).",
+    "referencias_formato": "Normas APA 7ª edição. Lista em ordem alfabética ao final.",
+    "exemplos_citacoes": "(Zaffaroni, 2002, p. 45) ou (Zaffaroni et al., 2002)",
+    "exemplos_referencias": ""
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigo Original",
+      "extensao": "6.000 a 8.000 palavras",
+      "detalhes": "Pesquisas empíricas ou teóricas inéditas sobre crime, violência, justiça penal, direitos humanos e controle social. Priorizam-se estudos com relevância para a América Latina.",
+      "titulacao_minima_autor": "",
+      "idiomas_aceitos": ["Espanhol", "Português", "Inglês"],
+      "resumo_maximo_palavras": 200,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título (no idioma original e em inglês)",
+        "Resumo (no idioma original e em inglês)",
+        "Palavras-chave (3 a 5, nos dois idiomas)",
+        "Introdução",
+        "Metodologia",
+        "Resultados/Discussão",
+        "Conclusão",
+        "Referências (APA 7ª ed.)"
+      ],
+      "requisitos_especificos": [
+        "O manuscrito deve ser original e não pode estar sob avaliação em outro periódico.",
+        "Submissão exclusivamente via plataforma OJS da UNL.",
+        "Arquivo sem identificação de autores (anonimizado).",
+        "Título, resumo e palavras-chave obrigatoriamente em espanhol e inglês."
+      ],
+      "referencias_minimas": null,
+      "template": "templates/delito_y_sociedad_artigo.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Aceita submissões externas de artigos originais."
+    },
+    {
+      "tipo": "Ensaio",
+      "extensao": "6.000 a 8.000 palavras",
+      "detalhes": "Reflexões teóricas ou análises críticas sobre temas relevantes da criminologia e das ciências sociais, com alto nível de originalidade e rigor argumentativo.",
+      "titulacao_minima_autor": "",
+      "idiomas_aceitos": ["Espanhol", "Português", "Inglês"],
+      "resumo_maximo_palavras": 200,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título (original e inglês)",
+        "Resumo (original e inglês)",
+        "Palavras-chave (3 a 5)",
+        "Introdução",
+        "Desenvolvimento argumentativo",
+        "Considerações finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Submissão exclusivamente via OJS",
+        "Documento anonimizado",
+        "Título, resumo e palavras-chave bilíngues (espanhol/inglês)"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/delito_y_sociedad_ensaio.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Aceita submissões externas de ensaios."
+    },
+    {
+      "tipo": "Resenha",
+      "extensao": "1.500 a 2.000 palavras",
+      "detalhes": "Resenhas críticas de livros publicados nos últimos 2 anos, com relevância para a criminologia e as ciências sociais.",
+      "titulacao_minima_autor": "",
+      "idiomas_aceitos": ["Espanhol", "Português", "Inglês"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [
+        "Identificação completa da obra",
+        "Contextualização do autor",
+        "Síntese do conteúdo",
+        "Análise crítica",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Submissão exclusivamente via OJS",
+        "Arquivo anonimizado"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/delito_y_sociedad_resenha.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Aceita submissões externas de resenhas."
+    }
+  ],
+  "checklist": [
+    "O manuscrito é original e não foi publicado nem está sob avaliação em outro periódico.",
+    "O arquivo do manuscrito está anonimizado (sem nomes de autores, afiliações ou referências que permitam identificação).",
+    "A submissão foi realizada exclusivamente pelo site da revista (OJS).",
+    "Título, resumo (até 200 palavras) e palavras-chave (3 a 5) estão disponíveis em espanhol e inglês.",
+    "As referências seguem o formato APA 7ª edição.",
+    "Tabelas e figuras estão numeradas, com títulos e fontes claramente indicadas.",
+    "O manuscrito respeita os limites de palavras (6.000 a 8.000 para artigos e ensaios; 1.500 a 2.000 para resenhas).",
+    "Todos os autores têm ORCID registrado (recomendado)."
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "Recomenda-se especificar a contribuição de cada autor (ex.: CRediT).",
+    "disponibilidade_dados": "Encorajado o depósito de dados de pesquisa em repositórios de acesso aberto.",
+    "declaracao_dados_opcoes": null,
+    "financiamento": "Declarar agências de fomento e números de processo no agradecimento.",
+    "preprint": ""
+  }
+}

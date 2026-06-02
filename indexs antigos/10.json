@@ -1,0 +1,112 @@
+{
+  "id": 10,
+  "nome": "American Sociological Review",
+  "imagem": "imagem/american_sociological_review.png",
+  "instituicao": "American Sociological Association (ASA)",
+  "qualis": "Não especificado",
+  "issn": "1939-8271",
+  "foco": "Publicação de trabalhos originais de interesse geral para a disciplina de sociologia, incluindo novos desenvolvimentos teóricos, resultados de pesquisas que avancem a compreensão de processos sociais fundamentais e inovações metodológicas importantes.",
+  "descricao": "Fundada em 1936, a American Sociological Review (ASR) é a revista oficial da American Sociological Association (ASA) e o principal periódico da disciplina. Publica pesquisas sociológicas da mais alta qualidade, servindo como referência para o desenvolvimento teórico, metodológico e empírico da sociologia em âmbito global. A revista é publicada bimestralmente pela Sage Publications e não publica resenhas de livros.",
+  "avaliacao": "Duplo-cega",
+  "avaliacao_preprint": "Não especificado",
+  "taxa": "US$ 25,00 (não reembolsável) no ato da submissão. Dispensada para membros estudantis da ASA e para R&Rs.",
+  "periodicidade": "Bimestral",
+  "preprint": "Não especificado",
+  "licenca": "Não especificado",
+  "data_auditoria": "2026-03-27",
+  "url_fonte_instrucoes": "https://www.asanet.org/publications/journals/submission-information-for-asa-publications/#american-sociological-review",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://www.asanet.org/publications/journals/american-sociological-review",
+    "submissao": "http://mc.manuscriptcentral.com/asr",
+    "diretrizes": "https://www.asanet.org/publications/journals/submission-information-for-asa-publications/#american-sociological-review"
+  },
+  "limites": {
+    "artigo_palavras": "Até 15.000 palavras (incluindo texto, referências e notas de rodapé, excluindo tabelas e figuras)",
+    "comentario_critico_palavras": "Até 3.000 palavras",
+    "resumo_maximo": "200 palavras",
+    "palavras_chave_quantidade": "4 a 5",
+    "autores_maximo": 5,
+    "referencias_minimas_artigo": 25,
+    "referencias_minimas_comentario": 10,
+    "outros_limites": null
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": "Double (2,0)",
+    "margens": "1 polegada (2,54 cm)",
+    "alinhamento": "justificado",
+    "citacoes_longas": "Recuo de 1 polegada, fonte 11 pt, espaçamento simples",
+    "tabelas_figuras": "Numeradas, título e fonte"
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigo Original",
+      "extensao": "Até 15.000 palavras",
+      "detalhes": "Apresenta pesquisas originais com contribuições teóricas, empíricas ou metodológicas significativas para a sociologia. Deve ser de interesse geral para a disciplina.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Inglês"],
+      "resumo_maximo_palavras": 200,
+      "palavras_chave_quantidade": "4 a 5",
+      "estrutura_sugerida": [
+        "Title (English)",
+        "Abstract (150-200 words)",
+        "Keywords (4-5)",
+        "Introduction",
+        "Theory and Literature Review",
+        "Methodology",
+        "Results",
+        "Discussion",
+        "Conclusion",
+        "References"
+      ],
+      "requisitos_especificos": [
+        "Contribuição significativa",
+        "Interesse geral para a sociologia",
+        "Mínimo de 25 referências"
+      ],
+      "referencias_minimas": 25,
+      "template": "templates/ASR_Artigo_Original.docx"
+    },
+    {
+      "tipo": "Comentário / Réplica",
+      "extensao": "Até 3.000 palavras",
+      "detalhes": "Comentários críticos sobre artigos publicados anteriormente na ASR e as respectivas réplicas dos autores.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Inglês"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [
+        "Title",
+        "Introduction",
+        "Critical analysis",
+        "Rejoinder (if applicable)",
+        "References"
+      ],
+      "requisitos_especificos": [
+        "Referente a artigo publicado na ASR",
+        "Crítica acadêmica",
+        "Mínimo de 10 referências"
+      ],
+      "referencias_minimas": 10,
+      "template": "templates/ASR_Comentario_Replica.docx"
+    }
+  ],
+  "checklist": [
+    "A taxa de submissão de US$ 25,00 foi paga? (A menos que seja membro estudante ASA ou uma re-submissão)",
+    "O arquivo da submissão foi preparado conforme o ASA Style Guide (7ª ed., 2022)?",
+    "O manuscrito anônimo está em formato .doc, .docx ou similar, em Times New Roman 12pt, com duplo espaço e margens de pelo menos 1 polegada?",
+    "A página de título (arquivo separado) contém o título completo, afiliação institucional de todos os autores, agradecimentos, informação de financiamento, palavras-chave e contato do autor correspondente?",
+    "O resumo (abstract) de 150-200 palavras foi fornecido em arquivo separado?",
+    "O manuscrito principal está completamente anônimo, sem a página de título, nomes de autores ou qualquer informação que possa identificar os autores?",
+    "Ao citar o próprio trabalho, a autoria foi suprimida (ex: 'Smith (1992) concluiu' em vez de 'Eu concluí')?",
+    "Todas as citações no texto seguem o formato (Autor, ano) ou Autor (ano), com números de página para citações diretas?",
+    "As referências estão completas e formatadas corretamente ao final do documento?",
+    "O manuscrito é original, não foi publicado anteriormente e não está sob avaliação simultânea em outro periódico?"
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "Recomenda-se CRediT.",
+    "financiamento": "Declarar funding sources."
+  }
+}

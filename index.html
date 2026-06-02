@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
+    <meta name="description" content="SubmetNEV – NEV/USP. Diretrizes acadêmicas e normas para submissão em periódicos de Ciências Sociais com suporte de inteligência artificial.">
+    <title>NEV/USP · SubmetNEV – manual de apoio à Publicação Acadêmica</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="imagem/icone_submetnev.png">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        /* ========== ESTILOS BASE ========== */
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: radial-gradient(circle at 10% 20%, rgba(0,51,102,0.03) 0%, rgba(255,245,235,0.4) 100%), linear-gradient(135deg, #fef9f0 0%, #f4f8ff 100%);
+            color: #0a1c2f;
+            line-height: 1.5;
+            scroll-behavior: smooth;
+        }
+        h1, h2, h3, .serif-heading { font-family: 'Playfair Display', Georgia, serif; font-weight: 600; letter-spacing: -0.01em; }
+        .glass-header {
+            background: rgba(255,250,245,0.92);
+            backdrop-filter: blur(16px);
+            border-bottom: 2px solid rgba(0,51,102,0.25);
+            box-shadow: 0 8px 20px -8px rgba(0,0,0,0.08);
+        }
+        .card-academic {
+            background: #ffffff;
+            border-radius: 2rem;
+            border: 1px solid rgba(255,200,150,0.3);
+            transition: all 0.3s cubic-bezier(0.2,0,0,1);
+            box-shadow: 0 8px 20px -12px rgba(0,0,0,0.08);
+        }
+        .updated-card { position: relative; border-left: 4px solid #ff914d; }
+        .updated-card::before {
+            content: "🆕";
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            font-size: 1rem;
+            background: #ff914d;
+            color: white;
+            border-radius: 20px;
+            padding: 2px 6px;
+            font-weight: bold;
+        }
+        .filter-pill {
+            background: #ffffff;
+            border: 1px solid #e2dcd0;
+            border-radius: 100px;
+            padding: 0.3rem 1rem;
+            font-weight: 600;
+            font-size: 0.7rem;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            color: #1e3a5f;
+        }
+        .filter-pill.active {
+            background: linear-gradient(105deg, #003366 0%, #0055a5 100%);
+            border-color: #ffb347;
+            color: white;
+            box-shadow: 0 4px 10px -4px rgba(0,85,165,0.4);
+        }
+        .filter-pill.qualis-A1 { background-color: #E3F2FD; border-color: #1976D2; color: #0B3B5F; }
+        .filter-pill.qualis-A2 { background-color: #E8F5E9; border-color: #2E7D32; color: #1E5631; }
+        .filter-pill.qualis-A3 { background-color: #FFF8E1; border-color: #F9A825; color: #AA6F20; }
+        .filter-pill.qualis-A4 { background-color: #FFEBEE; border-color: #E64A19; color: #B23C1C; }
+        .filter-pill.qualis-B1 { background-color: #F3E5F5; border-color: #8E24AA; color: #4A2E6B; }
+        .filter-pill.qualis-B2 { background-color: #FCE4EC; border-color: #D81B60; color: #9B2C3D; }
+        .filter-pill.qualis-B3 { background-color: #E0F2F1; border-color: #009688; color: #00695C; }
+        .filter-pill.qualis-B4 { background-color: #FFF3E0; border-color: #FFB300; color: #BF6F00; }
+        .filter-pill.qualis-C { background-color: #ECEFF1; border-color: #78909C; color: #546E7A; }
+        .filter-pill.qualis-nao-especificado { background-color: #F3E5F5; border-color: #9C27B0; color: #6A1B9A; }
+        .filter-pill.active { background: linear-gradient(105deg, #003366 0%, #0055a5 100%) !important; border-color: #ffb347 !important; color: white !important; }
+        .filter-pill.favorito-active {
+            background: #fbbf24 !important;
+            color: #1e3a5f !important;
+            border-color: #d97706 !important;
+        }
+        .clear-filters-btn {
+            background: #e2e8f0;
+            border: none;
+            border-radius: 9999px;
+            padding: 0.25rem 0.7rem;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: #4a5568;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        .clear-filters-btn:hover {
+            background: #cbd5e1;
+            color: #1a202c;
+        }
+        .search-input {
+            border: 2px solid #ffd9b5;
+            border-radius: 60px;
+            background: white;
+            padding: 0.85rem 1.25rem 0.85rem 3rem;
+            width: 100%;
+            font-size: 0.95rem;
+            outline: none;
+        }
+        .search-input:focus { border-color: #ff914d; box-shadow: 0 0 0 4px rgba(255,145,77,0.2); }
+        .btn-primary {
+            background: linear-gradient(105deg, #003366, #0a4c8a);
+            color: white;
+            font-weight: 700;
+            padding: 0.7rem 1.5rem;
+            border-radius: 60px;
+            transition: all 0.25s;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,51,102,0.25);
+        }
+        .btn-outline-accent {
+            background: transparent;
+            border: 2px solid #ff914d;
+            color: #c23b0e;
+            font-weight: 700;
+            border-radius: 60px;
+            padding: 0.5rem 1.3rem;
+        }
+        .favorite-star { cursor: pointer; transition: transform 0.2s ease; }
+        .favorite-star:hover { transform: scale(1.1); }
+        .qualis-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            padding: 0.25rem 1rem;
+            border-radius: 40px;
+            font-weight: 700;
+            font-size: 0.75rem;
+            background: #f3f4f6;
+            color: #1f2937;
+            border-left: 3px solid #9ca3af;
+        }
+        .qualis-A1 { background:#E3F2FD; color:#0B3B5F; border-left-color:#1976D2; }
+        .qualis-A2 { background:#E8F5E9; color:#1E5631; border-left-color:#2E7D32; }
+        .qualis-A3 { background:#FFF8E1; color:#AA6F20; border-left-color:#F9A825; }
+        .qualis-A4 { background:#FFEBEE; color:#B23C1C; border-left-color:#E64A19; }
+        .qualis-B1 { background:#F3E5F5; color:#4A2E6B; border-left-color:#8E24AA; }
+        .qualis-B2 { background:#FCE4EC; color:#9B2C3D; border-left-color:#D81B60; }
+        .qualis-B3 { background:#E0F2F1; color:#00695C; border-left-color:#009688; }
+        .qualis-B4 { background:#FFF3E0; color:#BF6F00; border-left-color:#FFB300; }
+        .qualis-C { background:#ECEFF1; color:#546E7A; border-left-color:#78909C; }
+        .qualis-nao-especificado { background:#F3E5F5; color:#6A1B9A; border-left-color:#9C27B0; }
+        
+        /* NOVA CLASSE PARA IMAGENS NOS CARDS - PREENCHE TODO O QUADRADO */
+        .card-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        #revistas-grid > div:not(.skeleton-card) {
+            background: #ffffff;
+            border-radius: 1.75rem;
+            border: 2px solid rgba(255,145,77,0.65);
+            transition: all 0.25s;
+            box-shadow: 0 6px 14px rgba(0,0,0,0.02);
+            overflow: hidden;
+        }
+        #revistas-grid > div:not(.skeleton-card):hover {
+            border-color: transparent;
+            transform: translateY(-4px);
+            box-shadow: 0 20px 30px -12px rgba(0,51,102,0.2);
+        }
+        .skeleton-card {
+            background: linear-gradient(110deg, #eceff3 8%, #f5f8fc 18%, #eceff3 33%);
+            background-size: 200% 100%;
+            animation: shimmer 1.5s infinite linear;
+            border-radius: 1.75rem;
+            height: 280px;
+        }
+        @keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
+        .detail-main-section {
+            background: #ffffff;
+            border-radius: 1.75rem;
+            padding: 1.8rem;
+            margin-bottom: 2rem;
+            border: 1px solid #ffe0bc;
+        }
+        .detail-two-columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+        .detail-three-columns {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        @media (max-width: 768px) { 
+            .detail-two-columns, .detail-three-columns { grid-template-columns: 1fr; gap: 1.5rem; } 
+        }
+        .info-card {
+            background: #f8fafc;
+            border-radius: 1rem;
+            padding: 1rem;
+            border-left: 4px solid #ff914d;
+        }
+        .animate-fade-in { animation: fadeUp 0.4s ease-out forwards; }
+        @keyframes fadeUp { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+        ::-webkit-scrollbar { width:6px; height:6px; }
+        ::-webkit-scrollbar-track { background:#f0e9df; border-radius:10px; }
+        ::-webkit-scrollbar-thumb { background:#ff914d; border-radius:10px; }
+        #toast-container { position: fixed; bottom:20px; right:20px; z-index:9999; display:flex; flex-direction:column; gap:10px; }
+        .toast { transition: opacity 0.3s ease; opacity:0; max-width:350px; }
+        .toast.show { opacity:1; }
+        .language-badge {
+            background: #e0f2fe;
+            color: #0369a1;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+        .stat-number {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #003366;
+        }
+        .copyright-tooltip {
+            cursor: help;
+            border-bottom: 1px dotted #888;
+        }
+        .copyright-tooltip:hover::after {
+            content: "Desenvolvido por Emerson Fragoso da Silva | Direitos de uso ao Núcleo de Estudos da Violência - NEV/USP";
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #1e293b;
+            color: #f1f5f9;
+            font-size: 0.7rem;
+            font-weight: normal;
+            padding: 0.4rem 0.8rem;
+            border-radius: 0.5rem;
+            white-space: nowrap;
+            z-index: 1000;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+            margin-bottom: 8px;
+            font-family: 'Inter', sans-serif;
+            pointer-events: none;
+        }
+        @media (max-width: 640px) {
+            .copyright-tooltip:hover::after {
+                white-space: normal;
+                width: 200px;
+                text-align: center;
+                font-size: 0.6rem;
+            }
+        }
+
+        /* ========== MODAL DE CONSENTIMENTO ========== */
+        .consent-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 20, 40, 0.95);
+            backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 20000;
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 0.3s ease;
+        }
+        .consent-modal.hidden {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
+        .consent-card {
+            background: #ffffff;
+            border-radius: 2rem;
+            max-width: 550px;
+            width: 90%;
+            padding: 2rem;
+            box-shadow: 0 30px 45px -20px rgba(0,0,0,0.5);
+            border-top: 6px solid #ff914d;
+            text-align: center;
+        }
+        .consent-card .message { margin: 1.5rem 0; color: #1e2a3a; font-size: 1rem; line-height: 1.5; }
+        .consent-card .actions { display: flex; gap: 1rem; justify-content: center; margin-top: 1.5rem; }
+        .consent-card .actions button {
+            background: #ff914d;
+            border: none;
+            color: white;
+            font-weight: bold;
+            padding: 0.6rem 1.5rem;
+            border-radius: 40px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .consent-card .actions button:hover { background: #ff6a2c; }
+        .consent-card .actions a { color: #ff914d; text-decoration: underline; cursor: pointer; font-weight: 600; }
+        .consent-card h3 { font-size: 1.5rem; color: #003366; margin-bottom: 0.5rem; }
+        
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 20, 40, 0.85);
+            backdrop-filter: blur(8px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 21000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.25s, visibility 0.25s;
+        }
+        .modal-overlay.show { opacity: 1; visibility: visible; }
+        .modal-content {
+            background: #ffffff;
+            border-radius: 2rem;
+            max-width: 720px;
+            width: 90%;
+            max-height: 85vh;
+            overflow-y: auto;
+            box-shadow: 0 30px 45px -20px rgba(0,0,0,0.5);
+            transform: scale(0.96);
+            transition: transform 0.2s ease;
+            border-top: 6px solid #ff914d;
+        }
+        .modal-overlay.show .modal-content { transform: scale(1); }
+        
+        /* Estilos para as normas gerais */
+        .normas-card {
+            background: linear-gradient(to bottom right, #ffffff, #fff8f0);
+            border-radius: 1.5rem;
+            border: 1px solid #ffe0bc;
+        }
+        .normas-list-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+        }
+        .normas-list-icon {
+            flex-shrink: 0;
+            margin-top: 0.125rem;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app" class="min-h-screen flex flex-col">
+    <header class="glass-header sticky top-0 z-50 py-3 px-5">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <button onclick="window.router.push('home')" class="flex items-center gap-3 hover:opacity-90 transition-all group">
+                <img src="imagem/logo_submetnev.png" alt="NEV/USP" class="h-16 md:h-24 w-auto object-contain drop-shadow-md">
+                <div class="hidden md:block border-l border-amber-200 pl-3 leading-tight">
+                    <p class="text-xs font-bold text-[#003366] tracking-wide serif-heading">Núcleo de Estudos da Violência</p>
+                    <p class="text-[11px] text-slate-600">Manual de Apoio à Publicação Acadêmica</p>
+                </div>
+            </button>
+            <div class="flex gap-3">
+                <button id="menu-normas" onclick="window.router.push('normas')" class="flex items-center gap-2 bg-white/90 hover:bg-amber-50 text-slate-800 px-4 py-2 rounded-full border border-amber-300 shadow-sm transition-all text-sm font-semibold">
+                    <i class="fas fa-book-open"></i> <span class="hidden sm:inline">Orientações Gerais</span>
+                </button>
+                <button onclick="window.router.push('guias')" class="flex items-center gap-2 bg-gradient-to-r from-amber-50 to-orange-50 hover:from-amber-100 hover:to-orange-100 text-amber-900 px-4 py-2 rounded-full border border-orange-300 transition-all text-sm font-semibold">
+                    <i class="fas fa-feather-alt"></i> <span class="hidden sm:inline">Diretrizes Metodológicas</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-1 max-w-7xl w-full mx-auto px-4 py-8 md:py-12">
+        <div id="main-view" class="view-section">
+            <div class="card-academic p-6 md:p-8 mb-8 bg-white/90">
+                <div class="relative flex-1 mb-6">
+                    <i class="fas fa-search absolute left-4 top-1/2 -translate-y-1/2 text-orange-400 text-sm"></i>
+                    <input type="text" id="search-input" placeholder="🔍 Pesquise por título, instituição ou área temática…" class="search-input">
+                </div>
+                <div class="flex flex-wrap items-center gap-3">
+                    <span class="text-xs font-bold text-[#003366] uppercase tracking-wider mr-1 bg-amber-50 px-3 py-1 rounded-full"><i class="fas fa-chart-simple"></i> Qualis CAPES:</span>
+                    <div id="qualis-filters" class="flex flex-wrap gap-2"></div>
+                    <button id="favorito-filter-btn" class="filter-pill flex items-center gap-2">
+                        <i class="fas fa-star"></i> Favoritos
+                    </button>
+                    <button id="clear-filters-btn" class="clear-filters-btn" title="Limpar todos os filtros">
+                        <i class="fas fa-times-circle"></i> Limpar
+                    </button>
+                </div>
+            </div>
+            <div class="mb-6 flex flex-wrap justify-between items-center gap-3">
+                <div class="flex items-center gap-2 text-slate-700 text-sm font-semibold bg-white/60 px-4 py-2 rounded-full">
+                    <i class="fas fa-chart-line text-[#ff914d] text-base"></i>
+                    <span id="results-count">Carregando periódicos...</span>
+                </div>
+            </div>
+            <div id="revistas-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
+                <div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div>
+            </div>
+        </div>
+
+        <div id="detail-view" class="view-section hidden animate-fade-in">
+            <div class="mb-5">
+                <button onclick="window.router.back()" class="inline-flex items-center gap-2 text-[#ff6a2c] font-bold hover:underline transition">
+                    <i class="fas fa-chevron-left"></i> Voltar à lista
+                </button>
+            </div>
+            <div id="revista-detail-content"></div>
+        </div>
+
+        <div id="general-norms-view" class="view-section hidden animate-fade-in">
+            <div class="flex flex-wrap justify-between items-center gap-4 mb-8 border-b-2 border-orange-200 pb-5">
+                <h2 class="text-2xl md:text-3xl font-bold text-[#003366] flex items-center gap-3 serif-heading">
+                    <i class="fas fa-scale-balanced text-amber-600 text-3xl"></i> Padrão Normativo Genérico
+                </h2>
+                <button onclick="window.router.back()" class="btn-outline-accent text-sm font-bold">
+                    <i class="fas fa-arrow-left"></i> Voltar
+                </button>
+            </div>
+            <div id="general-norms-content" class="grid grid-cols-1 md:grid-cols-3 gap-7"></div>
+        </div>
+
+        <div id="guide-view" class="view-section hidden animate-fade-in">
+            <div class="flex flex-wrap justify-between items-center gap-4 mb-8 border-b-2 border-orange-200 pb-5">
+                <h2 class="text-2xl md:text-3xl font-bold text-[#003366] flex items-center gap-3 serif-heading">
+                    <i class="fas fa-compass text-amber-600"></i> Diretrizes Metodológicas de Referência
+                </h2>
+                <button onclick="window.router.back()" class="btn-outline-accent text-sm font-bold">
+                    <i class="fas fa-arrow-left"></i> Voltar
+                </button>
+            </div>
+            <div id="guide-content" class="space-y-8"></div>
+        </div>
+    </main>
+
+    <footer class="mt-auto border-t-2 border-amber-200 bg-white/80 backdrop-blur-sm py-6 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col gap-4">
+            <div class="bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 rounded-xl p-3 mx-auto w-full text-center shadow-sm">
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-2 text-sm">
+                    <i class="fas fa-envelope-open-text text-[#ff6a2c] text-lg animate-pulse"></i>
+                    <span class="text-slate-700">
+                        <strong class="text-[#003366]">⚠️ Encontrou alguma informação incorreta?</strong> 
+                        Quer sugerir um periódico para integrar o SubmetNEV?
+                    </span>
+                    <a href="mailto:submetnev@gmail.com" class="inline-flex items-center gap-2 bg-[#ff6a2c] hover:bg-[#ff914d] text-white font-bold px-4 py-1.5 rounded-full transition-all shadow-md hover:shadow-lg text-sm">
+                        <i class="fas fa-paper-plane"></i> submetnev@gmail.com
+                    </a>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-600">
+                <div class="flex items-center gap-3">
+                    <img src="imagem/icone_submetnev.png" alt="SubmetNEV" class="h-7 w-auto opacity-80 rounded-xl">
+                    <span class="copyright-tooltip">© 2026 · <span class="font-bold text-[#003366]">NEV/USP</span> – Núcleo de Estudos da Violência</span>
+                </div>
+                <div class="flex gap-6">
+                    <button id="open-terms-btn" class="hover:text-[#ff6a2c] flex items-center gap-1 transition">
+                        <i class="fas fa-file-contract"></i> Termos de uso
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<div id="toast-container"></div>
+
+<div id="consent-modal" class="consent-modal">
+    <div class="consent-card">
+      <h3>Aceite os Termos de Uso</h3>
+      <div class="message">
+        <i class="fas fa-info-circle text-[#003366] mr-2"></i> Ao continuar, você declara estar ciente e de acordo com os 
+        <a id="saiba-mais-consent" style="cursor:pointer; color:#ff914d; text-decoration:underline;">Termos de Uso</a> do SubmetNEV.
+      </div>
+      <div class="actions">
+        <button id="accept-terms-btn">Continuar</button>
+      </div>
+    </div>
+</div>
+
+<div id="terms-modal" class="modal-overlay">
+    <div class="modal-content p-6 md:p-8">
+        <div class="flex justify-between items-center border-b-2 border-amber-200 pb-3 mb-4">
+            <h3 class="text-xl font-bold text-[#003366]">TERMO DE CIÊNCIA E CONCORDÂNCIA DE USO – SUBMETNEV</h3>
+            <button onclick="window.closeTermsModal()" class="text-slate-400 hover:text-amber-600 text-2xl">&times;</button>
+        </div>
+        <div class="space-y-4 text-slate-600 text-sm max-h-[60vh] overflow-y-auto">
+            <p>Ao acessar e utilizar o SubmetNEV, o usuário declara ciência e concordância com as condições abaixo:</p>
+            <p><strong>1. Natureza da Ferramenta</strong><br> O SubmetNEV é uma ferramenta de apoio acadêmico vinculada ao NEV/USP, de caráter exclusivamente informativo e não vinculante...</p>
+            <p><strong>2. Uso de Inteligência Artificial</strong><br> A ferramenta utiliza sistemas automatizados e modelos de linguagem para apoio à elaboração de conteúdos...</p>
+            <p><strong>3. Proteção de Dados (LGPD)</strong><br> Em conformidade com a Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais – LGPD)...</p>
+            <p><strong>4. Atualização das Informações</strong><br> Os conteúdos, modelos e templates são revisados periodicamente...</p>
+            <p><strong>5. Responsabilidade do Usuário</strong><br> O usuário reconhece ser de sua inteira responsabilidade a análise, revisão, adequação e validação final...</p>
+            <p><strong>6. Uso Adequado</strong><br> O uso da ferramenta deve ocorrer exclusivamente para fins acadêmicos...</p>
+            <p><strong>Disposição Final</strong><br> Ao continuar a navegação e utilizar o SubmetNEV, considera-se que o usuário está ciente e de acordo com os presentes termos de uso.</p>
+        </div>
+        <div class="mt-6 flex justify-end">
+            <button onclick="window.closeTermsModal()" class="bg-[#003366] text-white px-6 py-2 rounded-xl font-semibold hover:bg-[#ff6a2c]">Fechar</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    // ========== DADOS DAS NORMAS GERAIS ==========
+    const NORMAS_DATA = {
+        etica: {
+            titulo: "Ética e Boas Práticas",
+            icon: "fas fa-hand-holding-heart",
+            itens: [
+                "Manuscrito inédito (não publicado e não submetido simultaneamente).",
+                "Todos os autores aprovam a versão final e concordam com a submissão.",
+                "Plágio, autoplágio, fabricação/falsificação de dados: rejeição imediata e notificação às instituições.",
+                "Pesquisas com seres humanos: obrigatória a explicitação do número CAAE e do número do parecer consubstanciado do Comitê de Ética em Pesquisa no corpo do artigo.",
+                "Declaração de contribuição dos autores (taxonomia CRediT) exigida para coautorias.",
+                "Declaração de conflito de interesses (modelo ICMJE) obrigatória, assinada por todos os autores.",
+                "Uso de ferramentas de IA generativa deve ser explicitamente declarado na metodologia ou seção de agradecimentos.",
+                "Depósito de dados de pesquisa em repositórios de acesso aberto (recomendação SciELO/FAPESP/CAPES).",
+                "Conformidade com os Códigos de Ética do COPE (Committee on Publication Ethics)."
+            ]
+        },
+        formatacao: {
+            titulo: "Formatação (Padrão ABNT)",
+            icon: "fas fa-file-alt",
+            itens: [
+                "Arquivo: .docx (preferencial), .doc ou .odt (não aceito .pdf na submissão inicial).",
+                "Fonte: Times New Roman, tamanho 12pt.",
+                "Espaçamento: 1,5 linhas (salvo especificação contrária do periódico).",
+                "Margens: 2,5 cm (superior, inferior, esquerda, direita) - padrão ABNT.",
+                "Alinhamento: Justificado.",
+                "Páginas: Numeradas sequencialmente.",
+                "Citações: Sistema autor-data (ABNT NBR 10520).",
+                "Citações diretas longas: Mais de 3 linhas: recuo de 4 cm da margem esquerda, fonte 11pt, espaçamento simples, sem aspas.",
+                "Referências: ABNT NBR 6023 - ordem alfabética ao final do texto, com nomes COMPLETOS dos autores.",
+                "Notas: Explicativas, numeradas sequencialmente.",
+                "Tabelas: Formato editável (Word/Excel), numeradas sequencialmente, título no topo, fonte indicada na base.",
+                "Figuras: Alta resolução (mín. 300dpi), legendas na base, numeradas sequencialmente.",
+                "Siglas: Explicitadas por extenso na primeira menção."
+            ]
+        },
+        checklist: {
+            titulo: "Checklist Final Antes da Submissão",
+            icon: "fas fa-check-double",
+            itens: [
+                "Ortografia e gramática revisadas.",
+                "Coerência entre objetivo, método e conclusão.",
+                "Todas as citações conferidas e no formato autor-data.",
+                "Todas as referências completas, em ordem alfabética e com nomes COMPLETOS dos autores.",
+                "Arquivo anônimo para avaliação cega por pares.",
+                "ORCID de todos os autores inserido nos metadados da submissão.",
+                "Resumo e Abstract dentro do limite especificado.",
+                "Palavras-chave e keywords alinhadas ao vocabulário controlado da área.",
+                "Declaração de conflito de interesses assinada por todos os autores.",
+                "Número CAAE informado (para pesquisas com seres humanos).",
+                "Termo de consentimento livre e esclarecido (quando aplicável)."
+            ]
+        }
+    };
+
+    function populateGeneralNorms() {
+        const container = document.getElementById('general-norms-content');
+        if (!container) return;
+        const cards = [NORMAS_DATA.etica, NORMAS_DATA.formatacao, NORMAS_DATA.checklist];
+        container.innerHTML = cards.map(card => `
+            <div class="normas-card bg-gradient-to-br from-white to-amber-50/30 p-6 shadow-md hover:shadow-xl transition-all">
+                <div class="flex items-center gap-3 border-b border-amber-200 pb-3 mb-4">
+                    <i class="${card.icon} text-2xl text-amber-700"></i>
+                    <h3 class="text-xl font-bold text-[#003366] serif-heading">${card.titulo}</h3>
+                </div>
+                <ul class="space-y-3">
+                    ${card.itens.map(item => `
+                        <li class="normas-list-item">
+                            <i class="fas fa-circle-check normas-list-icon text-amber-600 text-sm mt-1"></i>
+                            <span class="text-slate-700 text-sm leading-relaxed">${item}</span>
+                        </li>
+                    `).join('')}
+                </ul>
+            </div>
+        `).join('');
+    }
+
+    function showToast(message, type = 'info') {
+        const container = document.getElementById('toast-container');
+        if (!container) return;
+        const toast = document.createElement('div');
+        toast.className = `toast show animate-fade-in bg-white border p-4 rounded-lg shadow-lg flex items-center gap-3`;
+        const icons = { info: 'fa-info-circle text-blue-500', success: 'fa-check-circle text-green-500', error: 'fa-exclamation-circle text-red-500', warning: 'fa-exclamation-triangle text-yellow-500' };
+        toast.innerHTML = `<i class="fas ${icons[type] || icons.info}"></i><span class="text-sm font-medium">${message}</span>`;
+        container.appendChild(toast);
+        setTimeout(() => { toast.classList.remove('show'); setTimeout(() => toast.remove(), 300); }, 4000);
+    }
+
+    function updateResultsCount(count) {
+        const el = document.getElementById('results-count');
+        if (!el) return;
+        el.innerHTML = count === 0 ? `<span class="text-slate-400">Nenhuma revista encontrada</span>` : `Exibindo <span class="text-[#003366] font-bold mx-1">${count}</span> ${count === 1 ? 'revista' : 'revistas'}`;
+    }
+
+    // ========== GERENCIAMENTO DE CACHE ==========
+    function getCachedData() {
+        const cached = localStorage.getItem('nev_normas_cache_v6');
+        if (!cached) return null;
+        try {
+            const data = JSON.parse(cached);
+            const now = Date.now();
+            if (now - data.timestamp < 3600000) return data;
+        } catch(e) {}
+        return null;
+    }
+
+    function setCachedData(revistasMap, normasData) {
+        const revistasObj = {};
+        revistasMap.forEach((value, key) => { revistasObj[key] = value; });
+        const cacheData = { timestamp: Date.now(), revistas: revistasObj, normas: normasData };
+        localStorage.setItem('nev_normas_cache_v6', JSON.stringify(cacheData));
+    }
+
+    // ========== FAVORITOS ==========
+    function loadFavorites() {
+        const saved = localStorage.getItem('submetnev_favorites');
+        if (saved) {
+            try {
+                window.state.favorites = new Set(JSON.parse(saved));
+            } catch(e) {}
+        }
+    }
+    
+    function saveFavorites() {
+        localStorage.setItem('submetnev_favorites', JSON.stringify([...window.state.favorites]));
+    }
+    
+    function toggleFavorite(revistaId) {
+        if (window.state.favorites.has(revistaId)) {
+            window.state.favorites.delete(revistaId);
+            showToast('Revista removida dos favoritos', 'info');
+        } else {
+            window.state.favorites.add(revistaId);
+            showToast('Revista adicionada aos favoritos', 'success');
+        }
+        saveFavorites();
+        renderRevistas();
+        if (window.state.currentRevista && window.state.currentRevista.id === revistaId) {
+            updateDetailFavoriteIcon(revistaId);
+        }
+        updateFavoritoFilterButton();
+    }
+    
+    function isFavorite(revistaId) {
+        return window.state.favorites.has(revistaId);
+    }
+    
+    function updateDetailFavoriteIcon(revistaId) {
+        const starBtn = document.getElementById('favorite-star-detail');
+        if (starBtn) {
+            const isFav = isFavorite(revistaId);
+            starBtn.innerHTML = isFav ? '<i class="fas fa-star text-yellow-500"></i>' : '<i class="far fa-star text-slate-400"></i>';
+        }
+    }
+
+    // ========== FILTROS ==========
+    function getQualisClass(qualis) {
+        const map = { 'A1':'qualis-A1','A2':'qualis-A2','A3':'qualis-A3','A4':'qualis-A4','B1':'qualis-B1','B2':'qualis-B2','B3':'qualis-B3','B4':'qualis-B4','C':'qualis-C' };
+        return map[qualis] || 'qualis-nao-especificado';
+    }
+
+    function renderQualisFilters() {
+        const container = document.getElementById('qualis-filters');
+        if (!container) return;
+        const qualisUnicos = ['Todos', ...new Set(window.state.revistas.map(r => r.qualis).filter(q => q && q !== ''))].sort();
+        container.innerHTML = qualisUnicos.map(q => {
+            let extraClass = '';
+            let isActive = false;
+            if (q === 'Todos') {
+                isActive = window.state.qualisSelecionados.length === 0;
+            } else {
+                extraClass = getQualisClass(q);
+                isActive = window.state.qualisSelecionados.includes(q);
+            }
+            const activeClass = isActive ? 'active' : '';
+            return `<button data-qualis="${q}" class="filter-pill ${extraClass} ${activeClass}">${q}</button>`;
+        }).join('');
+        
+        document.querySelectorAll('#qualis-filters .filter-pill').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const qualisVal = btn.getAttribute('data-qualis');
+                if (qualisVal === 'Todos') {
+                    window.state.qualisSelecionados = [];
+                } else {
+                    const index = window.state.qualisSelecionados.indexOf(qualisVal);
+                    if (index === -1) {
+                        window.state.qualisSelecionados.push(qualisVal);
+                    } else {
+                        window.state.qualisSelecionados.splice(index, 1);
+                    }
+                }
+                renderQualisFilters();
+                renderRevistas();
+            });
+        });
+    }
+    
+    function updateFavoritoFilterButton() {
+        const btn = document.getElementById('favorito-filter-btn');
+        if (btn) {
+            if (window.state.showFavoritesOnly) {
+                btn.classList.add('favorito-active');
+                btn.innerHTML = '<i class="fas fa-star"></i> Favoritos (ativo)';
+            } else {
+                btn.classList.remove('favorito-active');
+                btn.innerHTML = '<i class="fas fa-star"></i> Favoritos';
+            }
+        }
+    }
+
+    function toggleFavoritoFilter() {
+        window.state.showFavoritesOnly = !window.state.showFavoritesOnly;
+        updateFavoritoFilterButton();
+        renderRevistas();
+    }
+
+    // ========== LIMPAR FILTROS (inclui limpeza da busca) ==========
+    function clearAllFilters() {
+        window.state.qualisSelecionados = [];
+        window.state.showFavoritesOnly = false;
+        window.state.searchTerm = '';
+        const searchInput = document.getElementById('search-input');
+        if (searchInput) searchInput.value = '';
+        renderQualisFilters();
+        updateFavoritoFilterButton();
+        renderRevistas();
+        showToast('Todos os filtros e a busca foram limpos', 'info');
+    }
+
+    // ========== DETALHE DA REVISTA ==========
+    window.showRevistaDetail = async function(id, save = true) {
+        if (save && window.router) {
+            window.router.push('detalhe', id, true);
+            return;
+        }
+        const container = document.getElementById('revista-detail-content');
+        if (!container) return;
+        container.innerHTML = `<div class="flex flex-col items-center justify-center py-20"><i class="fas fa-spinner animate-spin text-4xl text-[#003366] mb-4"></i><p class="text-slate-500 font-medium">Carregando diretrizes...</p></div>`;
+        try {
+            let r = window.state.revistasMap.get(id);
+            if (!r) {
+                const response = await fetch(`revistas/${id}.json?t=${Date.now()}`);
+                if (!response.ok) throw new Error(`Revista ID ${id} não encontrada.`);
+                r = await response.json();
+                window.state.revistasMap.set(id, r);
+            }
+            window.state.currentRevista = r;
+            
+            const primeiroTipo = r.tipos_texto?.[0] || {};
+            
+            container.innerHTML = `
+                <div class="animate-fade-in">
+                    <!-- Cabeçalho -->
+                    <div class="detail-main-section">
+                        <div class="flex flex-col md:flex-row gap-8 items-start">
+                            <div class="w-32 h-32 bg-white rounded-2xl border border-slate-200 flex items-center justify-center p-4">
+                                <img src="${r.imagem || window.CONFIG.IMAGE_PLACEHOLDER}" class="w-full h-full object-contain" onerror="this.onerror=null; this.src='${window.CONFIG.IMAGE_PLACEHOLDER}';">
+                            </div>
+                            <div class="flex-1">
+                                <div class="flex items-center justify-between flex-wrap gap-2">
+                                    <h1 class="text-2xl font-extrabold text-slate-900 mb-2">${r.nome || 'Revista'}</h1>
+                                    <button id="favorite-star-detail" onclick="window.toggleFavorite('${id}')" class="text-2xl focus:outline-none">
+                                        ${isFavorite(id) ? '<i class="fas fa-star text-yellow-500"></i>' : '<i class="far fa-star text-slate-400"></i>'}
+                                    </button>
+                                </div>
+                                <p class="text-slate-500 font-medium mb-4"><i class="fas fa-university text-[#003366]"></i> ${r.instituicao || 'Instituição não informada'}</p>
+                                <div class="flex flex-wrap gap-2 mb-4">
+                                    ${r.issn ? `<span class="bg-slate-100 text-slate-600 px-3 py-1 rounded-full text-xs"><i class="fas fa-barcode"></i> ISSN: ${r.issn}</span>` : ''}
+                                    ${r.qualis ? `<span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-xs"><i class="fas fa-chart-line"></i> Qualis: ${r.qualis}</span>` : ''}
+                                    ${r.periodicidade ? `<span class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-xs"><i class="fas fa-calendar-alt"></i> ${r.periodicidade}</span>` : ''}
+                                    ${r.licenca ? `<span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs"><i class="fas fa-copyright"></i> ${r.licenca}</span>` : ''}
+                                </div>
+                                <div class="flex flex-wrap gap-3">
+                                    ${r.links?.site ? `<a href="${r.links.site}" target="_blank" class="btn-primary py-2 text-xs"><i class="fas fa-external-link-alt"></i> Site Oficial</a>` : ''}
+                                    ${r.links?.submissao ? `<a href="${r.links.submissao}" target="_blank" class="btn-primary py-2 text-xs"><i class="fas fa-paper-plane"></i> Submeter</a>` : ''}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Foco e Escopo -->
+                    <div class="w-full mb-8">
+                        <section class="card-academic p-6 md:p-8">
+                            <h2 class="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2"><i class="fas fa-bullseye text-[#003366]"></i> Foco e Escopo</h2>
+                            <p class="text-slate-600 leading-relaxed">${r.foco || 'Informação não disponível'}</p>
+                            ${r.descricao ? `<p class="text-slate-600 leading-relaxed mt-4">${r.descricao}</p>` : ''}
+                        </section>
+                    </div>
+
+                    <!-- Limites e Requisitos -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+                        ${r.limites?.artigo_palavras ? `<div class="info-card"><p class="text-xs text-slate-500 uppercase tracking-wide">📄 Artigo original</p><p class="font-bold text-[#003366]">${r.limites.artigo_palavras}</p></div>` : ''}
+                        ${r.limites?.nota_tecnica_palavras ? `<div class="info-card"><p class="text-xs text-slate-500 uppercase tracking-wide">🔧 Nota técnica</p><p class="font-bold text-[#003366]">${r.limites.nota_tecnica_palavras}</p></div>` : ''}
+                        ${r.limites?.comentario_critico_palavras ? `<div class="info-card"><p class="text-xs text-slate-500 uppercase tracking-wide">💬 Comentário crítico</p><p class="font-bold text-[#003366]">${r.limites.comentario_critico_palavras}</p></div>` : ''}
+                        ${r.limites?.autores_maximo ? `<div class="info-card"><p class="text-xs text-slate-500 uppercase tracking-wide">👥 Máximo de autores</p><p class="font-bold text-[#003366]">${r.limites.autores_maximo}</p></div>` : ''}
+                        ${r.limites?.resumo_maximo ? `<div class="info-card"><p class="text-xs text-slate-500 uppercase tracking-wide">📝 Resumo máximo</p><p class="font-bold text-[#003366]">${r.limites.resumo_maximo}</p></div>` : ''}
+                        ${r.limites?.palavras_chave_quantidade ? `<div class="info-card"><p class="text-xs text-slate-500 uppercase tracking-wide">🔑 Palavras-chave</p><p class="font-bold text-[#003366]">${r.limites.palavras_chave_quantidade}</p></div>` : ''}
+                        ${r.limites?.notas_rodape_palavras ? `<div class="info-card"><p class="text-xs text-slate-500 uppercase tracking-wide">📌 Notas de rodapé</p><p class="font-bold text-[#003366]">${r.limites.notas_rodape_palavras} palavras</p></div>` : ''}
+                        ${r.taxa ? `<div class="info-card"><p class="text-xs text-slate-500 uppercase tracking-wide">💰 Taxa</p><p class="font-bold text-[#003366]">${r.taxa}</p></div>` : ''}
+                    </div>
+
+                    <!-- Idiomas Aceitos -->
+                    ${primeiroTipo.idiomas_aceitos?.length ? `
+                    <div class="w-full mb-8">
+                        <section class="card-academic p-6 md:p-8">
+                            <h2 class="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2"><i class="fas fa-language text-[#003366]"></i> Idiomas Aceitos</h2>
+                            <div class="flex flex-wrap gap-2">
+                                ${primeiroTipo.idiomas_aceitos.map(idioma => `<span class="language-badge">${idioma}</span>`).join('')}
+                            </div>
+                        </section>
+                    </div>
+                    ` : ''}
+
+                    <!-- Política de Preprint -->
+                    ${r.preprint ? `
+                    <div class="w-full mb-8">
+                        <section class="card-academic p-6 md:p-8">
+                            <h2 class="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2"><i class="fas fa-archive text-[#003366]"></i> Política de Preprint</h2>
+                            <p class="text-slate-600 leading-relaxed">${r.preprint}</p>
+                            ${r.avaliacao_preprint ? `<p class="text-slate-600 leading-relaxed mt-2"><strong>Avaliação para preprint:</strong> ${r.avaliacao_preprint}</p>` : ''}
+                        </section>
+                    </div>
+                    ` : ''}
+
+                    <!-- CARDS INDIVIDUAIS DE TIPOS DE MANUSCRITO COM BOTÕES -->
+                    <div class="w-full mb-8">
+                        <section class="card-academic p-6 md:p-8">
+                            <h2 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2"><i class="fas fa-file-alt text-[#003366]"></i> Tipos de Manuscrito</h2>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                ${r.tipos_texto?.map(t => `
+                                    <div class="border border-slate-200 rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-md transition-all">
+                                        <div class="bg-gradient-to-r from-[#003366] to-[#0a4c8a] px-4 py-3">
+                                            <h3 class="font-bold text-white text-lg">${t.tipo || 'Manuscrito'}</h3>
+                                        </div>
+                                        <div class="p-4 space-y-3">
+                                            ${t.extensao ? `
+                                                <div class="flex items-start gap-2">
+                                                    <i class="fas fa-text-height text-[#003366] mt-0.5 text-sm"></i>
+                                                    <div>
+                                                        <p class="text-xs text-slate-500 uppercase tracking-wide">Extensão</p>
+                                                        <p class="text-sm font-medium text-slate-800">${t.extensao}</p>
+                                                    </div>
+                                                </div>
+                                            ` : ''}
+                                            ${t.titulacao_minima_autor ? `
+                                                <div class="flex items-start gap-2">
+                                                    <i class="fas fa-graduation-cap text-[#003366] mt-0.5 text-sm"></i>
+                                                    <div>
+                                                        <p class="text-xs text-slate-500 uppercase tracking-wide">Titulação mínima</p>
+                                                        <p class="text-sm font-medium text-slate-800">${t.titulacao_minima_autor}</p>
+                                                    </div>
+                                                </div>
+                                            ` : ''}
+                                            ${t.idiomas_aceitos?.length ? `
+                                                <div class="flex items-start gap-2">
+                                                    <i class="fas fa-language text-[#003366] mt-0.5 text-sm"></i>
+                                                    <div>
+                                                        <p class="text-xs text-slate-500 uppercase tracking-wide">Idiomas aceitos</p>
+                                                        <div class="flex flex-wrap gap-1 mt-1">
+                                                            ${t.idiomas_aceitos.map(idioma => `<span class="text-xs bg-slate-100 text-slate-700 px-2 py-0.5 rounded-full">${idioma}</span>`).join('')}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            ` : ''}
+                                            ${t.resumo_maximo_palavras ? `
+                                                <div class="flex items-start gap-2">
+                                                    <i class="fas fa-paragraph text-[#003366] mt-0.5 text-sm"></i>
+                                                    <div>
+                                                        <p class="text-xs text-slate-500 uppercase tracking-wide">Resumo máximo</p>
+                                                        <p class="text-sm font-medium text-slate-800">${t.resumo_maximo_palavras} palavras</p>
+                                                    </div>
+                                                </div>
+                                            ` : ''}
+                                            ${t.palavras_chave_quantidade ? `
+                                                <div class="flex items-start gap-2">
+                                                    <i class="fas fa-tags text-[#003366] mt-0.5 text-sm"></i>
+                                                    <div>
+                                                        <p class="text-xs text-slate-500 uppercase tracking-wide">Palavras-chave</p>
+                                                        <p class="text-sm font-medium text-slate-800">${t.palavras_chave_quantidade}</p>
+                                                    </div>
+                                                </div>
+                                            ` : ''}
+                                            ${t.detalhes ? `
+                                                <div class="mt-2 pt-2 border-t border-slate-100">
+                                                    <p class="text-xs text-slate-500 uppercase tracking-wide mb-1">Descrição</p>
+                                                    <p class="text-sm text-slate-600 leading-relaxed">${t.detalhes}</p>
+                                                </div>
+                                            ` : ''}
+                                            ${t.requisitos_especificos?.length ? `
+                                                <div class="mt-2 pt-2 border-t border-slate-100">
+                                                    <p class="text-xs text-slate-500 uppercase tracking-wide mb-1">Requisitos específicos</p>
+                                                    <ul class="space-y-1">
+                                                        ${t.requisitos_especificos.map(req => `
+                                                            <li class="text-sm text-slate-600 flex items-start gap-2">
+                                                                <i class="fas fa-check-circle text-emerald-500 text-xs mt-0.5"></i>
+                                                                <span>${req}</span>
+                                                            </li>
+                                                        `).join('')}
+                                                    </ul>
+                                                </div>
+                                            ` : ''}
+                                            ${t.template ? `
+                                                <div class="mt-4 pt-2">
+                                                    <button onclick="window.downloadTemplate('${t.template}', this)" class="btn-primary w-full py-2 text-sm justify-center">
+                                                        <i class="fas fa-file-word"></i> Baixar Template ${t.tipo?.includes('Artigo') ? 'do Artigo' : t.tipo?.includes('Nota') ? 'da Nota Técnica' : 'do Template'}
+                                                    </button>
+                                                </div>
+                                            ` : ''}
+                                        </div>
+                                    </div>
+                                `).join('') || '<p class="text-slate-500 col-span-2 text-center py-8">Consulte o site oficial da revista para informações sobre tipos de manuscrito.</p>'}
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- Formatação e Checklist -->
+                    <div class="detail-two-columns">
+                        <section class="card-academic p-6 bg-[#003366] text-white">
+                            <h2 class="text-lg font-bold mb-6 flex items-center gap-2"><i class="fas fa-i-cursor"></i> Formatação</h2>
+                            <div class="space-y-4">
+                                ${r.formatacao ? Object.entries(r.formatacao).map(([k, v]) => v ? `
+                                    <div class="border-b border-white/10 pb-3 last:border-0">
+                                        <p class="text-[10px] uppercase tracking-widest text-white/60 mb-1">${k.replace(/_/g, ' ')}</p>
+                                        <p class="text-sm font-medium">${v}</p>
+                                    </div>
+                                ` : '').join('') : '<p>Consulte as normas da revista.</p>'}
+                            </div>
+                        </section>
+                        <section class="card-academic p-6">
+                            <h2 class="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2"><i class="fas fa-check-double text-[#003366]"></i> Checklist</h2>
+                            <ul class="space-y-3 max-h-[500px] overflow-y-auto pr-2">
+                                ${r.checklist?.map(item => `<li class="flex items-start gap-3 text-sm text-slate-600"><i class="fas fa-square text-slate-300 mt-1 text-xs"></i><span>${item}</span></li>`).join('') || '<li class="text-sm text-slate-500">Consulte as diretrizes da revista.</li>'}
+                            </ul>
+                        </section>
+                    </div>
+
+                    <!-- Instruções Adicionais -->
+                    ${r.instrucoes_adicionais && Object.values(r.instrucoes_adicionais).some(v => v) ? `
+                    <div class="w-full mt-8">
+                        <section class="card-academic p-6 md:p-8">
+                            <h2 class="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2"><i class="fas fa-info-circle text-[#003366]"></i> Instruções Adicionais</h2>
+                            <div class="space-y-3">
+                                ${r.instrucoes_adicionais.contribuicao_autores ? `<div><strong class="text-slate-700">Contribuição dos autores:</strong> <span class="text-slate-600">${r.instrucoes_adicionais.contribuicao_autores}</span></div>` : ''}
+                                ${r.instrucoes_adicionais.disponibilidade_dados ? `<div><strong class="text-slate-700">Disponibilidade de dados:</strong> <span class="text-slate-600">${r.instrucoes_adicionais.disponibilidade_dados}</span></div>` : ''}
+                                ${r.instrucoes_adicionais.financiamento ? `<div><strong class="text-slate-700">Financiamento:</strong> <span class="text-slate-600">${r.instrucoes_adicionais.financiamento}</span></div>` : ''}
+                            </div>
+                        </section>
+                    </div>
+                    ` : ''}
+
+                    <!-- Avaliação -->
+                    ${r.avaliacao ? `
+                    <div class="w-full mt-8">
+                        <section class="card-academic p-6 md:p-8">
+                            <h2 class="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2"><i class="fas fa-chalkboard-user text-[#003366]"></i> Processo de Avaliação</h2>
+                            <p class="text-slate-600 leading-relaxed">${r.avaliacao}</p>
+                        </section>
+                    </div>
+                    ` : ''}
+                </div>
+            `;
+            
+            document.getElementById('main-view')?.classList.add('hidden');
+            document.getElementById('detail-view')?.classList.remove('hidden');
+            document.getElementById('general-norms-view')?.classList.add('hidden');
+            document.getElementById('guide-view')?.classList.add('hidden');
+            window.scrollTo(0, 0);
+        } catch (e) {
+            console.error(e);
+            showToast(`Erro ao carregar detalhes da revista: ${e.message}`, 'error');
+            container.innerHTML = `<div class="text-center py-20 text-slate-500"><i class="fas fa-exclamation-circle text-4xl mb-3"></i><p>Não foi possível carregar os dados da revista.</p><button onclick="window.router.back()" class="btn-primary mt-4">Voltar</button></div>`;
+        }
+    };
+
+    // ========== NORMAS E GUIAS ==========
+    window.showGeneralNorms = function(save = true) {
+        if (save && window.router) { window.router.push('normas', null, true); return; }
+        const container = document.getElementById('general-norms-content');
+        if (!container) return;
+        container.innerHTML = Object.entries(window.state.normasGerais).map(([k, v]) => `
+            <div class="card-academic p-6 border-l-4 border-l-[#003366] animate-fade-in">
+                <h3 class="text-lg font-bold text-[#003366] mb-4">${v.titulo}</h3>
+                <ul class="space-y-3">
+                    ${v.itens.map(item => `<li class="text-sm text-slate-600 flex items-start gap-2"><i class="fas fa-chevron-right text-[10px] mt-1.5 opacity-50"></i>${item}</li>`).join('')}
+                </ul>
+            </div>
+        `).join('');
+        document.getElementById('main-view')?.classList.add('hidden');
+        document.getElementById('detail-view')?.classList.add('hidden');
+        document.getElementById('guide-view')?.classList.add('hidden');
+        document.getElementById('general-norms-view')?.classList.remove('hidden');
+        window.scrollTo(0, 0);
+    };
+
+    window.showGuideView = function(save = true) {
+        if (save && window.router) { window.router.push('guias', null, true); return; }
+        const container = document.getElementById('guide-content');
+        if (!container) return;
+        const GUIAS = {
+            artigo: { icone:"📄", titulo:"📋 Estrutura de Artigo Científico (NBR 6022:2018)", descricao:"Diretrizes estruturais para artigos originais e de revisão", etapas:[{icone:"🏷️", titulo:"Elementos Pré-textuais", itens:["Título (claro, conciso e representativo do conteúdo)","Resumo e Abstract (100-250 palavras, com problema, objetivo, método, resultados e conclusão)","Palavras-chave e Keywords (3 a 5 termos, descritores do conteúdo)","Autoria e filiação institucional (conforme política de anonimato da revista)"]},{icone:"🎯", titulo:"Introdução e Fundamentação Teórica", itens:["Delimitação do problema de pesquisa e pergunta central","Objetivos (geral e específicos, claros e alcançáveis)","Revisão da literatura e Estado da Arte (o que já foi produzido sobre o tema)","Justificativa da originalidade e relevância do estudo"]},{icone:"🔬", titulo:"Metodologia e Análise de Dados", itens:["Procedimentos metodológicos (tipo de pesquisa, abordagem, universo, amostra, instrumentos de coleta)","Técnicas de análise de dados (detalhadas e justificadas)","Aspectos éticos (aprovação de comitê de ética, se aplicável)","Limitações do método e implicações para os resultados"]},{icone:"⚖️", titulo:"Resultados, Discussão e Conclusões", itens:["Apresentação clara e objetiva dos achados (tabelas, gráficos, figuras com fontes)","Discussão dos resultados à luz do referencial teórico (dialogar, confirmar, contradizer)","Síntese das conclusões e retomada dos objetivos","Contribuições originais do estudo e agenda para pesquisas futuras"]}], dica:"Em periódicos Qualis A, a Discussão Teórica deve ir além da descrição dos dados, estabelecendo um diálogo crítico com a literatura e aprofundando as implicações dos achados." },
+            resenha: { icone:"📖", titulo:"📋 Roteiro para Resenha Crítica (Ensaio Bibliográfico)", descricao:"Análise crítica de obra, situada no campo disciplinar e com posicionamento autoral", etapas:[{icone:"📌", titulo:"Contextualização da Obra", itens:["Referência completa da obra (livro, artigo, filme, etc. - NBR 6023)","Breve apresentação do autor/diretor e sua relevância no campo","Situação da obra no debate atual da área ou em relação a outras produções do autor"]},{icone:"⚖️", titulo:"Análise e Crítica", itens:["Síntese argumentativa da obra (NÃO um resumo capítulo a capítulo, mas a tese central)","Identificação dos pontos fortes e contribuições originais da obra","Apontamento de possíveis limitações metodológicas, conceituais ou lacunas","Diálogo crítico com outras obras ou autores do campo, posicionando a resenha"]},{icone:"💡", titulo:"Considerações Finais", itens:["Avaliação do impacto da obra para a área de conhecimento","Recomendação ou não da leitura, com justificativa","Reflexão sobre o futuro do debate a partir da obra"]}], dica:"Uma resenha acadêmica de alto nível deve 'conversar' com o campo de conhecimento, apresentando um posicionamento crítico e original, e não apenas resumir o conteúdo da obra." },
+            ensaio: { icone:"📝", titulo:"📋 Estrutura de Ensaio Teórico", descricao:"Texto que explora e desenvolve uma ideia ou tese, com rigor lógico-argumentativo", etapas:[{icone:"🎯", titulo:"Tese Central e Problematização", itens:["Proposição clara de uma ideia, conceito ou tese a ser desenvolvida","Problematização de conceitos estabelecidos ou lacunas teóricas","Rigor na lógica de argumentação e originalidade da abordagem"]},{icone:"💭", titulo:"Desenvolvimento Argumentativo", itens:["Diálogo crítico com a literatura de referência (não exaustivo, mas estratégico)","Encadeamento lógico e progressivo dos argumentos","Análise de exemplos ou casos que ilustrem a tese (se aplicável)"]},{icone:"✨", titulo:"Conclusão e Contribuição", itens:["Síntese da tese defendida e suas implicações","Contribuição conceitual ou metodológica para o campo","Questões em aberto ou agenda para futuras reflexões"]}], dica:"Ensaios teóricos não são 'opiniões' desprovidas de rigor, mas sim construções lógicas e argumentativas que buscam aprofundar ou inovar em um debate." },
+            tese_dissertacao: { icone:"🎓", titulo:"📋 Estrutura de Teses e Dissertações (NBR 14724)", descricao:"Padrão estrutural para trabalhos de pós-graduação (Teses e Dissertações)", etapas:[{icone:"🏷️", titulo:"Elementos Pré-textuais", itens:["Capa","Folha de rosto","Ficha catalográfica","Folha de aprovação","Dedicatória (opcional)","Agradecimentos","Epígrafe (opcional)","Resumo e Abstract","Lista de ilustrações, tabelas, abreviaturas (se houver)","Sumário"]},{icone:"📝", titulo:"Elementos Textuais", itens:["Introdução (contexto, problema, objetivos, justificativa)","Referencial Teórico (revisão crítica da literatura)","Metodologia (tipo de pesquisa, procedimentos, ética)","Resultados e Discussão (análise e interpretação)","Conclusão (síntese, contribuições, limitações)"]},{icone:"🔗", titulo:"Elementos Pós-textuais", itens:["Referências (NBR 6023)","Glossário (opcional)","Apêndices (elaborados pelo autor)","Anexos (não elaborados pelo autor)"]}], dica:"A tese/dissertação deve apresentar uma contribuição original e inédita para o conhecimento, com rigor metodológico e argumentativo." }
+        };
+        container.innerHTML = Object.values(GUIAS).map(g => `
+            <div class="card-academic overflow-hidden animate-fade-in">
+                <div class="bg-slate-50 px-8 py-6 border-b border-slate-100 flex items-center gap-4">
+                    <span class="text-4xl">${g.icone}</span>
+                    <div><h3 class="text-xl font-bold text-slate-900">${g.titulo}</h3><p class="text-slate-500 text-sm">${g.descricao}</p></div>
+                </div>
+                <div class="p-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                    ${g.etapas.map(e => `
+                        <div>
+                            <h4 class="font-bold text-[#003366] border-b pb-2 mb-3">${e.icone} ${e.titulo}</h4>
+                            <ul class="space-y-2">
+                                ${e.itens.map(i => `<li class="text-sm text-slate-600 flex items-start gap-2"><i class="fas fa-check text-[10px] text-emerald-500 mt-1"></i>${i}</li>`).join('')}
+                            </ul>
+                        </div>
+                    `).join('')}
+                </div>
+                <div class="px-8 pb-8"><div class="p-4 bg-blue-50 rounded-xl text-sm text-blue-800 italic"><strong>Dica:</strong> ${g.dica}</div></div>
+            </div>
+        `).join('');
+        document.getElementById('main-view')?.classList.add('hidden');
+        document.getElementById('detail-view')?.classList.add('hidden');
+        document.getElementById('general-norms-view')?.classList.add('hidden');
+        document.getElementById('guide-view')?.classList.remove('hidden');
+        window.scrollTo(0, 0);
+    };
+
+    // ========== DOWNLOAD TEMPLATE ==========
+    window.downloadTemplate = async function(path, btn) {
+        const originalHtml = btn.innerHTML;
+        btn.disabled = true;
+        btn.innerHTML = `<i class="fas fa-spinner animate-spin"></i> Preparando...`;
+        try {
+            const response = await fetch(path, { method: 'HEAD' });
+            if (!response.ok) throw new Error('Arquivo não encontrado');
+            const link = document.createElement('a');
+            link.href = path;
+            link.download = path.split('/').pop();
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            showToast('Download concluído! Verifique as normativas oficiais antes de submeter.', 'success');
+        } catch (err) {
+            console.error(err);
+            showToast('Falha ao baixar o template. Tente novamente mais tarde.', 'error');
+        } finally {
+            setTimeout(() => { btn.disabled = false; btn.innerHTML = originalHtml; }, 800);
+        }
+    };
+
+    // ========== RENDERIZAÇÃO DA LISTA ==========
+    function renderRevistas() {
+        const grid = document.getElementById('revistas-grid');
+        if (!grid) return;
+        
+        let filtradas = window.state.revistas.filter(r => {
+            const searchLower = window.state.searchTerm.toLowerCase();
+            const matchSearch = r.nome.toLowerCase().includes(searchLower) || r.instituicao.toLowerCase().includes(searchLower) || (r.foco && r.foco.toLowerCase().includes(searchLower));
+            if (!matchSearch) return false;
+            const qualisMatch = window.state.qualisSelecionados.length === 0 || (r.qualis && window.state.qualisSelecionados.includes(r.qualis));
+            if (!qualisMatch) return false;
+            if (window.state.showFavoritesOnly && !isFavorite(r.id)) return false;
+            return true;
+        });
+        
+        updateResultsCount(filtradas.length);
+        grid.innerHTML = filtradas.map(r => `
+            <div class="card-academic overflow-hidden flex flex-col animate-fade-in p-5" data-id="${r.id}">
+                <div class="flex items-start justify-between mb-4">
+                    <div class="w-20 h-20 bg-slate-50 rounded-xl border border-slate-100 flex items-center justify-center overflow-hidden">
+                        <img src="${r.imagem}" alt="${r.nome}" class="card-img" onerror="this.onerror=null; this.src='${window.CONFIG.IMAGE_PLACEHOLDER}';">
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="qualis-badge ${getQualisClass(r.qualis)}">Qualis ${r.qualis || '?'}</span>
+                        <button onclick="window.toggleFavorite('${r.id}')" class="favorite-star text-xl focus:outline-none">
+                            ${isFavorite(r.id) ? '<i class="fas fa-star text-yellow-500"></i>' : '<i class="far fa-star text-slate-400"></i>'}
+                        </button>
+                    </div>
+                </div>
+                <h3 class="text-slate-900 font-bold text-lg leading-tight mb-2 line-clamp-2">${r.nome}</h3>
+                <p class="text-slate-500 text-xs font-medium mb-3 flex items-center gap-1"><i class="fas fa-university opacity-70"></i> ${r.instituicao}</p>
+                <p class="text-slate-600 text-sm line-clamp-2 mb-4 italic">"${r.foco?.substring(0, 120) || 'Sem descrição'}${r.foco?.length > 120 ? '...' : ''}"</p>
+                <div class="mt-auto pt-4 border-t border-slate-100 flex justify-between items-center">
+                    <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">ID: ${r.id}</span>
+                    <button onclick="window.showRevistaDetail('${r.id}')" class="btn-primary py-2 text-xs">Mais informações <i class="fas fa-arrow-right text-[10px]"></i></button>
+                </div>
+            </div>
+        `).join('');
+        applyQualisColors();
+    }
+
+    function applyQualisColors() {
+        document.querySelectorAll('#revistas-grid .qualis-badge, .journal-card .qualis-badge').forEach(badge => {
+            let qualisText = badge.innerText.trim().toUpperCase().replace('QUALIS ', '');
+            const qualisMap = { 'A1':'qualis-A1','A2':'qualis-A2','A3':'qualis-A3','A4':'qualis-A4','B1':'qualis-B1','B2':'qualis-B2','B3':'qualis-B3','B4':'qualis-B4','C':'qualis-C' };
+            let className = qualisMap[qualisText];
+            if (className) {
+                badge.classList.remove(...Object.values(qualisMap), 'qualis-nao-especificado');
+                badge.classList.add(className);
+            } else {
+                badge.classList.remove(...Object.values(qualisMap), 'qualis-nao-especificado');
+                badge.classList.add('qualis-nao-especificado');
+            }
+        });
+    }
+
+    // ========== CARREGAMENTO DE DADOS ==========
+    async function loadData() {
+        try {
+            const cached = getCachedData();
+            if (cached) {
+                console.log('Usando cache');
+                window.state.usandoCache = true;
+                const revistasMap = new Map(Object.entries(cached.revistas));
+                const revistasList = [];
+                revistasMap.forEach((data, id) => {
+                    revistasList.push({ id, nome: data.nome || `Revista ${id}`, qualis: data.qualis || '', instituicao: data.instituicao || 'Instituição não informada', foco: data.foco || '', imagem: data.imagem || window.CONFIG.IMAGE_PLACEHOLDER });
+                });
+                window.state.revistasMap = revistasMap;
+                window.state.revistas = revistasList;
+                window.state.normasGerais = cached.normas;
+                renderQualisFilters();
+                renderRevistas();
+                checkForUpdates(revistasMap, cached.normas);
+                return;
+            }
+            console.log('Buscando rede');
+            window.state.usandoCache = false;
+            const timestamp = Date.now();
+            const [indexRes, normasRes] = await Promise.all([fetch(`revistas/index.json?t=${timestamp}`), fetch(`normas_gerais.json?t=${timestamp}`)]);
+            if (!indexRes.ok) throw new Error(`Falha ao carregar índice: ${indexRes.status}`);
+            if (!normasRes.ok) throw new Error(`Falha ao carregar normas gerais: ${normasRes.status}`);
+            const indexData = await indexRes.json();
+            const normasData = await normasRes.json();
+            if (!indexData.ids || !Array.isArray(indexData.ids)) throw new Error('Índice inválido');
+            const revistaIds = indexData.ids;
+            const revistasMap = new Map();
+            const revistasList = [];
+            await Promise.all(revistaIds.map(async id => {
+                try {
+                    const res = await fetch(`revistas/${id}.json?t=${timestamp}`);
+                    if (!res.ok) return;
+                    const data = await res.json();
+                    revistasMap.set(id, data);
+                    revistasList.push({ id, nome: data.nome || `Revista ${id}`, qualis: data.qualis || '', instituicao: data.instituicao || 'Instituição não informada', foco: data.foco || '', imagem: data.imagem || window.CONFIG.IMAGE_PLACEHOLDER });
+                } catch(e) { console.warn(`Erro ao carregar ${id}`, e); }
+            }));
+            window.state.revistasMap = revistasMap;
+            window.state.revistas = revistasList;
+            window.state.normasGerais = normasData;
+            setCachedData(revistasMap, normasData);
+            renderQualisFilters();
+            renderRevistas();
+            checkForUpdates(revistasMap, normasData);
+            updateLastVisit();
+        } catch (error) {
+            console.error(error);
+            showToast(`Erro ao carregar dados: ${error.message}`, 'error');
+            document.getElementById('revistas-grid').innerHTML = `<div class="col-span-full text-center py-20 text-slate-500"><i class="fas fa-exclamation-triangle text-4xl mb-3"></i><p>Falha ao carregar dados. Tente recarregar a página.</p></div>`;
+        }
+    }
+
+    // ========== NOTIFICAÇÕES DE ATUALIZAÇÃO ==========
+    function getLastVisit() {
+        const last = localStorage.getItem(window.CONFIG.LAST_VISIT_KEY);
+        return last ? new Date(last) : null;
+    }
+
+    function updateLastVisit() {
+        localStorage.setItem(window.CONFIG.LAST_VISIT_KEY, new Date().toISOString());
+    }
+
+    function checkForUpdates(revistasMap, normasData) {
+        const lastVisit = getLastVisit();
+        if (!lastVisit) return;
+        const updatedItems = [];
+        for (const [id, revista] of revistasMap.entries()) {
+            if (revista.data_auditoria) {
+                const auditDate = new Date(revista.data_auditoria);
+                if (auditDate > lastVisit) {
+                    updatedItems.push({ type: 'revista', id, nome: revista.nome });
+                }
+            }
+        }
+        if (normasData.ultima_atualizacao_normas) {
+            const normsDate = new Date(normasData.ultima_atualizacao_normas);
+            if (normsDate > lastVisit) {
+                updatedItems.push({ type: 'normas', nome: 'Normas Gerais' });
+            }
+        }
+        if (updatedItems.length > 0) {
+            const message = `📢 ${updatedItems.length} atualização(ões) disponível(is) desde sua última visita.`;
+            showToast(message, 'info');
+            updatedItems.forEach(item => {
+                if (item.type === 'revista') {
+                    const card = document.querySelector(`.card-academic[data-id="${item.id}"]`);
+                    if (card) card.classList.add('updated-card');
+                }
+            });
+            if (updatedItems.some(i => i.type === 'normas')) {
+                const normasMenu = document.querySelector('#menu-normas');
+                if (normasMenu) normasMenu.classList.add('updated-menu');
+            }
+        }
+    }
+
+    // ========== ROTEADOR ==========
+    window.router = {
+        push: function(view, id = null, saveState = true) {
+            document.querySelectorAll('.view-section').forEach(v => v.classList.add('hidden'));
+            let targetId = 'main-view';
+            if (view === 'normas') targetId = 'general-norms-view';
+            else if (view === 'guias') targetId = 'guide-view';
+            else if (view === 'detalhe') targetId = 'detail-view';
+            const target = document.getElementById(targetId);
+            if (target) target.classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            if (saveState) {
+                const state = { view, id };
+                const url = id ? `?view=${view}&id=${id}` : (view === 'home' ? window.location.pathname : `?view=${view}`);
+                history.pushState(state, '', url);
+            }
+            if (view === 'normas' && window.showGeneralNorms) window.showGeneralNorms(false);
+            if (view === 'guias' && window.showGuideView) window.showGuideView(false);
+            if (view === 'detalhe' && id && window.showRevistaDetail) window.showRevistaDetail(id, false);
+        },
+        back: function() { history.back(); },
+        init: function() {
+            const params = new URLSearchParams(window.location.search);
+            const view = params.get('view') || 'home';
+            const id = params.get('id');
+            this.push(view, id, false);
+        }
+    };
+    
+    window.addEventListener('popstate', (e) => {
+        if (e.state) window.router.push(e.state.view, e.state.id, false);
+        else window.router.push('home', null, false);
+    });
+
+    // ========== CONSENTIMENTO ==========
+    const consentModal = document.getElementById('consent-modal');
+    const acceptTermsBtn = document.getElementById('accept-terms-btn');
+    const termsModal = document.getElementById('terms-modal');
+    const openTermsBtn = document.getElementById('open-terms-btn');
+    const saibaMaisConsent = document.querySelectorAll('#saiba-mais-consent');
+    const CONSENT_KEY = 'submetnev_terms_accepted';
+
+    function showTermsModal() {
+        if (consentModal && !consentModal.classList.contains('hidden')) {
+            consentModal.classList.add('hidden');
+            window._consentWasOpen = true;
+        }
+        termsModal.classList.add('show');
+        document.body.style.overflow = 'hidden';
+    }
+    
+    window.closeTermsModal = function() {
+        termsModal.classList.remove('show');
+        document.body.style.overflow = '';
+        const accepted = localStorage.getItem(CONSENT_KEY);
+        if (!accepted && window._consentWasOpen) {
+            consentModal.classList.remove('hidden');
+            window._consentWasOpen = false;
+        }
+    };
+    
+    window.openTermsModal = showTermsModal;
+
+    function acceptConsent() {
+        localStorage.setItem(CONSENT_KEY, 'true');
+        consentModal.classList.add('hidden');
+        if (window.router && window.router.init) window.router.init();
+    }
+
+    function checkConsent() {
+        const accepted = localStorage.getItem(CONSENT_KEY);
+        if (!accepted) {
+            consentModal.classList.remove('hidden');
+        } else {
+            consentModal.classList.add('hidden');
+            if (window.router && window.router.init) window.router.init();
+        }
+    }
+
+    acceptTermsBtn.addEventListener('click', acceptConsent);
+    if (openTermsBtn) openTermsBtn.addEventListener('click', showTermsModal);
+    saibaMaisConsent.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            showTermsModal();
+        });
+    });
+    termsModal.addEventListener('click', (e) => { if (e.target === termsModal) window.closeTermsModal(); });
+
+    // ========== INICIALIZAÇÃO ==========
+    window.state = {
+        revistas: [],
+        revistasMap: new Map(),
+        normasGerais: {},
+        qualisSelecionados: [],
+        showFavoritesOnly: false,
+        searchTerm: '',
+        currentView: 'main',
+        currentRevista: null,
+        usandoCache: false,
+        favorites: new Set()
+    };
+    
+    window.CONFIG = {
+        JSON_PATH: 'revistas/index.json',
+        CACHE_KEY: 'nev_normas_cache_v6',
+        CACHE_DURATION: 3600000,
+        LAST_VISIT_KEY: 'submetnev_last_visit',
+        FAVORITES_KEY: 'submetnev_favorites',
+        IMAGE_PLACEHOLDER: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjY2NiMmZmIj48cGF0aCBkPSJNMjAgMkg0Yy0xLjEgMC0yIC45LTIgMnYxNmMwIDEuMS45IDIgMiAyaDE2YzEuMSAwIDItLjkgMi0yVjRjMC0xLjEtLjktMi0yLTJ6bS04IDljMCAxLjEtLjkgMi0yIDJzLTItLjktMi0yIC45LTIgMi0yIDIgLjkgMiAyem01IDRsLTUgN3oiLz48L3N2Zz4='
+    };
+    
+    loadFavorites();
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => { window.state.searchTerm = e.target.value; renderRevistas(); });
+    }
+    
+    const favoritoFilterBtn = document.getElementById('favorito-filter-btn');
+    if (favoritoFilterBtn) {
+        favoritoFilterBtn.addEventListener('click', toggleFavoritoFilter);
+    }
+    
+    const clearFiltersBtn = document.getElementById('clear-filters-btn');
+    if (clearFiltersBtn) {
+        clearFiltersBtn.addEventListener('click', clearAllFilters);
+    }
+    
+    loadData().then(() => {
+        if (document.getElementById('general-norms-view') && !document.getElementById('general-norms-content').children.length) populateGeneralNorms();
+        const gridObserver = new MutationObserver(() => applyQualisColors());
+        const grid = document.getElementById('revistas-grid');
+        if (grid) gridObserver.observe(grid, { childList: true, subtree: true });
+        applyQualisColors();
+        updateFavoritoFilterButton();
+    });
+    checkConsent();
+</script>
+</body>
+</html>

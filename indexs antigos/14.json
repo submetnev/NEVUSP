@@ -1,0 +1,185 @@
+{
+  "id": 14,
+  "nome": "Tempo Social – Revista de Sociologia da USP",
+  "imagem": "imagem/tempo_social.png",
+  "instituicao": "Universidade de São Paulo (USP), Faculdade de Filosofia, Letras e Ciências Humanas (FFLCH), Departamento de Sociologia",
+  "qualis": "A1",
+  "issn": "1809-4554",
+  "foco": "Discussão de temas atuais da sociedade brasileira em perspectiva comparada, promovendo diálogo com antropologia, ciência política, filosofia e história.",
+  "descricao": "A revista Tempo Social, lançada em 1989, é uma publicação do Departamento de Sociologia da USP. Aberta a pesquisadores do Brasil e do exterior, sua linha editorial prioriza a veiculação da produção sociológica das principais vertentes contemporâneas da disciplina. A revista busca produzir um debate de ideias sobre a realidade brasileira e sua inserção global, visando a transformação social e cultural. Desde 2015, é publicada exclusivamente no formato eletrônico e adota o modelo de publicação contínua.",
+  "avaliacao": "Duplo-cega",
+  "avaliacao_preprint": "Duplo-cega",
+  "taxa": "Gratuita (sem APC)",
+  "periodicidade": "Quadrimestral (publicação contínua)",
+  "preprint": "Permitido",
+  "preprint_politica": "Aceita preprints depositados em servidores como SciELO Preprints, CORE (MLA), Zenodo, Preprints.org e SocArXiv. A informação deve constar na folha de rosto do manuscrito.",
+  "posprint": "Não especificado",
+  "selo": "DOAJ Seal",
+  "licenca": "CC BY",
+  "etica": "COPE (Committee on Publication Ethics)",
+  "antiplagio": "Crossref Similarity Check (iThenticate)",
+  "data_auditoria": "2026-03-27",
+  "url_fonte_instrucoes": "https://www.revistas.usp.br/ts/about/submissions",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://www.revistas.usp.br/ts/",
+    "submissao": "https://www.revistas.usp.br/ts/about/submissions",
+    "diretrizes": "https://www.revistas.usp.br/ts/about/submissions"
+  },
+  "limites": {
+    "artigo_palavras": "Não especificado (recomenda-se entre 7.000 e 9.000 palavras)",
+    "ensaio_palavras": "Não especificado (recomenda-se entre 5.000 e 7.000 palavras)",
+    "resenha_palavras": "Até 3.000 palavras",
+    "entrevista_palavras": "Não especificado (recomenda-se até 10.000 palavras)",
+    "resumo_maximo": "250 palavras",
+    "palavras_chave_quantidade": "3 a 5",
+    "autores_maximo": 5,
+    "referencias_minimas_artigo": 20,
+    "referencias_minimas_ensaio": 15,
+    "referencias_minimas_resenha": 5,
+    "referencias_minimas_entrevista": 10,
+    "outros_limites": null
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": 1.5,
+    "margens": "2,5 cm",
+    "alinhamento": "justificado",
+    "citacoes_longas": "Recuo de 4 cm, fonte 11 pt",
+    "tabelas_figuras": "Numeradas, título e fonte"
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigo original",
+      "extensao": "Não especificado (recomenda-se entre 7.000 e 9.000 palavras)",
+      "detalhes": "Textos inéditos resultantes de pesquisa teórica ou empírica, com contribuição original para a área da sociologia ou disciplinas afins. Devem apresentar problema de pesquisa claro, metodologia adequada, revisão bibliográfica pertinente e conclusões consistentes.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título (português e inglês)",
+        "Resumo e abstract (100-250 palavras)",
+        "Palavras-chave e keywords (3 a 5)",
+        "Introdução",
+        "Referencial teórico",
+        "Metodologia",
+        "Resultados e discussão",
+        "Considerações finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Contribuição original",
+        "Problema de pesquisa claro",
+        "Mínimo de 20 referências"
+      ],
+      "referencias_minimas": 20,
+      "template": "templates/Tempo_Social_USP_Artigo.docx"
+    },
+    {
+      "tipo": "Ensaio bibliográfico",
+      "extensao": "Não especificado (recomenda-se entre 5.000 e 7.000 palavras)",
+      "detalhes": "Discussão aprofundada sobre um tema, autor ou obra, com caráter reflexivo e interpretativo, contribuindo para o debate teórico-metodológico da sociologia.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título",
+        "Resumo",
+        "Introdução",
+        "Desenvolvimento argumentativo",
+        "Considerações finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Reflexão aprofundada",
+        "Mínimo de 15 referências"
+      ],
+      "referencias_minimas": 15,
+      "template": "templates/Tempo_Social_USP_Ensaio.docx"
+    },
+    {
+      "tipo": "Resenha",
+      "extensao": "Até 3.000 palavras",
+      "detalhes": "Análise crítica de livros recém-publicados (preferencialmente dos últimos dois anos) no campo das ciências sociais. Deve contextualizar a obra, apresentar seus argumentos centrais e avaliar sua contribuição para a área.",
+      "titulacao_minima_autor": "Mestre (mínimo)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [
+        "Título",
+        "Identificação da obra",
+        "Síntese",
+        "Análise crítica",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Obra publicada nos últimos 2 anos",
+        "Mínimo de 5 referências"
+      ],
+      "referencias_minimas": 5,
+      "template": "templates/Tempo_Social_USP_Resenha.docx"
+    },
+    {
+      "tipo": "Entrevista",
+      "extensao": "Não especificado (recomenda-se até 10.000 palavras)",
+      "detalhes": "Entrevistas com pesquisadores ou intelectuais de destaque, precedidas de uma apresentação que contextualize a trajetória e a contribuição do entrevistado.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [
+        "Apresentação",
+        "Perguntas e respostas",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Relevância do entrevistado",
+        "Mínimo de 10 referências"
+      ],
+      "referencias_minimas": 10,
+      "template": "templates/Tempo_Social_USP_Entrevista.docx"
+    },
+    {
+      "tipo": "Dossiê",
+      "extensao": "Não especificado (artigos individuais seguem as orientações para artigos originais)",
+      "detalhes": "Conjunto de artigos organizados por editores convidados em torno de uma temática específica. A proposta de dossiê deve ser submetida à avaliação da Comissão Editorial.",
+      "titulacao_minima_autor": "Doutor (organizadores)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 250,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título do dossiê",
+        "Apresentação",
+        "Artigos individuais"
+      ],
+      "requisitos_especificos": [
+        "Proposta avaliada"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/Tempo_Social_USP_Dossie.docx"
+    }
+  ],
+  "checklist": [
+    "Texto inédito e não submetido simultaneamente a outro periódico",
+    "Arquivo anônimo (sem identificação dos autores) para avaliação cega",
+    "Título, resumo e palavras-chave em português (ou idioma do original) e em inglês",
+    "Resumo com 100 a 250 palavras",
+    "3 a 5 palavras-chave que facilitem a recuperação do artigo",
+    "Declaração de conformidade com as práticas de Ciência Aberta (na carta ao editor)",
+    "Identificação de todos os autores (em arquivo à parte) com ORCID, afiliação institucional e e-mail",
+    "Declaração sobre financiamento da pesquisa, se houver",
+    "Declaração sobre conflitos de interesse",
+    "Para pesquisas com seres humanos ou dados sensíveis, anexar declaração de aprovação do comitê de ética",
+    "Referências formatadas conforme a norma ABNT (NBR 6023)",
+    "Disponibilização de dados, códigos e materiais em repositórios de acesso aberto, com citação no artigo (recomendado)",
+    "Autorização para publicação dos pareceres de aprovação, se consultado (opcional)"
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "CRediT recomendado.",
+    "financiamento": "Declarar apoio.",
+    "preprint": "Incluir link na carta de apresentação."
+  }
+}

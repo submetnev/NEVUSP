@@ -1,0 +1,138 @@
+{
+  "id": 3,
+  "nome": "Tempo Social – Revista de Sociologia",
+  "imagem": "imagem/tempo_social.png",
+  "instituicao": "Universidade de São Paulo (USP) – Departamento de Sociologia",
+  "qualis": "A1",
+  "issn": "0103-2070",
+  "foco": "Sociologia Geral, Teoria Sociológica, Pesquisa Empírica, Antropologia, Ciência Política e áreas afins.",
+  "descricao": "Revista de sociologia da USP focada em pesquisa teórica e empírica. Publicação em fluxo contínuo. Avaliação duplo-cega. Permite submissão de artigos, ensaios e resenhas. Exige que pelo menos um autor de artigos e ensaios possua título de doutor, e autores de resenhas tenham, no mínimo, mestrado.",
+  "avaliacao": "Duplo-cega",
+  "avaliacao_preprint": "Duplo-cega (a submissão de preprint não altera o tipo de avaliação)",
+  "taxa": "Gratuita",
+  "periodicidade": "Fluxo contínuo",
+  "preprint": "Permitido. Autores podem depositar versões em servidores de preprint, mantendo o anonimato no arquivo submetido à revista.",
+  "licenca": "CC BY",
+  "data_auditoria": "2026-03-27",
+  "url_fonte_instrucoes": "https://www.revistas.usp.br/ts/about/submissions",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://www.scielo.br/j/ts",
+    "submissao": "https://www.revistas.usp.br/ts/about/submissions",
+    "diretrizes": "https://www.revistas.usp.br/ts/about/submissions"
+  },
+  "limites": {
+    "artigo_palavras": "Até 12.750 palavras (70.000 caracteres)",
+    "ensaio_palavras": "Até 10.900 palavras (60.000 caracteres)",
+    "resenha_palavras": "Até 2.200 palavras (12.000 caracteres)",
+    "resumo_maximo": "150 palavras",
+    "palavras_chave_quantidade": "3 a 5",
+    "autores_maximo": 5,
+    "referencias_minimas_artigo": 15,
+    "referencias_minimas_ensaio": 10,
+    "referencias_minimas_resenha": 5,
+    "outros_limites": null
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": 1.5,
+    "margens": "2,5 cm",
+    "alinhamento": "justificado",
+    "citacoes_longas": "Recuo de 4 cm, fonte 11 pt, espaço simples",
+    "tabelas_figuras": "Numeradas, com título e fonte"
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigo",
+      "extensao": "Até 12.750 palavras (70.000 caracteres)",
+      "detalhes": "Estrutura acadêmica clássica. Contribuição original à sociologia ou áreas afins.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 150,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título (português e inglês)",
+        "Resumo e abstract (até 150 palavras)",
+        "Palavras-chave e keywords (3 a 5)",
+        "Introdução",
+        "Referencial teórico",
+        "Metodologia",
+        "Resultados e discussão",
+        "Considerações finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Contribuição original à sociologia",
+        "Estrutura acadêmica clássica",
+        "Mínimo de 15 referências bibliográficas"
+      ],
+      "referencias_minimas": 15,
+      "template": "templates/Tempo_Social_Artigo.docx"
+    },
+    {
+      "tipo": "Ensaio",
+      "extensao": "Até 10.900 palavras (60.000 caracteres)",
+      "detalhes": "Discussão teórica ou interpretativa, com originalidade e rigor argumentativo.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 150,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título (português e inglês)",
+        "Resumo e abstract (até 150 palavras)",
+        "Palavras-chave e keywords (3 a 5)",
+        "Introdução",
+        "Desenvolvimento argumentativo",
+        "Considerações finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Discussão teórica aprofundada",
+        "Originalidade na interpretação",
+        "Mínimo de 10 referências bibliográficas"
+      ],
+      "referencias_minimas": 10,
+      "template": "templates/Tempo_Social_Ensaio.docx"
+    },
+    {
+      "tipo": "Resenha",
+      "extensao": "Até 2.200 palavras (12.000 caracteres)",
+      "detalhes": "Análise crítica de obra recente (últimos 2 anos).",
+      "titulacao_minima_autor": "Mestre (mínimo)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [
+        "Título (português e inglês)",
+        "Apresentação da obra",
+        "Síntese do conteúdo",
+        "Análise crítica",
+        "Contribuição para a área",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Obra publicada nos últimos 2 anos",
+        "Análise crítica fundamentada",
+        "Mínimo de 5 referências bibliográficas"
+      ],
+      "referencias_minimas": 5,
+      "template": "templates/Tempo_Social_Resenha.docx"
+    }
+  ],
+  "checklist": [
+    "Submissão via sistema USP",
+    "Arquivo sem identificação",
+    "Resumo e Abstract obrigatórios",
+    "3 a 5 palavras-chave",
+    "ORCID obrigatório",
+    "Máximo 5 autores",
+    "Citações no formato autor-data (ABNT)",
+    "Referências em ordem alfabética com nomes completos",
+    "Pelo menos um autor com título de doutor (artigos e ensaios) / autor com título de mestre (resenhas)"
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "Recomenda-se CRediT na carta.",
+    "financiamento": "Informar agências de fomento."
+  }
+}

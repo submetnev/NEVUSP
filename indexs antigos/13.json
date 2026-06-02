@@ -1,0 +1,114 @@
+{
+  "id": 13,
+  "nome": "Civitas: revista de Ciências Sociais",
+  "imagem": "imagem/civitas_revista_ciencias_sociais.png",
+  "instituicao": "Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)",
+  "qualis": "A1",
+  "issn": "1984-7289",
+  "foco": "Sociologia e áreas afins das Ciências Sociais, abrangendo debates teóricos e empíricos contemporâneos.",
+  "descricao": "A Civitas é uma publicação de acesso aberto do Programa de Pós-Graduação em Ciências Sociais da PUCRS. Criada em 2001, a revista tem periodicidade contínua e publica artigos inéditos em português, espanhol ou inglês, resultantes de pesquisa acadêmica. Organiza-se em dossiês temáticos e seção de artigos livres, aceitando resenhas apenas no âmbito dos dossiês. É indexada em importantes bases nacionais e internacionais.",
+  "avaliacao": "Duplo-cega",
+  "avaliacao_preprint": "Não especificado",
+  "taxa": "Gratuita (sem APC)",
+  "periodicidade": "Fluxo contínuo (com dossiês temáticos)",
+  "preprint": "Não especificado",
+  "licenca": "Não especificado",
+  "data_auditoria": "2026-03-27",
+  "url_fonte_instrucoes": "https://revistaseletronicas.pucrs.br/civitas/about/submissions",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://revistaseletronicas.pucrs.br/civitas",
+    "submissao": "https://revistaseletronicas.pucrs.br/civitas/about/submissions",
+    "diretrizes": "https://revistaseletronicas.pucrs.br/civitas/about/submissions"
+  },
+  "limites": {
+    "artigo_palavras": "Até 8.000 palavras (45.000 caracteres com espaços)",
+    "resenha_palavras": "Até 2.700 palavras (15.000 caracteres com espaços)",
+    "resumo_maximo": "180 palavras (1.000 caracteres com espaços)",
+    "palavras_chave_quantidade": "3 a 5",
+    "autores_maximo": 5,
+    "referencias_minimas_artigo": 15,
+    "referencias_minimas_resenha": 5,
+    "outros_limites": null
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": 1.5,
+    "margens": "2,5 cm",
+    "alinhamento": "justificado",
+    "citacoes_longas": "Recuo de 4 cm, fonte 11 pt",
+    "tabelas_figuras": "Numeradas, título e fonte"
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigo",
+      "extensao": "Até 8.000 palavras (45.000 caracteres com espaços)",
+      "detalhes": "Artigos inéditos resultantes de pesquisa acadêmica, podendo ser submetidos para dossiês temáticos (dentro de prazos definidos) ou como fluxo contínuo (seção Artigos). O texto deve ser anonimizado e seguir o estilo Chicago autor-data.",
+      "titulacao_minima_autor": "Doutor (pelo menos um autor)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": 180,
+      "palavras_chave_quantidade": "3 a 5",
+      "estrutura_sugerida": [
+        "Título (português, espanhol, inglês)",
+        "Resumo e abstract (até 1.000 caracteres)",
+        "Palavras-chave e keywords (3 a 5)",
+        "Introdução",
+        "Referencial teórico",
+        "Metodologia",
+        "Resultados e discussão",
+        "Considerações finais",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Resumo em três idiomas",
+        "Estilo Chicago autor-data",
+        "Mínimo de 15 referências"
+      ],
+      "referencias_minimas": 15,
+      "template": "templates/Civitas_Artigo.docx"
+    },
+    {
+      "tipo": "Resenha",
+      "extensao": "Até 2.700 palavras (15.000 caracteres com espaços)",
+      "detalhes": "Resenhas críticas de obras recentes, aceitas apenas quando vinculadas a um dossiê temático. A decisão editorial é tomada em conjunto pelos organizadores do dossiê e editores da revista.",
+      "titulacao_minima_autor": "Mestre (mínimo)",
+      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": [
+        "Título da resenha",
+        "Identificação da obra",
+        "Síntese",
+        "Análise crítica",
+        "Referências"
+      ],
+      "requisitos_especificos": [
+        "Obra recente",
+        "Vinculada a dossiê temático",
+        "Mínimo de 5 referências"
+      ],
+      "referencias_minimas": 5,
+      "template": "templates/Civitas_Resenha.docx"
+    }
+  ],
+  "checklist": [
+    "O texto é inédito e não está sendo avaliado simultaneamente por outra revista?",
+    "O arquivo principal está anonimizado (sem identificação de autores, afiliações ou agradecimentos)?",
+    "A folha de rosto com identificação dos autores, ORCID, afiliação, mini-bio e financiamento foi enviada como documento suplementar separado?",
+    "O resumo (até 1.000 caracteres) e as palavras-chave (3 a 5) foram fornecidos nos três idiomas (português, espanhol, inglês)?",
+    "A declaração de uso de inteligência artificial (quando aplicável) foi preenchida e anexada?",
+    "O formulário de conformidade com a Ciência Aberta foi preenchido e anexado?",
+    "As referências estão formatadas conforme o estilo Chicago autor-data (17ª edição)?",
+    "Citações longas (>3 linhas) estão em bloco recuado (4 cm) com fonte menor?",
+    "Gráficos, figuras e tabelas foram enviados em arquivos separados (PNG/JPEG, alta definição, até 1,5 MB) e seus lugares-tenentes estão indicados no texto?",
+    "Todos os autores possuem titulação mínima de doutorado em andamento (conforme exigido)?",
+    "Para pesquisas com seres humanos, o número do protocolo CAAE foi informado nos metadados?",
+    "Os metadados da submissão contêm nome completo, e-mail, ORCID, afiliação completa e link para Lattes de todos os autores?"
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "CRediT recomendado.",
+    "financiamento": "Declarar apoio.",
+    "preprint": "Política não especificada."
+  }
+}

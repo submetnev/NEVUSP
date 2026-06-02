@@ -1,0 +1,77 @@
+{
+  "revistas": [
+    {
+      "id": 12,
+      "nome": "Revista Brasileira de Ciências Criminais (RBCCRIM)",
+      "urls": [
+        "https://publicacoes.ibccrim.org.br/index.php/RBCCRIM/about/submissions"
+      ]
+    },
+    {
+      "id": 13,
+      "nome": "Civitas – Revista de Ciências Sociais",
+      "urls": [
+        "https://revistaseletronicas.pucrs.br/civitas/about/submissions"
+      ]
+    },
+    {
+      "id": 14,
+      "nome": "Revista CNJ",
+      "urls": [
+        "https://www.cnj.jus.br/ojs/revista-cnj/about/submissions"
+      ]
+    },
+    {
+      "id": 15,
+      "nome": "Estudos de Sociologia (RES)",
+      "urls": [
+        "https://periodicos.fclar.unesp.br/estudos/about/submissions"
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "O Público e o Privado",
+      "urls": [
+        "https://revistas.uece.br/index.php/opublicoeoprivado/about/submissions"
+      ]
+    },
+    {
+      "id": 17,
+      "nome": "Lua Nova: Revista de Cultura e Política",
+      "urls": [
+        "https://submission.scielo.br/index.php/ln/about/submissions"
+      ]
+    },
+    {
+      "id": 18,
+      "nome": "Opinião Pública",
+      "urls": [
+        "https://www.cesop.unicamp.br/por/opiniao_publica/submissao"
+      ]
+    },
+    {
+      "id": 20,
+      "nome": "Theoretical Criminology",
+      "urls": [
+        "https://journals.sagepub.com/author-instructions/tcr",
+        "https://journals.sagepub.com/aims-scope/TCR"
+      ]
+    },
+    {
+      "id": 21,
+      "nome": "British Journal of Criminology",
+      "urls": [
+        "https://academic.oup.com/bjc/pages/General_Instructions",
+        "https://academic.oup.com/bjc/pages/about"
+      ]
+    },
+    {
+      "id": 22,
+      "nome": "Delito y Sociedad",
+      "urls": [
+        "https://bibliotecavirtual.unl.edu.ar/publicaciones/index.php/DelitoYSociedad/about/submissions",
+        "https://bibliotecavirtual.unl.edu.ar/publicaciones/index.php/DelitoYSociedad/about/index"
+      ]
+    }
+  ]
+}

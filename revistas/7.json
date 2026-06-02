@@ -1,0 +1,165 @@
+{
+  "id": 7,
+  "nome": "Dilemas – Revista de Estudos de Conflito e Controle Social",
+  "imagem": "imagem/dilemas__revista_de_estudos_de_conflito_e_controle.png",
+  "instituicao": "Universidade Federal do Rio de Janeiro (UFRJ), Instituto de Estudos Comparados em Administração de Conflitos (InEAC)",
+  "qualis": "A2",
+  "issn": "2178-2792 (online)",
+  "foco": "Ciências sociais (prioritariamente sociologia e antropologia) centrado nos assuntos da grande temática dos conflitos e do controle social, entendendo conflito em sentido lato (violência, criminalidade, protestos, revoltas, guerras, terrorismo, segurança pública, sistema de justiça, direito, prisões, polícias, administração de conflitos, mediação, justiça restaurativa).",
+  "descricao": "Periódico acadêmico quadrimestral de ciências sociais. Recebe em fluxo contínuo contribuições científicas inéditas, preferencialmente com base em pesquisa empírica, na forma de artigos, resenhas, traduções e entrevistas.",
+  "avaliacao": "Os manuscritos são submetidos à avaliação preliminar pela Comissão Editorial e, se aprovados, encaminhados ao sistema duplo-cego para pelo menos dois pareceristas ad hoc. O processo pode levar até 120 dias. Os resultados possíveis são: aceito, aceito com modificações, submeta novamente após modificações ou rejeitado.",
+  "avaliacao_preprint": "A revista permite a submissão de preprints. Nesse caso, o sistema de avaliação deixa de ser duplo-cego, uma vez que a identidade dos autores já está disponível publicamente.",
+  "taxa": "Gratuita. Não há cobrança de taxas para submissão, avaliação ou publicação.",
+  "periodicidade": "Quadrimestral (publica números em abril, agosto e dezembro)",
+  "preprint": "Permite a submissão de preprints.",
+  "licenca": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "data_auditoria": "2026-03-30",
+  "url_fonte_instrucoes": "https://revistas.ufrj.br/index.php/dilemas/about/submissions",
+  "ultima_atualizacao_normas": null,
+  "formatacao_origem": "extraido",
+  "links": {
+    "site": "https://revistas.ufrj.br/index.php/dilemas/",
+    "submissao": "https://revistas.ufrj.br/index.php/dilemas/about/submissions",
+    "diretrizes": "https://revistas.ufrj.br/index.php/dilemas/about/submissions"
+  },
+  "limites": {
+    "artigo_palavras": "6.000 a 12.000 palavras",
+    "nota_tecnica_palavras": null,
+    "comentario_critico_palavras": null,
+    "resumo_maximo": "650 toques",
+    "titulo_maximo": null,
+    "palavras_chave_quantidade": 5,
+    "autores_maximo": 4,
+    "notas_rodape_palavras": null,
+    "notas_rodape_formato": "numeradas sequencialmente; devem ser substantivas e reduzidas ao mínimo",
+    "outros_limites": "Resenhas: 2.000 a 4.000 palavras"
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": 1.5,
+    "margens": "2,5 cm (superior, inferior, esquerda e direita)",
+    "recuo_primeira_linha": "",
+    "alinhamento": "justificado",
+    "citacoes_longas": {
+      "recuo": "1 cm à esquerda",
+      "fonte": 10,
+      "espacamento": "simples"
+    },
+    "tabelas_figuras": "Devem figurar no corpo do artigo e serem enviadas em arquivos separados (JPEG, 300 dpi). Devem conter título e fonte, e estar numerados.",
+    "citacoes_formato": "No texto, entre parênteses: (AUTOR, ano, p. número da página) ou (AUTOR, ano, pp. página inicial-página final).",
+    "referencias_formato": "Listagem segue padrões específicos (exemplos fornecidos nas diretrizes), com títulos de livros e periódicos em negrito",
+    "exemplos_citacoes": "(AUTOR, ano, p. número da página) ou (AUTOR, ano, pp. página inicial-página final)",
+    "exemplos_referencias": "Livro: CARDOSO DE OLIVEIRA, Luis Roberto. Direito legal e insulto moral: Dilemas da cidadania no Brasil, Quebec e EUA. Rio de Janeiro: Relume Dumará/Núcleo de Antropologia Política, 2002.\nArtigo: MISSE, Michel. Violência e teoria social. Dilemas, Rev. Estud. Conflito Controle Soc., Rio de Janeiro, vol. 9, n. 1, pp. 45-63, 2016."
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigos",
+      "extensao": "6.000 a 12.000 palavras",
+      "detalhes": "Contribuição no formato de um texto inédito que relata uma pesquisa nova, com metodologia explícita, ou introduz uma discussão teórica original.",
+      "titulacao_minima_autor": "Mestre",
+      "idiomas_aceitos": ["Português", "Espanhol", "Inglês", "Francês"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": 5,
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Máximo de 4 autores",
+        "Todos os autores devem ter no mínimo o título de mestre (mestrado acadêmico concluído)",
+        "Submeter formulário sobre Conformidade com a Ciência Aberta preenchido",
+        "Obrigatório preenchimento de todas as informações dos autores (formação, afiliação, e-mail, ORCID, minibio)",
+        "Arquivo em formato .doc ou .docx (até 2MB)"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/dilemas__revista_de_estudos_de_conflito_e_controle_artigos.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo principal de manuscrito aceito para submissão"
+    },
+    {
+      "tipo": "Resenhas",
+      "extensao": "2.000 a 4.000 palavras",
+      "detalhes": "Texto analítico e/ou opinativo a respeito de uma obra (escrita, dramatúrgica ou audiovisual) publicada nos últimos dois anos na área temática da revista.",
+      "titulacao_minima_autor": "Mestre",
+      "idiomas_aceitos": ["Português"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": 5,
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Assinada por apenas um autor",
+        "A abertura deve trazer a referência bibliográfica da obra resenhada"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/dilemas__revista_de_estudos_de_conflito_e_controle_resenhas.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo de manuscrito aceito para submissão"
+    },
+    {
+      "tipo": "Traduções",
+      "extensao": null,
+      "detalhes": "Tradução para o português de artigos ou capítulos de livros, devidamente autorizada pelos autores/detentores de direitos.",
+      "titulacao_minima_autor": "Mestre",
+      "idiomas_aceitos": ["Português"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": 5,
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Máximo de 4 autores"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/dilemas__revista_de_estudos_de_conflito_e_controle_traducoes.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo de manuscrito aceito para submissão"
+    },
+    {
+      "tipo": "Entrevistas",
+      "extensao": "Até 8.000 palavras",
+      "detalhes": "Transcrição de conversa com personagem de interesse para a temática da revista, em formato pingue-pongue, precedida de introdução explicativa.",
+      "titulacao_minima_autor": null,
+      "idiomas_aceitos": ["Português"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": 5,
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [
+        "Máximo de 4 autores",
+        "Introdução de até uma lauda"
+      ],
+      "referencias_minimas": null,
+      "template": "templates/dilemas__revista_de_estudos_de_conflito_e_controle_entrevistas.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo de manuscrito aceito para submissão"
+    },
+    {
+      "tipo": "Memória",
+      "extensao": null,
+      "detalhes": "Espaço para pesquisadores reconhecidos tratarem de questões metodológicas e desafios do trabalho de campo enfrentados na pesquisa e redação de um de seus principais trabalhos.",
+      "titulacao_minima_autor": null,
+      "idiomas_aceitos": ["Português"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": 5,
+      "estrutura_sugerida": [],
+      "requisitos_especificos": [],
+      "referencias_minimas": null,
+      "template": "templates/dilemas__revista_de_estudos_de_conflito_e_controle_memoria.docx",
+      "submissao_aberta": true,
+      "justificativa_submissao": "Seção específica da revista"
+    }
+  ],
+  "checklist": [
+    "A contribuição é original e inédita, e não está sendo avaliada para publicação por outra revista.",
+    "O documento submetido respeita o limite de 2MB, em formato .doc ou .docx.",
+    "O Formulário sobre Conformidade com a Ciência Aberta está devidamente preenchido e anexado.",
+    "Todas as informações dos autores foram preenchidas (formação acadêmica desde a graduação, afiliação institucional, e-mail, ORCID, minibio).",
+    "Todos os autores informaram seu ORCID ID no ato de submissão.",
+    "A colaboração é de conteúdo acadêmico não normativo, com linguagem e abordagem típicas da publicação científica.",
+    "Folha de rosto: resumo de 650 toques em português e inglês (abstract), título traduzido para o inglês, cinco palavras-chave nas duas línguas, breve currículo do autor.",
+    "Citações com até três linhas entre aspas; acima de três linhas em bloco separado (corpo 10, recuo 1 cm, entrelinha simples).",
+    "Imagens/gráficos/tabelas: numerados, com título e fonte; inseridos no corpo do artigo e enviados como arquivos separados (JPEG, 300 dpi).",
+    "Em caso de aceite, será obrigatório o envio de foto/imagem/figura relativa ao texto e texto curto (3-4 linhas) para divulgação científica."
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": "As pessoas designadas como autores devem ter participado ativamente na elaboração do artigo. A qualificação de autor pressupõe: a) concepção/delineamento ou análise/interpretação dos dados; b) redação ou revisão crítica; c) revisão e aprovação final. Em coautorias, as contribuições individuais devem ser indicadas no final do texto, apenas pelas iniciais.",
+    "disponibilidade_dados": null,
+    "declaracao_dados_opcoes": "Aceitam opções de abertura no processo de avaliação por pares.",
+    "financiamento": null,
+    "preprint": "Permite a submissão de preprints. A menção sobre preprints deve ser feita na seção de comentários ao editor. Servidores de preprints devem cumprir condições para serem reconhecidos como confiáveis pela revista."
+  }
+}

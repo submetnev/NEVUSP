@@ -1,0 +1,111 @@
+{
+  "id": 10,
+  "nome": "American Sociological Review",
+  "imagem": "imagem/american_sociological_review.png",
+  "instituicao": "American Sociological Association (ASA)",
+  "qualis": "A1",
+  "issn": "0003-1224",
+  "foco": "Todas as áreas da sociologia são bem-vindas. Ênfase em qualidade excepcional e interesse geral. O ASR publica trabalhos de interesse para a disciplina em geral, novos desenvolvimentos teóricos, resultados de pesquisas que avançam nossa compreensão de processos sociais fundamentais e importantes inovações metodológicas. Não publica resenhas de livros.",
+  "descricao": "Periódico oficial da American Sociological Association (ASA). É a revista emblemática da sociologia nos Estados Unidos, com alta seletividade e impacto. Publicado bimestralmente em fevereiro, abril, junho, agosto, outubro e dezembro.",
+  "avaliacao": "Revisão por pares anônima. Os autores enviam um manuscrito anonimizado sem página de rosto, bem como uma página de rosto separada. O ASR utiliza revisores anônimos para avaliação dos manuscritos. A política de dados exige que os autores compartilhem dados e materiais para replicação, seguindo o Código de Ética da ASA.",
+  "avaliacao_preprint": null,
+  "taxa": "Taxa de processamento de manuscrito de US$ 25,00 não reembolsável. Isenta para estudantes membros da ASA e para submissões de Revisão e Resubmissão (R&R).",
+  "periodicidade": "Bimestral (fevereiro, abril, junho, agosto, outubro, dezembro)",
+  "preprint": null,
+  "licenca": null,
+  "data_auditoria": "2026-03-30",
+  "url_fonte_instrucoes": "https://journals.sagepub.com/author-instructions/ASR",
+  "ultima_atualizacao_normas": null,
+  "links": {
+    "site": "https://www.asanet.org/publications/journals/american-sociological-review/",
+    "submissao": "https://mc.manuscriptcentral.com/asr",
+    "diretrizes": "https://journals.sagepub.com/author-instructions/ASR"
+  },
+  "limites": {
+    "artigo_palavras": "15.000 palavras (incluindo texto, referências e notas de rodapé, excluindo tabelas e figuras)",
+    "nota_tecnica_palavras": null,
+    "comentario_critico_palavras": "Comentários/Réplicas não devem exceder 3.000 palavras",
+    "resumo_maximo": "150 a 200 palavras",
+    "titulo_maximo": null,
+    "palavras_chave_quantidade": "quatro ou cinco",
+    "autores_maximo": null,
+    "notas_rodape_palavras": "cada nota não deve exceder 100 palavras",
+    "notas_rodape_formato": "evitar notas longas; considerar adicionar apêndice ou depositar material em centro de recuperação",
+    "outros_limites": null
+  },
+  "formatacao": {
+    "fonte": "Times New Roman",
+    "tamanho_fonte": 12,
+    "espacamento_entrelinhas": "duplo (incluindo notas e referências)",
+    "margens": "pelo menos 2,5 cm (1 polegada) em todos os quatro lados",
+    "alinhamento": null,
+    "citacoes_longas": null,
+    "tabelas_figuras": "Espaços reservados para todas as tabelas e figuras devem ser inseridos no texto principal (ex.: 'Inserir Tabela 1 aqui'). Figuras em formatos: Excel, Word, PowerPoint, .wmf, .emf e .tiff (300 dpi). Permissões: O(s) autor(es) é(são) responsável(is) por obter permissão para reproduzir figuras ou materiais protegidos por direitos autorais.",
+    "citacoes_formato": "Estilo ASA (autor-data). Citações no texto: (Gouldner 1963); páginas citadas: (Ramirez and Weiss 1979:239–40); forneça os sobrenomes para autores conjuntos; para três autores, liste todos os três na primeira citação. Citações diretas incluem números de página.",
+    "referencias_formato": "Seção intitulada 'REFERENCES'. Liste as referências em ordem alfabética pelos sobrenomes dos autores; inclua primeiros nomes e iniciais do meio para todos os autores quando disponível. Liste duas ou mais entradas pelo(s) mesmo(s) autor(es) em ordem de ano de publicação.",
+    "exemplos_referencias": "ASA Style Guide (disponível no site da ASA)"
+  },
+  "tipos_texto": [
+    {
+      "tipo": "Artigos",
+      "extensao": "15.000 palavras (incluindo referências e notas de rodapé, excluindo tabelas e figuras)",
+      "detalhes": "Os artigos do ASR combinam desenhos de pesquisa e métodos analíticos robustos, enquadramento de interesse geral e desenvolvimento teórico que transcende subcampos da sociologia. Os editores avaliam com base na qualidade dos métodos, apelo sociológico geral e abrangência.",
+      "titulacao_minima_autor": null,
+      "idiomas_aceitos": ["Inglês"],
+      "resumo_maximo_palavras": 200,
+      "palavras_chave_quantidade": "quatro ou cinco",
+      "estrutura_sugerida": [
+        "Página de rosto (arquivo separado): título completo, afiliações institucionais, números de concessão/financiamento, palavras-chave (quatro ou cinco), informações de contato do autor correspondente, contagem de palavras.",
+        "Resumo (arquivo separado): 150-200 palavras, sem informações de identificação dos autores.",
+        "Manuscrito anonimizado (arquivo separado): sem página de rosto, sem nomes ou afiliações, sem referências autoidentificáveis."
+      ],
+      "requisitos_especificos": [
+        "Carta de apresentação com informações completas do autor correspondente, título do manuscrito e outras informações importantes.",
+        "Taxa de processamento de manuscrito de US$ 25,00 (isenta para estudantes membros da ASA e R&Rs).",
+        "O ASR não considera submissões de artigos previamente rejeitados no periódico.",
+        "Os autores devem aderir ao Código de Ética da ASA, incluindo políticas de compartilhamento de dados.",
+        "Manuscritos com mais de 15.000 palavras serão devolvidos sem revisão."
+      ],
+      "referencias_minimas": null,
+      "template": null,
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo principal de manuscrito aceito para submissão"
+    },
+    {
+      "tipo": "Comentários/Réplicas",
+      "extensao": "Não deve exceder 3.000 palavras",
+      "detalhes": "Comentários e réplicas sobre publicações recentes do ASR devem avançar um argumento substantivo.",
+      "titulacao_minima_autor": null,
+      "idiomas_aceitos": ["Inglês"],
+      "resumo_maximo_palavras": null,
+      "palavras_chave_quantidade": null,
+      "estrutura_sugerida": null,
+      "requisitos_especificos": null,
+      "referencias_minimas": null,
+      "template": null,
+      "submissao_aberta": true,
+      "justificativa_submissao": "Tipo de manuscrito aceito para submissão"
+    }
+  ],
+  "checklist": [
+    "O manuscrito é original e não está sob consideração em outro periódico.",
+    "O manuscrito não foi previamente rejeitado pelo ASR.",
+    "Todo o texto está em espaço duplo, fonte Times New Roman tamanho 12.",
+    "As margens são de pelo menos 2,5 cm (1 polegada) em todos os quatro lados.",
+    "Carta de apresentação foi incluída com informações de contato do autor correspondente.",
+    "O resumo (150-200 palavras) foi enviado como arquivo separado, sem identificação dos autores.",
+    "A página de rosto (arquivo separado) contém título, afiliações, financiamento, palavras-chave, contato e contagem de palavras.",
+    "O manuscrito principal está anonimizado, sem qualquer informação autoidentificável.",
+    "A taxa de processamento de US$ 25,00 foi paga (exceto para estudantes membros da ASA e R&Rs).",
+    "O manuscrito não excede 15.000 palavras (incluindo referências e notas).",
+    "Cada nota de rodapé não excede 100 palavras.",
+    "Os autores estão em conformidade com o Código de Ética da ASA para compartilhamento de dados."
+  ],
+  "instrucoes_adicionais": {
+    "contribuicao_autores": null,
+    "disponibilidade_dados": "Os sociólogos geralmente disponibilizam seus dados após a conclusão de um projeto ou suas principais publicações, exceto quando acordos de propriedade ou preocupações de confidencialidade impedem tal acessibilidade. (Código de Ética da ASA)",
+    "declaracao_dados_opcoes": null,
+    "financiamento": "Incluir números de concessão e/ou informações de financiamento na página de rosto.",
+    "preprint": null
+  }
+}

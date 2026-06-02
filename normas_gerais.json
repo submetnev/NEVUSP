@@ -1,0 +1,170 @@
+{
+  "versao": "1.1",
+  "data_auditoria": "2026-06-02",
+  "url_fonte": "https://www.gov.br/anpocs/pt-br/associados/associados/etica/etica-e-pesquisa",
+  "ultima_atualizacao_normas": "2026-06-02",
+  "diretrizes_etica": {
+    "titulo": "Diretrizes de Ética e Integridade em Pesquisa",
+    "itens": [
+      {
+        "sub_titulo": "1. Ineditismo e Originalidade",
+        "itens": [
+          "O trabalho submetido deve ser original e inédito, não estando sob avaliação simultânea em outro periódico.",
+          "Práticas como plágio, autoplágio, fabricação ou falsificação de dados são consideradas faltas éticas graves.",
+          "A reprodução de dados de outras fontes deve ser devidamente referenciada, e o uso de materiais protegidos por direitos autorais requer autorização."
+        ]
+      },
+      {
+        "sub_titulo": "2. Autoria e Contribuição",
+        "itens": [
+          "Todos os autores devem ter contribuído substancialmente para a concepção, análise e redação do trabalho e devem aprovar a versão final.",
+          "A ordem dos autores deve refletir o nível de contribuição. Todos os que contribuíram devem ser listados como autores.",
+          "Quando aplicável, utilize a taxonomia CRediT (Contributor Roles Taxonomy) para especificar a contribuição de cada autor.",
+          "A contribuição de cada autor no uso de ferramentas de IA generativa deve ser explicitamente descrita na metodologia ou nos agradecimentos."
+        ]
+      },
+      {
+        "sub_titulo": "3. Transparência e Reprodutibilidade",
+        "itens": [
+          "A metodologia deve ser descrita com clareza e riqueza de detalhes para permitir a replicação do estudo.",
+          "Sempre que possível, deposite os dados, códigos e materiais de pesquisa em repositórios de acesso aberto (ex: SciELO Data, Harvard Dataverse).",
+          "Para pesquisas com financiamento externo, declare as fontes de apoio na página de rosto ou na seção de agradecimentos."
+        ]
+      },
+      {
+        "sub_titulo": "4. Pesquisas com Seres Humanos e Animais",
+        "itens": [
+          "Pesquisas envolvendo seres humanos devem incluir o número de aprovação do Comitê de Ética em Pesquisa (CAAE), conforme a Resolução CNS 466/2012 e a nova Lei 14.874/2024.",
+          "É obrigatório anexar a declaração de consentimento livre e esclarecido dos participantes, respeitando a autonomia e privacidade.",
+          "A Resolução CNS 510/2016 estabelece normas específicas para pesquisas em Ciências Humanas e Sociais, com a devida gradação de risco e, em alguns casos, a dispensa do TCLE.",
+          "Populações vulnerabilizadas (povos indígenas, crianças, adolescentes, pessoas com deficiência, comunidades tradicionais, pessoas em situação de violência ou privação de liberdade) demandam cuidados éticos adicionais e protocolos específicos."
+        ]
+      },
+      {
+        "sub_titulo": "5. Conflitos de Interesse e Transparência",
+        "itens": [
+          "Todos os autores devem declarar qualquer potencial conflito de interesse de ordem financeira, pessoal ou institucional.",
+          "A submissão de manuscritos previamente depositados como preprint é geralmente aceita e considerada inédita. Nesse caso, informe o servidor e o DOI/identificador.",
+          "A ausência de financiamento ou conflitos deve ser explicitamente declarada, para fins de transparência."
+        ]
+      },
+      {
+        "sub_titulo": "6. Gestão de Más Condutas e Processo Editorial",
+        "itens": [
+          "Em casos de suspeita de má conduta, o periódico deve investigar seguindo as diretrizes do COPE (Committee on Publication Ethics).",
+          "Os periódicos devem ter canais claros para receber reclamações, recursos e garantir a confidencialidade do processo de revisão por pares.",
+          "A política de revisão por pares deve ser transparente (ex: duplo-cego, simples-cego, aberta) e aplicada de forma justa."
+        ]
+      },
+      {
+        "sub_titulo": "7. Pesquisas com Dados Sensíveis e Contextos de Violência",
+        "itens": [
+          "Pesquisas sobre violência, criminalidade ou direitos humanos devem adotar medidas adicionais para evitar a revitimização e garantir a segurança de todos os envolvidos.",
+          "O Termo de Consentimento deve explicitar os riscos específicos (ex: potenciais represálias, gatilhos emocionais) e as estratégias de mitigação, incluindo o direito de interromper a participação a qualquer momento.",
+          "O anonimato de participantes como vítimas, testemunhas ou agentes de segurança deve ser rigorosamente preservado, utilizando códigos e restringindo o acesso aos dados originais.",
+          "O acesso a bancos de dados institucionais (prisionais, policiais, de saúde) requer autorização formal, podendo envolver termos de cooperação e auditoria. A conformidade com a LGPD é obrigatória."
+        ]
+      }
+    ]
+  },
+  "estrutura_texto": {
+    "titulo": "Estrutura de Manuscrito para Submissão (Artigos, Resenhas, Ensaios e Notas Técnicas)",
+    "itens": [
+      {
+        "sub_titulo": "Elementos Pré-textuais",
+        "itens": [
+          "**Título**: deve ser claro, conciso e representativo do conteúdo, atrativo e sem termos sensacionalistas. Em geral, recomenda-se até 15 palavras.",
+          "**Autoria**: lista de todos os autores com nomes completos, ORCID, afiliação institucional e e-mail de contato. Para a submissão, é obrigatório enviar o documento principal sem identificação (avaliação duplo-cega).",
+          "**Resumo**: texto conciso (até 250 palavras, ou conforme especificação da revista) que apresenta: problema/objetivos, método, principais resultados e conclusão. Deve ser redigido em um único parágrafo.",
+          "**Palavras-chave**: três a cinco termos ou expressões que identificam o conteúdo do trabalho. Devem ser separadas por ponto e vírgula e escritas em letras minúsculas, exceto nomes próprios.",
+          "**Abstract e Keywords**: versão em inglês do título, resumo e palavras-chave, obrigatória para artigos e recomendada para outros tipos de manuscrito."
+        ]
+      },
+      {
+        "sub_titulo": "Elementos Textuais",
+        "itens": [
+          "**Introdução**: apresenta o tema, contextualiza o problema de pesquisa, define os objetivos (geral e específicos) e justifica a relevância do estudo. Deve conter uma breve descrição da metodologia e, opcionalmente, anunciar a estrutura do artigo.",
+          "**Desenvolvimento**: parte central do manuscrito, que pode ser subdividida em seções conforme o tipo de texto. Para artigos empíricos, recomenda-se: Revisão da Literatura, Metodologia, Resultados e Discussão. Para resenhas: contextualização da obra, análise crítica, considerações finais. Para ensaios: tese central, desenvolvimento argumentativo, conclusão.",
+          "**Conclusão / Considerações Finais**: síntese dos principais achados e contribuições. Retoma os objetivos, aponta limitações do estudo e sugere agendas de pesquisa futuras. Não deve conter citações nem novas informações."
+        ]
+      },
+      {
+        "sub_titulo": "Elementos Pós-textuais",
+        "itens": [
+          "**Referências**: lista padronizada (ABNT NBR 6023 ou estilo exigido pela revista) de todas as obras citadas no texto. Devem ser apresentadas em ordem alfabética, alinhadas à esquerda, com espaçamento simples.",
+          "**Notas de fim ou de rodapé**: destinadas exclusivamente a comentários ou explicações complementares, não a referências bibliográficas. Devem ser numeradas sequencialmente.",
+          "**Apêndices e Anexos**: materiais complementares elaborados pelo autor (apêndices) ou por terceiros (anexos), que auxiliam a compreensão do trabalho. Devem ser incluídos apenas quando indispensáveis."
+        ]
+      }
+    ]
+  },
+  "diretrizes_formatacao": {
+    "titulo": "Diretrizes de Formatação (Padrão ABNT)",
+    "itens": [
+      {
+        "sub_titulo": "Formatação Geral",
+        "itens": [
+          "**Papel**: Formato A4 (210 x 297 mm), na cor branca.",
+          "**Fonte e cor**: Fonte na cor preta, tamanho 12 para o texto. Citações longas, notas de rodapé, numeração de páginas e legendas de tabelas/figuras podem ser em tamanho 10 ou 11. Fontes como Times New Roman ou Arial são as mais utilizadas.",
+          "**Espaçamento**: 1,5 entrelinhas para o texto. Citações longas, notas de rodapé, referências e legendas devem ter espaçamento simples.",
+          "**Margens** (ABNT NBR 14724:2024): superior e esquerda: 3 cm; inferior e direita: 2 cm.",
+          "**Alinhamento**: O texto deve ser justificado.",
+          "**Paginação**: A numeração deve ser em algarismos arábicos, a partir da primeira folha da parte textual (introdução). As folhas pré-textuais são contadas, mas não numeradas."
+        ]
+      },
+      {
+        "sub_titulo": "Formatação de Seções e Títulos",
+        "itens": [
+          "Os títulos das seções devem ser numerados progressivamente (ex: 1, 1.1, 1.1.1).",
+          "Use negrito, itálico ou outros recursos gráficos para diferenciar os níveis hierárquicos de forma consistente.",
+          "Os títulos devem ser separados do texto que os sucede por um espaço de 1,5 entrelinhas."
+        ]
+      },
+      {
+        "sub_titulo": "Apresentação de Citações (NBR 10520:2023)",
+        "itens": [
+          "**Citações diretas curtas** (até 3 linhas): incorporadas ao parágrafo, entre aspas duplas.",
+          "**Citações diretas longas** (mais de 3 linhas): destacadas em bloco com recuo de 4 cm da margem esquerda, fonte em tamanho menor (10 ou 11), espaçamento simples e sem aspas.",
+          "**Citações indiretas**: paráfrase do texto original, dispensando o uso de aspas. Devem sempre ser referenciadas (autor, ano).",
+          "Em ambos os casos, o sistema de chamada é o autor-data (ex: (SOBRENOME, ano, p. XX)) ou (SOBRENOME, ano). A NBR 10520:2023 reforça que o ponto final encerra a frase, não a citação."
+        ]
+      },
+      {
+        "sub_titulo": "Apresentação de Referências (NBR 6023:2025)",
+        "itens": [
+          "As referências devem ser listadas ao final do trabalho, alinhadas à margem esquerda e com espaçamento simples entre linhas.",
+          "A NBR 6023:2025 especifica a ordem dos elementos, a pontuação, o uso de itálico (para títulos de obras e periódicos, e expressões como 'In' e 'et al.') e o recurso tipográfico uniforme.",
+          "A lista deve ser organizada em ordem alfabética pelo sobrenome do primeiro autor."
+        ]
+      },
+      {
+        "sub_titulo": "Apresentação de Tabelas e Figuras",
+        "itens": [
+          "**Tabelas**: apresentam dados numéricos. O título deve ser posicionado no topo da tabela, na mesma fonte do texto. A fonte dos dados deve ser indicada ao final da tabela.",
+          "**Figuras (gráficos, fotos, desenhos, etc.)**: O título e a legenda devem ser posicionados abaixo da figura.",
+          "Tanto tabelas quanto figuras devem ser numeradas sequencialmente de acordo com a ordem em que aparecem no texto e devem ser inseridas o mais próximo possível do trecho a que se referem. Elementos editáveis (xls, docx) são preferidos."
+        ]
+      },
+      {
+        "sub_titulo": "Normas Complementares e Especificidades",
+        "itens": [
+          "**Siglas e abreviaturas**: devem ser definidas por extenso na primeira vez que aparecem no texto.",
+          "**Equações e fórmulas**: podem ser destacadas do corpo do texto para facilitar a leitura.",
+          "**Notas de rodapé**: destinam-se a comentários, observações ou explicações complementares, e não a referências bibliográficas. Devem ser numeradas sequencialmente com algarismos arábicos."
+        ]
+      }
+    ]
+  },
+  "checklist_final": {
+    "titulo": "Checklist Final Antes da Submissão",
+    "itens": [
+      "**Conteúdo e Estrutura**: Todos os elementos obrigatórios (capa, folha de rosto, resumo, sumário, introdução, desenvolvimento, conclusão, referências) estão presentes? A estrutura segue a ordem correta?",
+      "**Formatação**: As margens, fontes, espaçamentos, recuos e alinhamentos estão de acordo com as diretrizes da ABNT/revista?",
+      "**Idioma e Revisão**: O texto está em conformidade com o novo Acordo Ortográfico? A ortografia, gramática e pontuação foram revisadas?",
+      "**Citações e Referências**: Todas as citações estão padronizadas no sistema autor-data (NBR 10520:2023)? Todas as referências seguem o mesmo padrão (ex: NBR 6023:2025) e são apresentadas em lista única e alfabética no final?",
+      "**Elementos Visuais**: Tabelas e figuras estão numeradas e possuem título e fonte? A fonte dos dados está indicada? Foram inseridas no texto ou em anexo, conforme a política da revista?",
+      "**Originalidade e Ética**: O trabalho é original, inédito e não está sob avaliação simultânea? A contribuição de cada autor e o uso de IA foram declarados? O conflito de interesses foi informado? Para pesquisas com humanos, a aprovação do Comitê de Ética (CAAE) está incluída?",
+      "**Conformidade com o Periódico e a LGPD**: O manuscrito está adequado ao escopo e às normas da revista? Os dados pessoais ou sensíveis (conforme a Lei 13.709/2018) foram tratados com segurança e anonimização adequada, com autorização institucional quando necessário?"
+    ]
+  }
+}
