@@ -646,7 +646,8 @@
         localStorage.setItem('submetnev_favorites', JSON.stringify([...window.state.favorites]));
     }
     
-    function toggleFavorite(revistaId) {
+    window.toggleFavorite = function(revistaId) {
+        console.log('toggleFavorite chamada para:', revistaId); // debug
         if (window.state.favorites.has(revistaId)) {
             window.state.favorites.delete(revistaId);
             showToast('Revista removida dos favoritos', 'info');
@@ -656,11 +657,12 @@
         }
         saveFavorites();
         renderRevistas();
-        if (window.state.currentRevista && window.state.currentRevista.id === revistaId) {
-            updateDetailFavoriteIcon(revistaId);
+        if (window.state.currentRevista && window.state.currentRevista.id == revistaId) {
+        updateDetailFavoriteIcon(revistaId);
         }
         updateFavoritoFilterButton();
-    }
+    };
+    console.log('toggleFavorite definida:', typeof window.toggleFavorite);
     
     function isFavorite(revistaId) {
         return window.state.favorites.has(revistaId);
@@ -729,11 +731,11 @@
         }
     }
 
-    function toggleFavoritoFilter() {
+    window.toggleFavoritoFilter = function() {
         window.state.showFavoritesOnly = !window.state.showFavoritesOnly;
         updateFavoritoFilterButton();
         renderRevistas();
-    }
+    };
 
     // ========== LIMPAR FILTROS (inclui limpeza da busca) ==========
     function clearAllFilters() {
@@ -1348,7 +1350,7 @@
     
     const favoritoFilterBtn = document.getElementById('favorito-filter-btn');
     if (favoritoFilterBtn) {
-        favoritoFilterBtn.addEventListener('click', toggleFavoritoFilter);
+       favoritoFilterBtn.addEventListener('click', window.toggleFavoritoFilter);
     }
     
     const clearFiltersBtn = document.getElementById('clear-filters-btn');
