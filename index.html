@@ -811,6 +811,23 @@
         return value;
     }
 
+    // Função auxiliar para formatar a exibição do resumo máximo nos tipos de manuscrito
+    function formatResumoDisplay(value) {
+        if (value === null || value === undefined) return '';
+        if (typeof value === 'number') {
+            return `${value} palavras`;
+        }
+        if (typeof value === 'string') {
+            // Se já contém "toques", "caracteres" ou "palavras", retorna como está
+            if (value.toLowerCase().includes('toque') || value.toLowerCase().includes('caractere') || value.toLowerCase().includes('palavra')) {
+                return value;
+            }
+            // Caso contrário, adiciona "palavras"
+            return `${value} palavras`;
+        }
+        return String(value);
+    }
+
     window.showRevistaDetail = async function(id, save = true) {
         if (save && window.router) {
             window.router.push('detalhe', id, true);
@@ -921,6 +938,8 @@
                                         else if (t.tipo.includes('Entrevista')) btnText = 'Baixar Template da Entrevista';
                                         else btnText = `Baixar Template (${t.tipo})`;
                                     }
+                                    // Formata o resumo corretamente
+                                    const resumoExibido = formatResumoDisplay(t.resumo_maximo_palavras);
                                     return `
                                     <div class="border border-slate-200 rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-md transition-all">
                                         <div class="bg-gradient-to-r from-[#003366] to-[#0a4c8a] px-4 py-3">
@@ -961,7 +980,7 @@
                                                     <i class="fas fa-paragraph text-[#003366] mt-0.5 text-sm"></i>
                                                     <div>
                                                         <p class="text-xs text-slate-500 uppercase tracking-wide">Resumo máximo</p>
-                                                        <p class="text-sm font-medium text-slate-800">${t.resumo_maximo_palavras} palavras</p>
+                                                        <p class="text-sm font-medium text-slate-800">${resumoExibido}</p>
                                                     </div>
                                                 </div>
                                             ` : ''}
