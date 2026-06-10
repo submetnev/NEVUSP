@@ -59,7 +59,7 @@
       "detalhes": "",
       "titulacao_minima_autor": "",
       "idiomas_aceitos": ["português", "inglês", "francês", "espanhol"],
-      "resumo_maximo_palavras": 750,
+      ""resumo_maximo_palavras": "750 toques"
       "palavras_chave_quantidade": "3 a 5",
       "estrutura_sugerida": [],
       "requisitos_especificos": [
@@ -88,7 +88,7 @@
       "detalhes": "",
       "titulacao_minima_autor": "",
       "idiomas_aceitos": ["português", "inglês", "francês", "espanhol"],
-      "resumo_maximo_palavras": 750,
+      ""resumo_maximo_palavras": "750 toques"
       "palavras_chave_quantidade": "3 a 5",
       "estrutura_sugerida": [],
       "requisitos_especificos": [],
@@ -103,7 +103,7 @@
       "detalhes": "",
       "titulacao_minima_autor": "",
       "idiomas_aceitos": ["português", "inglês", "francês", "espanhol"],
-      "resumo_maximo_palavras": 750,
+      ""resumo_maximo_palavras": "750 toques"
       "palavras_chave_quantidade": "3 a 5",
       "estrutura_sugerida": [],
       "requisitos_especificos": [],
@@ -118,7 +118,7 @@
       "detalhes": "",
       "titulacao_minima_autor": "",
       "idiomas_aceitos": ["português", "inglês", "francês", "espanhol"],
-      "resumo_maximo_palavras": 750,
+      ""resumo_maximo_palavras": "750 toques"
       "palavras_chave_quantidade": "3 a 5",
       "estrutura_sugerida": [],
       "requisitos_especificos": [],
@@ -133,7 +133,7 @@
       "detalhes": "Manuscritos de artigos científicos concluídos, não avaliado por pares e não publicados, que são depositados previamente em repositórios de acesso aberto.",
       "titulacao_minima_autor": "",
       "idiomas_aceitos": ["português", "inglês", "francês", "espanhol"],
-      "resumo_maximo_palavras": 750,
+      ""resumo_maximo_palavras": "750 toques"
       "palavras_chave_quantidade": "3 a 5",
       "estrutura_sugerida": [],
       "requisitos_especificos": [],
