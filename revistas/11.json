@@ -26,7 +26,7 @@
     "artigo_palavras": null,
     "nota_tecnica_palavras": null,
     "comentario_critico_palavras": null,
-    "resumo_maximo": "200 palavras",
+    "resumo_maximo": "200 toques",
     "titulo_maximo": null,
     "palavras_chave_quantidade": "Até 5",
     "autores_maximo": null,
@@ -44,7 +44,7 @@
     "citacoes_longas": {
       "recuo": "4 cm da margem esquerda",
       "fonte": 10,
-      "espacamento": null
+      "espacamento": "simples"
     },
     "tabelas_figuras": "Tabelas e gráficos sem título ou fonte serão rejeitados. Gráficos, mapas e outros elementos gráficos devem ser apresentados na forma de arte-final.",
     "citacoes_formato": "Citações com menos de três linhas: em itálico e com aspas duplas",

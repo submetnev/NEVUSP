@@ -26,7 +26,7 @@
     "artigo_palavras": "Até 55.000 caracteres com espaços",
     "nota_tecnica_palavras": null,
     "comentario_critico_palavras": null,
-    "resumo_maximo": "150 palavras",
+    "resumo_maximo": "150 toques",
     "titulo_maximo": null,
     "palavras_chave_quantidade": "até 5 palavras",
     "autores_maximo": 3,
@@ -44,7 +44,7 @@
     "citacoes_longas": {
       "recuo": "4 cm da margem esquerda",
       "fonte": 11,
-      "espacamento": null
+      "espacamento": "simples"
     },
     "tabelas_figuras": "",
     "citacoes_formato": "Citações diretas de até 3 linhas: entre aspas, autor em SOBRENOME (maiúsculas) entre parênteses com ano e página. Ex.: (SILVA, 2000, p. 12). Citações com dois/três autores: todos indicados, separados por ponto e vírgula; com mais de 3: primeiro autor seguido de et al.",

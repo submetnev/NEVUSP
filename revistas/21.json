@@ -26,7 +26,7 @@
     "artigo_palavras": "Até 8.000 palavras (excluindo referências, tabelas e resumo)",
     "nota_tecnica_palavras": "",
     "comentario_critico_palavras": "",
-    "resumo_maximo": "200 palavras",
+    "resumo_maximo": "200 toques",
     "titulo_maximo": null,
     "palavras_chave_quantidade": "5 a 8",
     "autores_maximo": null,
@@ -43,8 +43,8 @@
     "alinhamento": "Esquerda",
     "citacoes_longas": {
       "recuo": "1,25 cm",
-      "fonte": null,
-      "espacamento": null
+      "fonte": 11,
+      "espacamento": "simples"
     },
     "tabelas_figuras": "Numeradas sequencialmente, com títulos e fontes. Podem ser inseridas no texto ou ao final.",
     "citacoes_formato": "Estilo autor-data (ex.: Garland, 2001:45). Para três ou mais autores: (Garland et al., 2001).",

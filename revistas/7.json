@@ -42,8 +42,8 @@
     "recuo_primeira_linha": "",
     "alinhamento": "justificado",
     "citacoes_longas": {
-      "recuo": "1 cm à esquerda",
-      "fonte": 10,
+      "recuo": "4 cm",
+      "fonte": 11,
       "espacamento": "simples"
     },
     "tabelas_figuras": "Devem figurar no corpo do artigo e serem enviadas em arquivos separados (JPEG, 300 dpi). Devem conter título e fonte, e estar numerados.",

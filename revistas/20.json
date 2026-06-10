@@ -43,8 +43,8 @@
     "alinhamento": "Esquerda (não justificado)",
     "citacoes_longas": {
       "recuo": "1,25 cm",
-      "fonte": null,
-      "espacamento": null
+      "fonte": 11,
+      "espacamento": "simples"
     },
     "tabelas_figuras": "Inseridas no corpo do texto ou ao final, cada uma em página separada, numeradas sequencialmente com títulos e legendas.",
     "citacoes_formato": "Estilo autor-data (ex.: Garland, 2001, p. 45). Para três ou mais autores: (Garland et al., 2001).",

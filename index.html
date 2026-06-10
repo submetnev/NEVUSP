@@ -485,7 +485,7 @@
             <div class="flex justify-center items-center pt-2">
                 <a href="https://nev.prp.usp.br/" target="_blank" rel="noopener noreferrer" title="ir para o site do NEV/USP">
                     <img src="imagem/logo_nev.png" alt="NEV/USP" class="h-6 w-auto opacity-80 hover:opacity-100 transition-opacity">
-            </a>
+                </a>
             </div>
         </div>
     </footer>
@@ -790,6 +790,27 @@
     }
 
     // ========== DETALHE DA REVISTA ==========
+    // Função auxiliar para formatar valor da formatação (evitar [object Object])
+    function formatFormatacaoValue(value) {
+        if (value === null || value === undefined) return '';
+        if (typeof value === 'object') {
+            // Tenta extrair informações relevantes de citações longas
+            if (value.recuo || value.fonte || value.espacamento) {
+                let parts = [];
+                if (value.recuo) parts.push(`recuo: ${value.recuo}`);
+                if (value.fonte) parts.push(`fonte: ${value.fonte}pt`);
+                if (value.espacamento) parts.push(`espaçamento: ${value.espacamento}`);
+                return parts.join(', ');
+            }
+            return JSON.stringify(value);
+        }
+        // Corrige duplicação de palavras (ex: "700 palavras palavras" -> "700 palavras")
+        if (typeof value === 'string') {
+            return value.replace(/(palavras)\s+\1/i, '$1');
+        }
+        return value;
+    }
+
     window.showRevistaDetail = async function(id, save = true) {
         if (save && window.router) {
             window.router.push('detalhe', id, true);
@@ -857,7 +878,7 @@
                         ${r.limites?.autores_maximo ? `<div class="info-card"><p class="text-xs text-slate-500 uppercase tracking-wide">👥 Máximo de autores</p><p class="font-bold text-[#003366]">${r.limites.autores_maximo}</p></div>` : ''}
                         ${r.limites?.resumo_maximo ? `<div class="info-card"><p class="text-xs text-slate-500 uppercase tracking-wide">📝 Resumo máximo</p><p class="font-bold text-[#003366]">${r.limites.resumo_maximo}</p></div>` : ''}
                         ${r.limites?.palavras_chave_quantidade ? `<div class="info-card"><p class="text-xs text-slate-500 uppercase tracking-wide">🔑 Palavras-chave</p><p class="font-bold text-[#003366]">${r.limites.palavras_chave_quantidade}</p></div>` : ''}
-                        ${r.limites?.notas_rodape_palavras ? `<div class="info-card"><p class="text-xs text-slate-500 uppercase tracking-wide">📌 Notas de rodapé</p><p class="font-bold text-[#003366]">${r.limites.notas_rodape_palavras} palavras</p></div>` : ''}
+                        ${r.limites?.notas_rodape_palavras ? `<div class="info-card"><p class="text-xs text-slate-500 uppercase tracking-wide">📌 Notas de rodapé</p><p class="font-bold text-[#003366]">${formatFormatacaoValue(r.limites.notas_rodape_palavras)}</p></div>` : ''}
                         ${r.taxa ? `<div class="info-card"><p class="text-xs text-slate-500 uppercase tracking-wide">💰 Taxa</p><p class="font-bold text-[#003366]">${r.taxa}</p></div>` : ''}
                     </div>
 
@@ -889,7 +910,18 @@
                         <section class="card-academic p-6 md:p-8">
                             <h2 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2"><i class="fas fa-file-alt text-[#003366]"></i> Tipos de Manuscrito</h2>
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                ${r.tipos_texto?.map(t => `
+                                ${r.tipos_texto?.map(t => {
+                                    // Melhora o texto do botão
+                                    let btnText = 'Baixar Template';
+                                    if (t.tipo) {
+                                        if (t.tipo.includes('Artigo')) btnText = 'Baixar Template do Artigo';
+                                        else if (t.tipo.includes('Nota')) btnText = 'Baixar Template da Nota Técnica';
+                                        else if (t.tipo.includes('Resenha')) btnText = 'Baixar Template da Resenha';
+                                        else if (t.tipo.includes('Ensaio')) btnText = 'Baixar Template do Ensaio';
+                                        else if (t.tipo.includes('Entrevista')) btnText = 'Baixar Template da Entrevista';
+                                        else btnText = `Baixar Template (${t.tipo})`;
+                                    }
+                                    return `
                                     <div class="border border-slate-200 rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-md transition-all">
                                         <div class="bg-gradient-to-r from-[#003366] to-[#0a4c8a] px-4 py-3">
                                             <h3 class="font-bold text-white text-lg">${t.tipo || 'Manuscrito'}</h3>
@@ -964,13 +996,13 @@
                                             ${t.template ? `
                                                 <div class="mt-4 pt-2">
                                                     <button onclick="window.downloadTemplate('${t.template}', this)" class="btn-primary w-full py-2 text-sm justify-center">
-                                                        <i class="fas fa-file-word"></i> Baixar Template ${t.tipo?.includes('Artigo') ? 'do Artigo' : t.tipo?.includes('Nota') ? 'da Nota Técnica' : 'do Template'}
+                                                        <i class="fas fa-file-word"></i> ${btnText}
                                                     </button>
                                                 </div>
                                             ` : ''}
                                         </div>
                                     </div>
-                                `).join('') || '<p class="text-slate-500 col-span-2 text-center py-8">Consulte o site oficial da revista para informações sobre tipos de manuscrito.</p>'}
+                                `}).join('') || '<p class="text-slate-500 col-span-2 text-center py-8">Consulte o site oficial da revista para informações sobre tipos de manuscrito.</p>'}
                             </div>
                         </section>
                     </div>
@@ -983,7 +1015,7 @@
                                 ${r.formatacao ? Object.entries(r.formatacao).map(([k, v]) => v ? `
                                     <div class="border-b border-white/10 pb-3 last:border-0">
                                         <p class="text-[10px] uppercase tracking-widest text-white/60 mb-1">${k.replace(/_/g, ' ')}</p>
-                                        <p class="text-sm font-medium">${v}</p>
+                                        <p class="text-sm font-medium">${formatFormatacaoValue(v)}</p>
                                     </div>
                                 ` : '').join('') : '<p>Consulte as normas da revista.</p>'}
                             </div>

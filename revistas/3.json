@@ -26,7 +26,7 @@
     "artigo_palavras": "7.000 a 9.000 palavras",
     "nota_tecnica_palavras": null,
     "comentario_critico_palavras": "Até 3.000 palavras (Ensaios Críticos)",
-    "resumo_maximo": "200 palavras",
+    "resumo_maximo": "200 toques",
     "titulo_maximo": "50 caracteres com espaços (para Ensaios Críticos)",
     "palavras_chave_quantidade": 5,
     "autores_maximo": null,
@@ -43,8 +43,8 @@
     "alinhamento": "justificado",
     "citacoes_longas": {
       "recuo": "novo parágrafo recuado",
-      "fonte": null,
-      "espacamento": null
+      "fonte": 11,
+      "espacamento": "simples"
     },
     "tabelas_figuras": "Inseridas logo abaixo da citação. Conteúdo interno em Times New Roman, tamanho 11. Imagens com resolução mínima de 300 dpi em arquivo separado.",
     "citacoes_formato": "Sistema autor-data: (Sobrenome, ano) ou (Sobrenome, ano, página). Citações textuais de até três linhas entre aspas.",

@@ -42,9 +42,9 @@
     "recuo_primeira_linha": "",
     "alinhamento": null,
     "citacoes_longas": {
-      "recuo": "",
-      "fonte": "menor",
-      "espacamento": null
+      "recuo": "4 cm",
+      "fonte": 11,
+      "espacamento": "simples"
     },
     "tabelas_figuras": "inseridas no corpo do texto; devem ser enviadas também no programa que as gerou, em arquivo separado",
     "citacoes_formato": "sistema autor/data: (SOBRENOME, ano, página)",

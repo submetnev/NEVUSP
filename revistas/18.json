@@ -42,9 +42,9 @@
     "recuo_primeira_linha": "",
     "alinhamento": null,
     "citacoes_longas": {
-      "recuo": "",
-      "fonte": null,
-      "espacamento": null
+      "recuo": "4 cm",
+      "fonte": 11,
+      "espacamento": "simples"
     },
     "tabelas_figuras": "Em formato jpg (300 a 500 dpi), com título, legenda e fonte. Se aprovado, enviar em formatos originais editáveis.",
     "citacoes_formato": "ABNT NBR 10520: (Sobrenome do Autor, data) ou (Sobrenome do Autor, data, página)",

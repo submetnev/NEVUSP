@@ -43,8 +43,8 @@
     "alinhamento": "",
     "citacoes_longas": {
       "recuo": "4 cm",
-      "fonte": "menor",
-      "espacamento": null
+      "fonte": 11,
+      "espacamento": "simples"
     },
     "tabelas_figuras": "Enviadas em arquivos separados (JPEG ou PNG, 300 DPI, máx. 1,5 MB). Títulos precedem as figuras/tabelas; fonte dos dados e notas vêm logo abaixo.",
     "citacoes_formato": "Chicago autor-data, 17ª edição. No texto: (Autor ano, página). Citações curtas (até 3 linhas) entre aspas duplas.",

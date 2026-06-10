@@ -1,3 +1,4 @@
+```json
 {
   "id": 1,
   "nome": "DADOS - Revista de Ciencias Sociais",
@@ -26,7 +27,7 @@
     "artigo_palavras": "4.000 a 14.000 palavras",
     "nota_tecnica_palavras": "Ate 6.000 palavras",
     "comentario_critico_palavras": "Ate 6.000 palavras",
-    "resumo_maximo": "150 palavras",
+    "resumo_maximo": "150 toques",
     "titulo_maximo": null,
     "palavras_chave_quantidade": "5",
     "autores_maximo": 5,
@@ -156,3 +157,4 @@
     "politica_etica": "DADOS adota os principios contidos nos Codigos de Etica do COPE (Committee on Publication Ethics), do CNPq e da FAPESP. A revista aplica verificador de plagio e autoplagio em todo artigo aceito para publicacao."
   }
 }
+```

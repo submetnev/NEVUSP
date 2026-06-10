@@ -42,9 +42,9 @@
     "recuo_primeira_linha": "",
     "alinhamento": null,
     "citacoes_longas": {
-      "recuo": "recuada",
-      "fonte": "menor",
-      "espacamento": null
+      "recuo": "4 cm",
+      "fonte": 11,
+      "espacamento": "simples"
     },
     "tabelas_figuras": "Além de inseridos no texto, os arquivos de imagens (tabelas, figuras, gráficos, fotos) devem ser encaminhados em separado, na extensão original, em alta resolução para impressão.",
     "citacoes_formato": "Sistema autor-data: (nome do autor, ano da obra, número da página)",

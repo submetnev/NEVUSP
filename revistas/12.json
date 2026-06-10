@@ -26,7 +26,7 @@
     "artigo_palavras": "4.000 a 14.000 palavras",
     "nota_tecnica_palavras": null,
     "comentario_critico_palavras": null,
-    "resumo_maximo": "250 palavras",
+    "resumo_maximo": "250 toques",
     "titulo_maximo": null,
     "palavras_chave_quantidade": "3 a 5",
     "autores_maximo": null,
@@ -42,9 +42,9 @@
     "recuo_primeira_linha": "",
     "alinhamento": "",
     "citacoes_longas": {
-      "recuo": "",
-      "fonte": null,
-      "espacamento": ""
+      "recuo": "4 cm",
+      "fonte": 11,
+      "espacamento": "simples"
     },
     "tabelas_figuras": "",
     "citacoes_formato": "",

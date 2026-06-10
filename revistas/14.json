@@ -44,7 +44,7 @@
     "citacoes_longas": {
       "recuo": "4 cm",
       "fonte": 11,
-      "espacamento": null
+      "espacamento": "simples"
     },
     "tabelas_figuras": "",
     "citacoes_formato": "Citações diretas com até três linhas: entre aspas no corpo do texto, sem itálico. Citações em língua estrangeira devem ser traduzidas. Citações legislativas ou jurisprudenciais devem conter todos os dados para identificação.",
@@ -85,7 +85,7 @@
     }
   ],
   "checklist": [
-    "Página de rosta com título em português e inglês (centralizado e em negrito).",
+    "Página de rosto com título em português e inglês (centralizado e em negrito).",
     "Nome do autor, CPF, endereço completo com CEP, telefone, e-mail e currículo breve (máximo 3 linhas).",
     "Resumo em português de no máximo 10 linhas, em um só parágrafo, contendo: objeto, objetivo, método e conclusão.",
     "Palavras-chave (máximo 5) e título em inglês (abstract e keywords).",

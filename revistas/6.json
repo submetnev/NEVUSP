@@ -42,9 +42,9 @@
     "recuo_primeira_linha": "",
     "alinhamento": null,
     "citacoes_longas": {
-      "recuo": "novo parágrafo recuado",
-      "fonte": null,
-      "espacamento": null
+      "recuo": "4 cm",
+      "fonte": 11,
+      "espacamento": "simples"
     },
     "tabelas_figuras": "Enviadas como arquivos à parte em formato PNG, JPG ou Microsoft Excel, com indicação da fonte",
     "citacoes_formato": "Sistema autor-data: (autor, ano) ou (autor, ano: página)",

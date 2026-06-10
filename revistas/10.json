@@ -42,8 +42,8 @@
     "recuo_primeira_linha": "",
     "alinhamento": null,
     "citacoes_longas": {
-      "recuo": "",
-      "fonte": null,
+      "recuo": "4 cm",
+      "fonte": 11,
       "espacamento": "simples"
     },
     "tabelas_figuras": "Espaços reservados para todas as tabelas e figuras devem ser inseridos no texto principal (ex.: 'Inserir Tabela 1 aqui'). Figuras em formatos: Excel, Word, PowerPoint, .wmf, .emf e .tiff (300 dpi). Permissões: O(s) autor(es) é(são) responsável(is) por obter permissão para reproduzir figuras ou materiais protegidos por direitos autorais.",

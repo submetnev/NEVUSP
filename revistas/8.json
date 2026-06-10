@@ -26,7 +26,7 @@
     "artigo_palavras": null,
     "nota_tecnica_palavras": null,
     "comentario_critico_palavras": null,
-    "resumo_maximo": "150 palavras",
+    "resumo_maximo": "150 toques",
     "titulo_maximo": null,
     "palavras_chave_quantidade": 5,
     "autores_maximo": null,
@@ -42,9 +42,9 @@
     "recuo_primeira_linha": "",
     "alinhamento": null,
     "citacoes_longas": {
-      "recuo": "recuado",
-      "fonte": "menor",
-      "espacamento": null
+      "recuo": "4 cm",
+      "fonte": 11,
+      "espacamento": "simples"
     },
     "tabelas_figuras": "Devem ser acompanhadas das respectivas planilhas que as originaram, em arquivo separado e editável.",
     "citacoes_formato": "Sistema autor-data: (autor/a, data, página)",
