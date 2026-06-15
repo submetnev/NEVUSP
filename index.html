@@ -672,48 +672,64 @@
     }
 
     // ========== FAVORITOS ==========
-    function loadFavorites() {
-        const saved = localStorage.getItem('submetnev_favorites');
-        if (saved) {
-            try {
-                window.state.favorites = new Set(JSON.parse(saved));
-            } catch(e) {}
-        }
+function loadFavorites() {
+    const saved = localStorage.getItem('submetnev_favorites');
+    if (saved) {
+        try {
+            window.state.favorites = new Set(JSON.parse(saved));
+        } catch(e) {}
     }
-    
-    function saveFavorites() {
-        localStorage.setItem('submetnev_favorites', JSON.stringify([...window.state.favorites]));
+}
+
+function saveFavorites() {
+    localStorage.setItem('submetnev_favorites', JSON.stringify([...window.state.favorites]));
+}
+
+window.toggleFavorite = function(revistaId) {
+    if (window.state.favorites.has(revistaId)) {
+        window.state.favorites.delete(revistaId);
+        showToast('Revista removida dos favoritos', 'info');
+    } else {
+        window.state.favorites.add(revistaId);
+        showToast('Revista adicionada aos favoritos', 'success');
     }
-    
-    window.toggleFavorite = function(revistaId) {
-        console.log('toggleFavorite chamada para:', revistaId); // debug
-        if (window.state.favorites.has(revistaId)) {
-            window.state.favorites.delete(revistaId);
-            showToast('Revista removida dos favoritos', 'info');
-        } else {
-            window.state.favorites.add(revistaId);
-            showToast('Revista adicionada aos favoritos', 'success');
-        }
-        saveFavorites();
-        renderRevistas();
-        if (window.state.currentRevista && window.state.currentRevista.id == revistaId) {
+    saveFavorites();
+    renderRevistas();
+    if (window.state.currentRevista && window.state.currentRevista.id == revistaId) {
         updateDetailFavoriteIcon(revistaId);
-        }
-        updateFavoritoFilterButton();
-    };
-    console.log('toggleFavorite definida:', typeof window.toggleFavorite);
-    
-    function isFavorite(revistaId) {
-        return window.state.favorites.has(revistaId);
     }
-    
-    function updateDetailFavoriteIcon(revistaId) {
-        const starBtn = document.getElementById('favorite-star-detail');
-        if (starBtn) {
-            const isFav = isFavorite(revistaId);
-            starBtn.innerHTML = isFav ? '<i class="fas fa-star text-yellow-500"></i>' : '<i class="far fa-star text-slate-400"></i>';
+    updateFavoritoFilterButton();
+};
+
+function isFavorite(revistaId) {
+    return window.state.favorites.has(revistaId);
+}
+
+function updateDetailFavoriteIcon(revistaId) {
+    const starBtn = document.getElementById('favorite-star-detail');
+    if (starBtn) {
+        const isFav = isFavorite(revistaId);
+        starBtn.innerHTML = isFav ? '<i class="fas fa-star text-yellow-500"></i>' : '<i class="far fa-star text-slate-400"></i>';
+    }
+}
+function updateFavoritoFilterButton() {
+    const btn = document.getElementById('favorito-filter-btn');
+    if (btn) {
+        if (window.state.showFavoritesOnly) {
+            btn.classList.add('favorito-active');
+            btn.innerHTML = '<i class="fas fa-star"></i> Favoritos (ativo)';
+        } else {
+            btn.classList.remove('favorito-active');
+            btn.innerHTML = '<i class="fas fa-star"></i> Favoritos';
         }
     }
+}
+
+window.toggleFavoritoFilter = function() {
+    window.state.showFavoritesOnly = !window.state.showFavoritesOnly;
+    updateFavoritoFilterButton();
+    renderRevistas();
+};
 
     // ========== FILTROS ==========
     function getQualisClass(qualis) {
