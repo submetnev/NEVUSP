@@ -59,7 +59,7 @@
       "detalhes": "Manuscritos inéditos que apresentam resultados de pesquisa acadêmica sistemática com contribuição teórica, empírica ou metodológica. São considerados inéditos os publicados em anais de eventos e plataformas de preprint.",
       "titulacao_minima_autor": null,
       "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
-      "resumo_maximo_palavras": 200,
+      "resumo_maximo_palavras": "200 palavras",
       "palavras_chave_quantidade": 5,
       "estrutura_sugerida": [],
       "requisitos_especificos": [
