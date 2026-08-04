@@ -251,7 +251,9 @@ def adicionar_placeholders_titulo_autores(doc, revista_nome):
     doc.add_paragraph()
 
 def adicionar_secao_resumo_palavras_chave(doc, limites, revista):
-    """Instrução destacada + placeholder sem formatação especial."""
+    """Instrução destacada + placeholder para Resumo, Abstract, Palavras-chave e Keywords."""
+    
+    # --- SEÇÃO RESUMO (Português) ---
     doc.add_heading("RESUMO", level=1)
     limite_resumo = limites.get('resumo_maximo', '200 palavras')
     if limite_resumo is None:
@@ -263,6 +265,16 @@ def adicionar_secao_resumo_palavras_chave(doc, limites, revista):
     adicionar_instrucao(doc, "Escreva um resumo claro e conciso, dentro do limite de palavras")
     adicionar_placeholder(doc, "[INSIRA O RESUMO AQUI]")
     
+    # --- SEÇÃO ABSTRACT (Inglês) - ADICIONADA ---
+    doc.add_heading("ABSTRACT", level=1)
+    p = doc.add_paragraph()
+    p.add_run(f"⚠️ ATENÇÃO: O abstract deve ter no máximo {limite_resumo}. ")
+    p.add_run("Structure: context, objective, method, main results, conclusion.\n\n")
+    
+    adicionar_instrucao(doc, "Write a clear and concise abstract, within the word limit")
+    adicionar_placeholder(doc, "[INSERT THE ABSTRACT HERE]")
+    
+    # --- SEÇÃO PALAVRAS-CHAVE (Português) ---
     doc.add_heading("Palavras-chave", level=2)
     qtd = limites.get('palavras_chave_quantidade', '3 a 5')
     if qtd is None:
@@ -270,6 +282,13 @@ def adicionar_secao_resumo_palavras_chave(doc, limites, revista):
     doc.add_paragraph(f"Quantidade: {qtd}. Termos descritores do conteúdo.")
     adicionar_instrucao(doc, "Separe as palavras-chave por vírgula ou ponto e vírgula")
     adicionar_placeholder(doc, "[palavra1, palavra2, palavra3, ...]")
+    doc.add_paragraph()
+    
+    # --- SEÇÃO KEYWORDS (Inglês) - ADICIONADA ---
+    doc.add_heading("Keywords", level=2)
+    doc.add_paragraph(f"Quantity: {qtd}. Terms that describe the content.")
+    adicionar_instrucao(doc, "Separate keywords with commas or semicolons")
+    adicionar_placeholder(doc, "[keyword1, keyword2, keyword3, ...]")
     doc.add_paragraph()
 
 def adicionar_estrutura_texto(doc, tipo_info, revista):
@@ -281,6 +300,8 @@ def adicionar_estrutura_texto(doc, tipo_info, revista):
             estrutura = ["Contextualização da obra", "Análise crítica", "Considerações finais"]
         elif "ensaio" in tipo_nome:
             estrutura = ["Tese central e problematização", "Desenvolvimento argumentativo", "Conclusão e implicações"]
+        elif "entrevista" in tipo_nome:
+            estrutura = ["Apresentação do entrevistado e contextualização", "Transcrição da entrevista (perguntas e respostas)", "Considerações finais"]
         else:
             estrutura = ["INTRODUÇÃO", "REFERENCIAL TEÓRICO", "METODOLOGIA", "RESULTADOS", "DISCUSSÃO", "CONCLUSÃO", "REFERÊNCIAS"]
     for secao in estrutura:
@@ -406,13 +427,13 @@ def gerar_template(revista_data, tipo_info, caminho_template):
     # Placeholders com instruções em destaque (corrigido)
     adicionar_placeholders_titulo_autores(doc, nome_revista)
     
-    # Resumo e palavras-chave
+    # Resumo e palavras-chave (agora com Abstract e Keywords)
     limites = revista_data.get('limites', {})
     if limites is None:
         limites = {}
     adicionar_secao_resumo_palavras_chave(doc, limites, revista_data)
     
-    # Estrutura do texto
+    # Estrutura do texto (agora com estrutura para entrevistas)
     adicionar_estrutura_texto(doc, tipo_info, revista_data)
     
     # Checklist
