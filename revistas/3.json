@@ -98,21 +98,6 @@
       "template": "templates/revista_brasileira_de_ciencias_sociais_rbcs_ensaios_criticos.docx",
       "submissao_aberta": false,
       "justificativa_submissao": "Tipo aceito apenas por proposta da editoria da seção, não por submissão espontânea"
-    },
-    {
-      "tipo": "Entrevistas",
-      "extensao": null,
-      "detalhes": "Publicadas excepcionalmente por iniciativa da Comissão Editorial e da Diretoria da ANPOCS, submetidas aos mesmos critérios de avaliação dos artigos originais.",
-      "titulacao_minima_autor": null,
-      "idiomas_aceitos": ["Português", "Inglês", "Espanhol"],
-      "resumo_maximo_palavras": 200,
-      "palavras_chave_quantidade": 5,
-      "estrutura_sugerida": [],
-      "requisitos_especificos": [],
-      "referencias_minimas": null,
-      "template": null,
-      "submissao_aberta": false,
-      "justificativa_submissao": "Publicação por convite ou iniciativa da Comissão Editorial, não por submissão espontânea"
     }
   ],
   "checklist": [
