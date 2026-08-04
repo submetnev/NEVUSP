@@ -232,19 +232,21 @@ def adicionar_numero_pagina_rodape(doc):
 # FUNÇÕES DE CONTEÚDO (COM INSTRUÇÕES E PLACEHOLDERS NORMAIS)
 # ============================================================
 def adicionar_placeholders_titulo_autores(doc, revista_nome):
-    """Instrução destacada + placeholder sem formatação especial."""
+    """
+    Instrução destacada + placeholder sem formatação especial.
+    CORRIGIDO: Removidos placeholders de dados pessoais (nome, ORCID, e-mail)
+    e adicionado aviso sobre anonimização.
+    """
     doc.add_paragraph().add_run(f"Template para submissão à {revista_nome}").bold = True
     doc.add_paragraph("Este documento contém formatação pré-definida e orientações.")
     doc.add_paragraph()
     
+    # Instrução única sobre anonimização (não são campos para preencher)
+    adicionar_instrucao(doc, "ATENÇÃO: Para avaliação cega, este arquivo não deve conter qualquer identificação de autoria (nome, ORCID, afiliação, e-mail). Estas informações devem ser preenchidas apenas nos metadados do sistema de submissão online.")
+    doc.add_paragraph()
+    
     adicionar_instrucao(doc, "Substitua pelo título do seu manuscrito")
     adicionar_placeholder(doc, "[INSIRA O TÍTULO COMPLETO, CONFORME NORMAS DA REVISTA]")
-    
-    adicionar_instrucao(doc, "Liste todos os autores com suas respectivas informações (ORCID, afiliação)")
-    adicionar_placeholder(doc, "[NOME COMPLETO DOS AUTORES, ORCID, AFILIAÇÃO INSTITUCIONAL]")
-    
-    adicionar_instrucao(doc, "Indique o endereço eletrônico principal para correspondência")
-    adicionar_placeholder(doc, "[E-MAIL DO AUTOR PARA CORRESPONDÊNCIA]")
     
     doc.add_paragraph()
 
@@ -401,7 +403,7 @@ def gerar_template(revista_data, tipo_info, caminho_template):
     configurar_estilo_normal(doc, revista_data)
     configurar_estilos_titulos(doc, revista_data)
     
-    # Placeholders com instruções em destaque
+    # Placeholders com instruções em destaque (corrigido)
     adicionar_placeholders_titulo_autores(doc, nome_revista)
     
     # Resumo e palavras-chave
