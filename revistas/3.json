@@ -30,8 +30,8 @@
     "titulo_maximo": "50 caracteres com espaços (para Ensaios Críticos)",
     "palavras_chave_quantidade": 5,
     "autores_maximo": null,
-    "notas_rodape_palavras": "250 palavras",
-    "notas_rodape_formato": "Numeradas sequencialmente, posicionadas ao final do texto, antes das referências",
+    "notas_rodape_palavras": "250 caracteres com espaços",
+    "notas_rodape_formato": "Numeradas sequencialmente. Inserir apenas informações complementares e de natureza substantiva, sem ultrapassar 250 caracteres com espaços por nota.",
     "outros_limites": null
   },
   "formatacao": {
@@ -128,7 +128,7 @@
     "O autor declara não haver conflito de interesses.",
     "Artigos em português incluem título, resumo (até 200 palavras) e 5 palavras-chave também em inglês.",
     "O resumo especifica problema, argumento central, contribuição, instrumentos de análise e escolhas metodológicas.",
-    "As notas de rodapé não ultrapassam 250 palavras.",
+    "As notas de rodapé não ultrapassam 250 caracteres com espaços e contêm apenas informações complementares e substantivas.",
     "Em caso de pesquisa com seres humanos, há declaração de aprovação por comitê de ética."
   ],
   "instrucoes_adicionais": {
